@@ -5,12 +5,17 @@ targetCompatibility = 1.7
 
 defaultTasks = ['packageAll']
 
+def srcDir = 'src'
+def webDir = 'web'
+def warDir = 'build/war'
+def gwtModuleName = 'fr.mncc.sandbox.sandbox'
+
 sourceSets {
     main {
         java {
-            srcDirs = ['src']
+            srcDirs = [srcDir]
         }
-        output.classesDir = 'build/classes/src'
+        output.classesDir = (warDir + '/WEB-INF/classes')
     }
 }
 
@@ -27,28 +32,28 @@ dependencies {
 	compile group: 'com.google.gwt', name: 'gwt-servlet', version: '2.6.1'
 	
 	// Runtime GWT libraries, should be included in WAR
-	compile fileTree(dir: 'web/WEB-INF/lib', include: '*.jar')
+	compile fileTree(dir: webDir + '/WEB-INF/libs', include: '*.jar')
 }
 
 task executeGwtCompiler (dependsOn: 'classes', type: JavaExec) {
 
 	inputs.source sourceSets.main.java.srcDirs
 	inputs.dir sourceSets.main.output.resourcesDir
-	outputs.dir 'build/war'
+	outputs.dir warDir
 	
 	main = 'com.google.gwt.dev.Compiler'
 	
 	classpath {
 		[
-			'web/WEB-INF/lib',						// Misc. libraries
+			webDir + '/WEB-INF/libs',				// Misc. libraries
 			sourceSets.main.java.srcDirs,           // Java sources
             sourceSets.main.output.resourcesDir,    // Generated resources
             sourceSets.main.output.classesDir,      // Generated classes
             sourceSets.main.compileClasspath,       // Misc. dependencies
 		]
 	}
-	args	'fr.mncc.sandbox.sandbox',
-			'-war', 'build/war',
+	args	gwtModuleName,
+			'-war', warDir,
 			'-localWorkers', '2',
 			'-style', 'OBFUSCATED',
 			'-strict',
@@ -58,16 +63,12 @@ task executeGwtCompiler (dependsOn: 'classes', type: JavaExec) {
 }
 
 task packageAll (dependsOn: ['executeGwtCompiler']) {
-    copy {
-        from sourceSets.main.output.classesDir
-        into 'build/war/WEB-INF/classes'
-    }
 	copy {
-        from 'web'
-        into 'build/war'
+        from webDir
+        into warDir
     }
 	copy {
 		from configurations.runtime
-		into "build/war/WEB-INF/libs"
+		into (warDir + '/WEB-INF/libs')
 	}
 }
