@@ -1,0 +1,69 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+defaultTasks = ['packageAll']
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src']
+        }
+        output.classesDir = 'build/classes/src'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    // Compile GWT libs, needed for executeGwtCompiler and the javaCompile
+    compile group: 'com.google.gwt', name: 'gwt-user', version: '2.6.1'
+    compile group: 'com.google.gwt', name: 'gwt-dev', version: '2.6.1'
+    compile group: 'com.google.gwt', name: 'gwt-elemental', version: '2.6.1'
+	compile group: 'javax.validation', name: 'validation-api', version: '1.0.0.GA', classifier: 'sources'
+	
+	// Runtime GWT libraries, should be included in WAR
+	compile fileTree(dir: 'web/WEB-INF/lib', include: '*.jar')
+}
+
+task executeGwtCompiler (dependsOn: 'classes', type: JavaExec) {
+
+	inputs.source sourceSets.main.java.srcDirs
+	inputs.dir sourceSets.main.output.resourcesDir
+	outputs.dir 'build/war'
+	
+	main = 'com.google.gwt.dev.Compiler'
+	
+	classpath {
+		[
+			'web/WEB-INF/lib',						// Misc. libraries
+			sourceSets.main.java.srcDirs,           // Java sources
+            sourceSets.main.output.resourcesDir,    // Generated resources
+            sourceSets.main.output.classesDir,      // Generated classes
+            sourceSets.main.compileClasspath,       // Misc. dependencies
+		]
+	}
+	args	'fr.mncc.sandbox.sandbox',
+			'-war', 'build/war',
+			'-localWorkers', '2',
+			'-style', 'OBFUSCATED',
+			'-strict',
+			'-XdisableCastChecking',
+			'-XdisableClassMetadata',
+			'-XenableClosureCompiler'
+}
+
+task packageAll (dependsOn: ['executeGwtCompiler']) {
+    copy {
+        from sourceSets.main.output.classesDir
+        into 'build/war/WEB-INF/classes'
+    }
+	copy {
+        from 'web'
+        into 'build/war'
+    }
+}

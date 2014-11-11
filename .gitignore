@@ -5,8 +5,10 @@
 *.war
 
 # gwt caches and compiled units #
+build/
 war/gwt_bree/
 gwt-unitCache/
+.gradle/
 
 # boilerplate generated classes #
 .apt_generated/
