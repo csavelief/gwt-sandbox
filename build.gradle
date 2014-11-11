@@ -24,7 +24,6 @@ dependencies {
     compile group: 'com.google.gwt', name: 'gwt-user', version: '2.6.1'
     compile group: 'com.google.gwt', name: 'gwt-dev', version: '2.6.1'
     compile group: 'com.google.gwt', name: 'gwt-elemental', version: '2.6.1'
-	compile group: 'javax.validation', name: 'validation-api', version: '1.0.0.GA', classifier: 'sources'
 	
 	// Runtime GWT libraries, should be included in WAR
 	compile fileTree(dir: 'web/WEB-INF/lib', include: '*.jar')
