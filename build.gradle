@@ -24,6 +24,7 @@ dependencies {
     compile group: 'com.google.gwt', name: 'gwt-user', version: '2.6.1'
     compile group: 'com.google.gwt', name: 'gwt-dev', version: '2.6.1'
     compile group: 'com.google.gwt', name: 'gwt-elemental', version: '2.6.1'
+	compile group: 'com.google.gwt', name: 'gwt-servlet', version: '2.6.1'
 	
 	// Runtime GWT libraries, should be included in WAR
 	compile fileTree(dir: 'web/WEB-INF/lib', include: '*.jar')
@@ -65,4 +66,8 @@ task packageAll (dependsOn: ['executeGwtCompiler']) {
         from 'web'
         into 'build/war'
     }
+	copy {
+		from configurations.runtime
+		into "build/war/WEB-INF/libs"
+	}
 }
