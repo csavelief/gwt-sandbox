@@ -1,40 +1,23 @@
 <html>
-<head>
-
-    <!--                                           -->
-    <!-- Any title is fine                         -->
-    <!--                                           -->
-    <title>Wrapper HTML for App</title>
-
-    <link type="text/css" rel="stylesheet" href="sandbox.css">
-
-    <!--                                            -->
-    <!-- This script is required bootstrap stuff.   -->
-    <!--                                            -->
-    <script type="text/javascript" language="javascript" src="sandbox/sandbox.nocache.js"></script>
-</head>
-
-<!--                                           -->
-<!-- The body can have arbitrary html, or      -->
-<!-- you can leave the body empty if you want  -->
-<!-- to create a completely dynamic ui         -->
-<!--                                           -->
-<body>
-
-<h1>Sample Application</h1>
-
-<p>
-    This is an example of a host page for the App application.
-    You can attach a Web Toolkit module to any HTML page you like,
-    making it easy to add bits of AJAX functionality to existing pages
-    without starting from scratch.
-</p>
-
-<table align="center">
-    <tr>
-        <td id="slot1"></td>
-        <td id="slot2"></td>
-    </tr>
-</table>
-</body>
+    <head>
+        <title>Wrapper HTML for App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet" href="sandbox.css">
+        <link type="text/css" rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css"/>
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+        <!--<![endif]-->
+        <script type="text/javascript" language="javascript" src="sandbox/sandbox.nocache.js"></script>
+    </head>
+    <body>
+        <noscript>
+            <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+                Your web browser must have JavaScript enabled
+                in order for this application to display correctly.
+            </div>
+        </noscript>
+    </body>
 </html>
