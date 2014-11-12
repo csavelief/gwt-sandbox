@@ -20,5 +20,8 @@ public class sandbox implements EntryPoint {
 
         // Load css
         AppResourceBundle.INSTANCE.css().ensureInjected();
+
+        // Test widgets
+        RootPanel.get().add(new fr.mncc.sandbox.client.widgets.button.Button());
     }
 }

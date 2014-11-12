@@ -8,6 +8,7 @@ defaultTasks = ['packageAll']
 def srcDir = 'src'
 def webDir = 'web'
 def warDir = 'build/war'
+def extraDir = 'build/gwt-extras'
 def gwtModuleName = 'fr.mncc.sandbox.sandbox'
 
 sourceSets {
@@ -54,6 +55,7 @@ task executeGwtCompiler (dependsOn: 'classes', type: JavaExec) {
 	}
 	args	gwtModuleName,
 			'-war', warDir,
+            '-extra', extraDir,
 			'-localWorkers', '2',
 			'-style', 'OBFUSCATED',
 			'-strict',

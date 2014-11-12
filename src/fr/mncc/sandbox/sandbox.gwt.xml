@@ -7,6 +7,11 @@
     <inherits name="com.google.gwt.i18n.I18N"/>
     <inherits name="com.google.gwt.resources.Resources"/>
 
+    <!-- Languages -->
+    <extend-property name="locale" values="fr"/>
+    <extend-property name="locale" values="en"/>
+    <set-property-fallback name="locale" value="fr"/>
+
     <!-- Specify the app entry point class. -->
     <entry-point class='fr.mncc.sandbox.client.sandbox'/>
 
