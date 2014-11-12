@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d831d7c3-94f9-47f5-8c29-74837df0577a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppCssResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppResourceBundle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/files/licence.txt" />
-      <change type="DELETED" beforePath="C:\Users\Cyrille\git\gwt-sandbox\src\fr\mncc\sandbox\client\sandboxService.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Cyrille\git\gwt-sandbox\src\fr\mncc\sandbox\client\sandboxServiceAsync.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Cyrille\git\gwt-sandbox\src\fr\mncc\sandbox\server\sandboxServiceImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Cyrille\git\gwt-sandbox\web\index.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sandbox.css" afterPath="$PROJECT_DIR$/web/sandbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sandbox.html" afterPath="$PROJECT_DIR$/web/sandbox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="C:\Users\Cyrille\git\gwt-sandbox\src\fr\mncc\sandbox\client\assets\AppCssResource.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppCss.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppResourceBundle.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppResourceBundle.java" />
     </list>
     <ignored path="gwt-sandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,8 +36,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppCssResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppCssResource.java">
+      <file leaf-file-name="AppCss.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppCss.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -72,8 +59,8 @@
       <file leaf-file-name="sandbox.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/sandbox.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22849463" vertical-offset="0" max-vertical-offset="744">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.31989247" vertical-offset="0" max-vertical-offset="744">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -438,7 +425,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="939" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -448,7 +435,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -565,7 +552,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppCssResource.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppCss.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
@@ -605,10 +592,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="758">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/sandbox.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22849463" vertical-offset="0" max-vertical-offset="744">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.31989247" vertical-offset="0" max-vertical-offset="744">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
             <element signature="n#style#0;n#div#0;n#noscript#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

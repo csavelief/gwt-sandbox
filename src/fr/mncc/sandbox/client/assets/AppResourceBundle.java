@@ -10,7 +10,7 @@ public interface AppResourceBundle extends ClientBundle {
     public static final AppResourceBundle INSTANCE =  GWT.create(AppResourceBundle.class);
 
     @Source("styles/app.css")
-    AppCssResource css();
+    AppCss css();
 
     @Source("images/1x1-pixel.png")
     ImageResource pixel();
