@@ -7,11 +7,20 @@ import com.google.gwt.user.client.DOM;
 import com.google.gwt.user.client.Event;
 import com.google.gwt.user.client.EventListener;
 import com.google.gwt.user.client.Window;
+import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Widget;
 import fr.mncc.sandbox.client.assets.AppConstants;
 
 public class Button extends Composite {
+
+    public static abstract class SimpleCallback implements AsyncCallback<Void> {
+
+        @Override
+        public void onFailure(Throwable caught) {
+
+        }
+    }
 
     @UiTemplate("Button.ui.xml")
     interface MyUiBinder extends UiBinder<Widget, Button> {}
@@ -19,6 +28,8 @@ public class Button extends Composite {
 
     @UiField
     ButtonElement button;
+
+    private SimpleCallback onClickCallback_;
 
     public Button() {
         initWidget(uiBinder.createAndBindUi(this));
@@ -31,7 +42,9 @@ public class Button extends Composite {
 
             @Override
             public void onBrowserEvent(Event event) {
-                Window.alert(AppConstants.INSTANCE.helloWorld());
+                if (onClickCallback_ != null) {
+                    onClickCallback_.onSuccess(null);
+                }
             }
         });
         DOM.sinkEvents(button, Event.ONCLICK);
@@ -41,5 +54,9 @@ public class Button extends Composite {
     protected void onUnload() {
         DOM.setEventListener(button, null);
         super.onUnload();
+    }
+
+    public void SetOnClickCallback(SimpleCallback onClickCallback) {
+        onClickCallback_ = onClickCallback;
     }
 }
