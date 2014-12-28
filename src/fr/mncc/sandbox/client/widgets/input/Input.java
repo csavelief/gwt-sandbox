@@ -71,12 +71,12 @@ public class Input extends Composite {
 
             @Override
             public void onBrowserEvent(Event event) {
-                if (eventBus_ != null) {
+                if (eventBus_ != null && element_ != null) {
                     eventBus_.fireEvent(new ChangeEvent(element_.getValue()));
                 }
             }
         });
-        DOM.sinkEvents(element_, Event.ONCHANGE);
+        DOM.sinkEvents(element_, Event.ONKEYUP);
     }
 
     @Override
