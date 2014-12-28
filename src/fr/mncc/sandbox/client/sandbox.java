@@ -5,6 +5,7 @@ import com.google.gwt.event.shared.SimpleEventBus;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.RootPanel;
+import fr.mncc.sandbox.client.assets.AppConstants;
 import fr.mncc.sandbox.client.assets.AppResourceBundle;
 import fr.mncc.sandbox.client.widgets.button.Button;
 import fr.mncc.sandbox.client.widgets.input.Input;
@@ -52,17 +53,15 @@ public class sandbox implements EntryPoint {
 
             @Override
             public void onSuccess(Void result) {
-                if (input != null) {
-                    Window.alert(input.getText());
-                }
+                Window.alert(AppConstants.INSTANCE.helloWorld());
             }
         });
 
         // Add widgets to document's body for display
         HorizontalPanel panel = new HorizontalPanel();
         panel.add(input);
-        panel.add(button);
         panel.add(label);
+        panel.add(button);
 
         RootPanel.get().add(panel);
     }
