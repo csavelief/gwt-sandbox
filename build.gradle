@@ -27,10 +27,10 @@ repositories {
 dependencies {
 
     // Compile GWT libs, needed for executeGwtCompiler and the javaCompile
-    compile group: 'com.google.gwt', name: 'gwt-user', version: '2.6.1'
-    compile group: 'com.google.gwt', name: 'gwt-dev', version: '2.6.1'
-    compile group: 'com.google.gwt', name: 'gwt-elemental', version: '2.6.1'
-	compile group: 'com.google.gwt', name: 'gwt-servlet', version: '2.6.1'
+    compile group: 'com.google.gwt', name: 'gwt-user', version: '2.7.0'
+    compile group: 'com.google.gwt', name: 'gwt-dev', version: '2.7.0'
+    compile group: 'com.google.gwt', name: 'gwt-elemental', version: '2.7.0'
+	compile group: 'com.google.gwt', name: 'gwt-servlet', version: '2.7.0'
 	
 	// Runtime GWT libraries, should be included in WAR
 	compile fileTree(dir: webDir + '/WEB-INF/libs', include: '*.jar')

@@ -28,6 +28,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="gwt-user" level="project" />
+    <orderEntry type="library" name="gwt-servlet" level="project" />
   </component>
 </module>
 

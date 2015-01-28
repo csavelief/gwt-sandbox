@@ -1,1 +1,1 @@
-"C:\Users\Cyrille\git\libs\gradle-2.2\bin\gradle"
+"d:\git\libs\gradle-2.2\bin\gradle"

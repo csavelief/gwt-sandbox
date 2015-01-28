@@ -8,7 +8,7 @@
           <element id="module-output" name="gwt-sandbox" />
         </element>
         <element id="directory" name="lib">
-          <element id="file-copy" path="$PROJECT_DIR$/../libs/gwt-2.6.1/gwt-servlet.jar" />
+          <element id="library" level="project" name="gwt-servlet" />
         </element>
       </element>
       <element id="gwt-compiler-output" facet="gwt-sandbox/gwt/GWT" />
