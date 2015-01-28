@@ -7,10 +7,6 @@ import com.google.gwt.resources.client.CssResource;
  */
 public interface AppCss extends PureCss {
 
-    @ClassName("app-menu") String app_menu();
-
-    @ClassName("app-layout") String app_layout();
-
     String content();
 
     @ClassName("pure-menu-heading") String pure_menu_heading();

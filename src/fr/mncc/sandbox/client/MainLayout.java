@@ -35,6 +35,9 @@ public class MainLayout extends Composite {
     protected void onLoad() {
         super.onLoad();
 
+        layout.getElement().setId("app-layout");
+        menu.setId("app-menu");
+
         AppResourceBundle.INSTANCE.appCss().ensureInjected();
 
         DOM.setEventListener(menuLink, new EventListener() {
