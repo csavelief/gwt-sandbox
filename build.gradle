@@ -70,6 +70,10 @@ task packageAll (dependsOn: ['executeGwtCompiler']) {
         into warDir
     }
 	copy {
+		from sourceSets.main.output.classesDir
+		into (warDir + '/WEB-INF/libs')
+	}
+	copy {
 		from configurations.runtime
 		into (warDir + '/WEB-INF/libs')
 	}
