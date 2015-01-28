@@ -1,1 +1,5 @@
 /* Add css rules here for your application's first page. */
+
+body {
+    color: #777;
+}

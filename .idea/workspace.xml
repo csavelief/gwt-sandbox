@@ -7,21 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d831d7c3-94f9-47f5-8c29-74837df0577a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppMessages.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.ui.xml" />
-      <change type="DELETED" beforePath="D:\git\gwt-sandbox\src\fr\mncc\sandbox\client\assets\files\licence.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\git\gwt-sandbox\src\fr\mncc\sandbox\client\assets\styles\app.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.properties" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants_en.properties" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppCss.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppCss.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppMessages.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppMessages.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppResourceBundle.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppResourceBundle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.ui.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.ui.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sandbox.css" afterPath="$PROJECT_DIR$/web/sandbox.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sandbox.html" afterPath="$PROJECT_DIR$/web/sandbox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gwt-sandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,31 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sandbox.gwt.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PureCss.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/PureCss.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="814" max-vertical-offset="3451">
-              <caret line="63" column="38" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.gss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="4233">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="852" max-vertical-offset="4165">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainLayout.ui.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainLayout.ui.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.ui.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.56" vertical-offset="615" max-vertical-offset="1360">
-              <caret line="62" column="95" selection-start-line="62" selection-start-column="85" selection-end-line="62" selection-end-column="95" />
+            <state vertical-scroll-proportion="0.34496644" vertical-offset="117" max-vertical-offset="1360">
+              <caret line="22" column="99" selection-start-line="22" selection-start-column="99" selection-end-line="22" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -116,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConstants.properties" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AppConstants.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2738255" vertical-offset="0" max-vertical-offset="745">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="323">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -129,11 +101,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AppConstants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="1003">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pure-min.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/purecss-example/css/pure/0.5.0/pure-min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19057">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AppConstants_en.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants_en.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <caret line="12" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -200,15 +192,16 @@
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.css" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppResourceBundle.java" />
-        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppCss.java" />
-        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants_en.properties" />
-        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppMessages.java" />
-        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.ui.xml" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppMessages.properties" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" />
+        <option value="$USER_HOME$/Downloads/purecss-example/css/pure/0.5.0/pure-min.css" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.properties" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants_en.properties" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.java" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.ui.xml" />
       </list>
     </option>
   </component>
@@ -370,32 +363,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fr.mncc.sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -691,14 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="969">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
@@ -711,14 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="814" max-vertical-offset="3451">
           <caret line="63" column="38" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="4233">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -749,14 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.56" vertical-offset="615" max-vertical-offset="1360">
-          <caret line="62" column="95" selection-start-line="62" selection-start-column="85" selection-end-line="62" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="1156">
@@ -765,23 +708,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants_en.properties">
+    <entry file="file://$USER_HOME$/Downloads/purecss-example/css/pure/0.5.0/pure-min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="12" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19057">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="852" max-vertical-offset="4165">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2738255" vertical-offset="0" max-vertical-offset="745">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="323">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="ResourceBundle">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants_en.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="1003">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34496644" vertical-offset="117" max-vertical-offset="1360">
+          <caret line="22" column="99" selection-start-line="22" selection-start-column="99" selection-end-line="22" selection-end-column="99" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

@@ -33,6 +33,8 @@ public interface AppConstants extends Constants {
 
     public static final AppConstants INSTANCE = GWT.create(AppConstants.class);
 
+    public String menuCompany();
+
     public String menuHome();
 
     public String menuAbout();

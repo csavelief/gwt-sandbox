@@ -20,7 +20,7 @@
 
         <div ui:field="menu" class="{res.appCss.app_menu}">
             <div class="{res.appCss.pure_menu} {res.appCss.pure_menu_open}">
-                <a class="{res.appCss.pure_menu_heading}" href="#">Company</a>
+                <a class="{res.appCss.pure_menu_heading}" href="#"><ui:text from="{cons.menuCompany}"/></a>
                 <ul>
                     <li><a href="#"><ui:text from="{cons.menuHome}"/></a></li>
                     <li><a href="#"><ui:text from="{cons.menuAbout}"/></a></li>
