@@ -11,8 +11,6 @@ import fr.mncc.sandbox.client.widgets.button.Button;
 import fr.mncc.sandbox.client.widgets.input.Input;
 import fr.mncc.sandbox.client.widgets.label.Label;
 
-import static fr.mncc.sandbox.client.widgets.button.Button.*;
-
 /**
  * Entry point classes define <code>onModuleLoad()</code>
  */
@@ -24,8 +22,9 @@ public class sandbox implements EntryPoint {
     @Override
     public void onModuleLoad() {
 
-        // Load css
-        AppResourceBundle.INSTANCE.css().ensureInjected();
+        // Load appCss
+        AppResourceBundle.INSTANCE.pureCss().ensureInjected();
+        AppResourceBundle.INSTANCE.appCss().ensureInjected();
 
         // Create an application-wide event bus
         SimpleEventBus eventBus = new SimpleEventBus();
