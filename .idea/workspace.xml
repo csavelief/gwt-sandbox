@@ -7,13 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d831d7c3-94f9-47f5-8c29-74837df0577a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.properties" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants_en.properties" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants_en.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.ui.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.ui.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sandbox.css" afterPath="$PROJECT_DIR$/web/sandbox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sandbox.html" afterPath="$PROJECT_DIR$/web/sandbox.html" />
     </list>
     <ignored path="gwt-sandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.gss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.gss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="852" max-vertical-offset="4165">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.46174142" vertical-offset="3407" max-vertical-offset="4165">
+              <caret line="221" column="49" selection-start-line="221" selection-start-column="48" selection-end-line="221" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -68,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainLayout.ui.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainLayout.ui.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.ui.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34496644" vertical-offset="117" max-vertical-offset="1360">
-              <caret line="22" column="99" selection-start-line="22" selection-start-column="99" selection-end-line="22" selection-end-column="99" />
+            <state vertical-scroll-proportion="-10.96" vertical-offset="117" max-vertical-offset="1360">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -197,11 +191,11 @@
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppMessages.properties" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" />
         <option value="$USER_HOME$/Downloads/purecss-example/css/pure/0.5.0/pure-min.css" />
-        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.properties" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants_en.properties" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.ui.xml" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss" />
       </list>
     </option>
   </component>
@@ -716,14 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="852" max-vertical-offset="4165">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="323">
@@ -753,8 +739,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/MainLayout.ui.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34496644" vertical-offset="117" max-vertical-offset="1360">
-          <caret line="22" column="99" selection-start-line="22" selection-start-column="99" selection-end-line="22" selection-end-column="99" />
+        <state vertical-scroll-proportion="-10.96" vertical-offset="117" max-vertical-offset="1360">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/app.gss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46174142" vertical-offset="3407" max-vertical-offset="4165">
+          <caret line="221" column="49" selection-start-line="221" selection-start-column="48" selection-end-line="221" selection-end-column="49" />
           <folding />
         </state>
       </provider>

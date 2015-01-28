@@ -30,7 +30,7 @@ This is the parent `<div>` that contains the menu and the content area.
         position: relative;
         left: 150px;
     }
-        .app-layout.active #menu {
+        .app-layout.active .app-menu {
             left: 150px;
             width: 150px;
         }
