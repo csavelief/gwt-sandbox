@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="gwt-sandbox:war exploded">
+  <artifact type="exploded-war" build-on-make="true" name="gwt-sandbox:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="gwt-sandbox/web/Web" />
