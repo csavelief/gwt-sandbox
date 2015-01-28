@@ -13,8 +13,8 @@ body {
 /*
 Add transition to containers so they can push in and out.
 */
-#layout,
-#menu,
+.app-layout,
+.app-menu,
 .menu-link {
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -26,20 +26,20 @@ Add transition to containers so they can push in and out.
 /*
 This is the parent `<div>` that contains the menu and the content area.
 */
-#layout {
+.app-layout {
     position: relative;
     padding-left: 0;
 }
-    #layout.active {
+    .app-layout.active {
         position: relative;
         left: 150px;
     }
-        #layout.active #menu {
+        .app-layout.active #menu {
             left: 150px;
             width: 150px;
         }
 
-        #layout.active .menu-link {
+        .app-layout.active .menu-link {
             left: 150px;
         }
 /*
@@ -85,7 +85,7 @@ The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
 appears on the left side of the page.
 */
 
-#menu {
+.app-menu {
     margin-left: -150px; /* "#menu" width */
     width: 150px;
     position: fixed;
@@ -100,7 +100,7 @@ appears on the left side of the page.
     /*
     All anchors inside the menu should be styled like this.
     */
-    #menu a {
+    .app-menu a {
         color: #999;
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
@@ -109,8 +109,8 @@ appears on the left side of the page.
     /*
     Remove all background/borders, since we are applying them to #menu.
     */
-     #menu .pure-menu,
-     #menu .pure-menu ul {
+     .app-menu .pure-menu,
+     .app-menu .pure-menu ul {
         border: none;
         background: transparent;
     }
@@ -118,36 +118,36 @@ appears on the left side of the page.
     /*
     Add that light border to separate items into groups.
     */
-    #menu .pure-menu ul,
-    #menu .pure-menu .menu-item-divided {
+    .app-menu .pure-menu ul,
+    .app-menu .pure-menu .menu-item-divided {
         border-top: 1px solid #333;
     }
         /*
         Change color of the anchor links on hover/focus.
         */
-        #menu .pure-menu li a:hover,
-        #menu .pure-menu li a:focus {
+        .app-menu .pure-menu li a:hover,
+        .app-menu .pure-menu li a:focus {
             background: #333;
         }
 
     /*
     This styles the selected menu item `<li>`.
     */
-    #menu .pure-menu-selected,
-    #menu .pure-menu-heading {
+    .app-menu .pure-menu-selected,
+    .app-menu .pure-menu-heading {
         background: #1f8dd6;
     }
         /*
         This styles a link within a selected menu item `<li>`.
         */
-        #menu .pure-menu-selected a {
+        .app-menu .pure-menu-selected a {
             color: #fff;
         }
 
     /*
     This styles the menu heading.
     */
-    #menu .pure-menu-heading {
+    .app-menu .pure-menu-heading {
         font-size: 110%;
         color: #fff;
         margin: 0;
@@ -170,6 +170,7 @@ small screens.
     top: 0;
     left: 0; /* "#menu width" */
     background: #000;
+    /* @alternate */
     background: rgba(0,0,0,0.7);
     font-size: 10px; /* change this value to increase/decrease button size */
     z-index: 10;
@@ -221,11 +222,12 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         padding-right: 2em;
     }
 
-    #layout {
+    .app-layout {
         padding-left: 150px; /* left col width "#menu" */
         left: 0;
     }
-    #menu {
+
+    .app-menu {
         left: 150px;
     }
 
@@ -235,7 +237,7 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         display: none;
     }
 
-    #layout.active .menu-link {
+    .app-layout.active .menu-link {
         left: 150px;
     }
 }

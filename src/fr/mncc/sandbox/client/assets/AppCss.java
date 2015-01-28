@@ -5,7 +5,11 @@ import com.google.gwt.resources.client.CssResource;
 /**
  * Annotate methods with @ClassName to rename a class at compile time.
  */
-public interface AppCss extends CssResource {
+public interface AppCss extends PureCss {
+
+    @ClassName("app-menu") String app_menu();
+
+    @ClassName("app-layout") String app_layout();
 
     String content();
 

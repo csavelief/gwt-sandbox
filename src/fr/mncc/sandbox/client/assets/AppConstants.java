@@ -28,11 +28,26 @@ import com.google.gwt.i18n.client.LocalizableResource;
  * @DefaultStringValue(String str)
  *      Sets the default value for a method which returns a String.
  */
-@LocalizableResource.DefaultLocale("fr")
+@LocalizableResource.DefaultLocale("en")
 public interface AppConstants extends Constants {
 
     public static final AppConstants INSTANCE = GWT.create(AppConstants.class);
 
-    @DefaultStringValue("Bonjour monde!")
-    public String helloWorld();
+    public String menuHome();
+
+    public String menuAbout();
+
+    public String menuServices();
+
+    public String menuContact();
+
+    public String pageTitle();
+
+    public String pageSubtitle();
+
+    public String howToUseThisLayout();
+
+    public String nowLetsSpeakSomeLatin();
+
+    public String loremIpsum();
 }

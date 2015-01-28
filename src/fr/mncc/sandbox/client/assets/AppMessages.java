@@ -33,7 +33,7 @@ import com.google.gwt.i18n.client.Messages;
  *      The argument annotated must be int, short, an array, or a list (in the latter cases the size of the list is used
  *      as the count).
  */
-@LocalizableResource.DefaultLocale("fr")
+@LocalizableResource.DefaultLocale("en")
 public interface AppMessages extends Messages {
 
     public static final AppMessages INSTANCE = GWT.create(AppMessages.class);

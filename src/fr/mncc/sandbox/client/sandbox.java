@@ -1,7 +1,12 @@
 package fr.mncc.sandbox.client;
 
 import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.dom.client.Document;
+import com.google.gwt.dom.client.Element;
 import com.google.gwt.event.shared.SimpleEventBus;
+import com.google.gwt.user.client.DOM;
+import com.google.gwt.user.client.Event;
+import com.google.gwt.user.client.EventListener;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.RootPanel;
@@ -22,46 +27,10 @@ public class sandbox implements EntryPoint {
     @Override
     public void onModuleLoad() {
 
-        // Load appCss
+        // Load application-wide css
         AppResourceBundle.INSTANCE.pureCss().ensureInjected();
-        AppResourceBundle.INSTANCE.appCss().ensureInjected();
 
-        // Create an application-wide event bus
-        SimpleEventBus eventBus = new SimpleEventBus();
-
-        // Create widgets
-        final Input input = new fr.mncc.sandbox.client.widgets.input.Input(eventBus, "demo-input");
-        final Button button = new fr.mncc.sandbox.client.widgets.button.Button();
-        final Label label = new fr.mncc.sandbox.client.widgets.label.Label("demo-label", "");
-
-        // React to widgets' events
-
-        // Update label on input ONCHANGE event
-        eventBus.addHandler(Input.ChangeEvent.TYPE, new Input.ChangeEventHandler() {
-
-            @Override
-            public void onChange(String text) {
-                if (label != null) {
-                    label.setText(text);
-                }
-            }
-        });
-
-        // Display alert on button ONCLICK event
-        button.SetOnClickCallback(new Button.SimpleCallback() {
-
-            @Override
-            public void onSuccess(Void result) {
-                Window.alert(AppConstants.INSTANCE.helloWorld());
-            }
-        });
-
-        // Add widgets to document's body for display
-        HorizontalPanel panel = new HorizontalPanel();
-        panel.add(input);
-        panel.add(label);
-        panel.add(button);
-
-        RootPanel.get().add(panel);
+        // Add widget to document's body for display
+        RootPanel.get().add(new MainLayout());
     }
 }

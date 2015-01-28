@@ -12,12 +12,27 @@ public interface AppResourceBundle extends ClientBundle {
     @Source("styles/pure/0.5.0/pure.gss")
     PureCss pureCss();
 
-    @Source("styles/app.css")
+    @Source({"styles/app.gss", "styles/pure/0.5.0/pure.gss"})
     AppCss appCss();
 
     @Source("images/1x1-pixel.png")
     ImageResource pixel();
 
-    @Source("files/licence.txt")
-    TextResource licence();
+    @Source("images/9069037713_1752f5daeb.jpg")
+    ImageResource img1();
+
+    @Source("images/9069585985_80da8db54f.jpg")
+    ImageResource img2();
+
+    @Source("images/9086701425_fda3024927.jpg")
+    ImageResource img3();
+
+    @Source("images/9121446012_c1640e42d0.jpg")
+    ImageResource img4();
+
+    @Source("files/LICENSE.md")
+    TextResource license();
+
+    @Source("files/README.md")
+    TextResource readme();
 }

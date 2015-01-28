@@ -13,9 +13,7 @@
     <set-configuration-property name="CssResource.conversionMode" value="strict" />
 
     <!-- Languages -->
-    <extend-property name="locale" values="fr"/>
-    <extend-property name="locale" values="en"/>
-    <set-property-fallback name="locale" value="fr"/>
+    <extend-property name="locale" values="en,fr"/>
 
     <!-- Do we compile for mobile ? -->
     <define-configuration-property name="MOBILE" is-multi-valued="false"/>
