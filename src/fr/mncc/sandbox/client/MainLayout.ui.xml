@@ -10,7 +10,7 @@
     <!-- Access to constants -->
     <ui:with field='cons' type="fr.mncc.sandbox.client.assets.AppConstants" />
 
-    <g:HTMLPanel ui:field="layout">
+    <g:HTMLPanel ui:field="layout" addStyleNames="{res.appCss.app_layout}">
 
         <!-- Menu toggle -->
         <a href="#menu" ui:field="menuLink" class="{res.appCss.menu_link}">
@@ -18,7 +18,7 @@
             <span></span>
         </a>
 
-        <div ui:field="menu">
+        <div ui:field="menu" class="{res.appCss.app_menu}">
             <div class="{res.appCss.pure_menu} {res.appCss.pure_menu_open}">
                 <a class="{res.appCss.pure_menu_heading}" href="#"><ui:text from="{cons.menuCompany}"/></a>
                 <ul>

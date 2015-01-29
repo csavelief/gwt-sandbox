@@ -9,8 +9,9 @@
 /*
 Add transition to containers so they can push in and out.
 */
-#app-layout,
-#app-menu,
+
+.app-layout,
+.app-menu,
 .menu-link {
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -22,25 +23,30 @@ Add transition to containers so they can push in and out.
 /*
 This is the parent `<div>` that contains the menu and the content area.
 */
-#app-layout {
+
+.app-layout {
     position: relative;
     padding-left: 0;
 }
-    #app-layout.active {
+
+    div.app-layout .active {
         position: relative;
         left: 150px;
     }
-        #app-layout.active #app-menu {
+
+        div.app-layout .active .app-menu {
             left: 150px;
             width: 150px;
         }
 
-        #app-layout.active .menu-link {
+        div.app-layout .active .menu-link {
             left: 150px;
         }
+
 /*
 The content `<div>` is where all your content goes.
 */
+
 .content {
     margin: 0 auto;
     padding: 0 2em;
@@ -56,11 +62,13 @@ The content `<div>` is where all your content goes.
      padding: 2.5em 2em 0;
      border-bottom: 1px solid #eee;
  }
+
     .header h1 {
         margin: 0.2em 0;
         font-size: 3em;
         font-weight: 300;
     }
+
      .header h2 {
         font-weight: 300;
         color: #ccc;
@@ -74,14 +82,12 @@ The content `<div>` is where all your content goes.
     color: #888;
 }
 
-
-
 /*
 The `#menu` `<div>` is the parent `<div>` that contains the `.pure-menu` that
 appears on the left side of the page.
 */
 
-#app-menu {
+.app-menu {
     margin-left: -150px; /* "#menu" width */
     width: 150px;
     position: fixed;
@@ -93,20 +99,21 @@ appears on the left side of the page.
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
+
     /*
     All anchors inside the menu should be styled like this.
     */
-    #app-menu a {
+    div.app-menu a {
         color: #999;
-        border: none;
-        padding: 0.6em 0 0.6em 0.6em;
+        border: none !important;
+        padding: 0.6em 0 0.6em 0.6em !important;
     }
 
     /*
     Remove all background/borders, since we are applying them to #menu.
     */
-     #app-menu .pure-menu,
-     #app-menu .pure-menu ul {
+     div.app-menu .pure-menu,
+     div.app-menu .pure-menu ul {
         border: none;
         background: transparent;
     }
@@ -114,36 +121,38 @@ appears on the left side of the page.
     /*
     Add that light border to separate items into groups.
     */
-    #app-menu .pure-menu ul,
-    #app-menu .pure-menu .menu-item-divided {
+    div.app-menu .pure-menu ul,
+    div.app-menu .pure-menu .menu-item-divided {
         border-top: 1px solid #333;
     }
+
         /*
         Change color of the anchor links on hover/focus.
         */
-        #app-menu .pure-menu li a:hover,
-        #app-menu .pure-menu li a:focus {
+        div.app-menu .pure-menu li a:hover,
+        div.app-menu .pure-menu li a:focus {
             background: #333;
         }
 
     /*
     This styles the selected menu item `<li>`.
     */
-    #app-menu .pure-menu-selected,
-    #app-menu .pure-menu-heading {
+    div.app-menu .pure-menu-selected,
+    div.app-menu .pure-menu-heading {
         background: #1f8dd6;
     }
+
         /*
         This styles a link within a selected menu item `<li>`.
         */
-        #app-menu .pure-menu-selected a {
+        div.app-menu .pure-menu-selected a {
             color: #fff;
         }
 
     /*
     This styles the menu heading.
     */
-    #app-menu .pure-menu-heading {
+    div.app-menu .pure-menu-heading {
         font-size: 110%;
         color: #fff;
         margin: 0;
@@ -160,6 +169,7 @@ how it works:
 `.menu-link` represents the responsive menu toggle that shows/hides on
 small screens.
 */
+
 .menu-link {
     position: fixed;
     display: block; /* show this only on small screens */
@@ -204,12 +214,12 @@ small screens.
             margin-top: 0.6em;
         }
 
-
 /* -- Responsive Styles (Media Queries) ------------------------------------- */
 
 /*
 Hides the menu at `48em`, but modify this based on your app's needs.
 */
+
 @media (min-width: 48em) {
 
     .header,
@@ -218,12 +228,12 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         padding-right: 2em;
     }
 
-    #app-layout {
+    .app-layout {
         padding-left: 150px; /* left col width "#menu" */
         left: 0;
     }
 
-    #app-menu {
+    .app-menu {
         left: 150px;
     }
 
@@ -233,7 +243,7 @@ Hides the menu at `48em`, but modify this based on your app's needs.
         display: none;
     }
 
-    #app-layout.active .menu-link {
+    div.app-layout .active .menu-link {
         left: 150px;
     }
 }
