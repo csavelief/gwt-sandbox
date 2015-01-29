@@ -220,8 +220,7 @@ small screens.
 Hides the menu at `48em`, but modify this based on your app's needs.
 */
 
-@media (min-width: 48em) {
-
+@if (is("ie6") || is("ie7") || is("ie8")) {
     .header,
     .content {
         padding-left: 2em;
@@ -245,5 +244,34 @@ Hides the menu at `48em`, but modify this based on your app's needs.
 
     div.app-layout .active .menu-link {
         left: 150px;
+    }
+}
+@else {
+    @media (min-width: 48em) {
+
+        .header,
+        .content {
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+
+        .app-layout {
+            padding-left: 150px; /* left col width "#menu" */
+            left: 0;
+        }
+
+        .app-menu {
+            left: 150px;
+        }
+
+        .menu-link {
+            position: fixed;
+            left: 150px;
+            display: none;
+        }
+
+        div.app-layout .active .menu-link {
+            left: 150px;
+        }
     }
 }

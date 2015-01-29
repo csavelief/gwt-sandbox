@@ -1700,7 +1700,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     font-size: 0.875em;
 }
 
-@if (is("MOBILE", "true")) {
+@media only screen and (max-width: 480px) {
 
     .pure-form button[type="submit"] {
         margin: 0.7em 0 0;
@@ -2102,7 +2102,7 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     border-radius: 0 2px 2px 0;
 }
 
-@if (is("MOBILE", "true")) {
+@media only screen and (max-width: 480px) {
 
     .pure-menu-horizontal {
         width: 100%;
