@@ -29,17 +29,17 @@ This is the parent `<div>` that contains the menu and the content area.
     padding-left: 0;
 }
 
-    div.app-layout .active {
+    div.app-layout.active {
         position: relative;
         left: 150px;
     }
 
-        div.app-layout .active .app-menu {
+        div.app-layout.active .app-menu {
             left: 150px;
             width: 150px;
         }
 
-        div.app-layout .active .menu-link {
+        div.app-layout.active .menu-link {
             left: 150px;
         }
 

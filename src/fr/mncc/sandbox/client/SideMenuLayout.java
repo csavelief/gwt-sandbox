@@ -2,7 +2,6 @@ package fr.mncc.sandbox.client;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.AnchorElement;
-import com.google.gwt.dom.client.ButtonElement;
 import com.google.gwt.dom.client.DivElement;
 import com.google.gwt.dom.client.Element;
 import com.google.gwt.uibinder.client.UiBinder;
@@ -11,23 +10,22 @@ import com.google.gwt.uibinder.client.UiTemplate;
 import com.google.gwt.user.client.DOM;
 import com.google.gwt.user.client.Event;
 import com.google.gwt.user.client.EventListener;
-import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.Widget;
 import fr.mncc.sandbox.client.assets.AppResourceBundle;
 
-public class MainLayout extends Composite {
+public class SideMenuLayout extends Composite {
 
-    @UiTemplate("MainLayout.ui.xml")
-    interface MyUiBinder extends UiBinder<Widget, MainLayout> {}
+    @UiTemplate("SideMenuLayout.ui.xml")
+    interface MyUiBinder extends UiBinder<Widget, SideMenuLayout> {}
     private static MyUiBinder uiBinder = GWT.create(MyUiBinder.class);
 
     @UiField HTMLPanel layout;
     @UiField DivElement menu;
     @UiField AnchorElement menuLink;
 
-    public MainLayout() {
+    public SideMenuLayout() {
         initWidget(uiBinder.createAndBindUi(this));
     }
 
@@ -41,10 +39,10 @@ public class MainLayout extends Composite {
 
             @Override public void onBrowserEvent(Event event) {
                 if (event.getTypeInt() == Event.ONCLICK) {
-                    final String active = "active";
-                    toggleClass(layout.getElement(), active);
-                    toggleClass(menu, active);
-                    toggleClass(menuLink, active);
+                    toggleClass(layout.getElement(), AppResourceBundle.INSTANCE.appCss().active());
+                    toggleClass(menu, AppResourceBundle.INSTANCE.appCss().active());
+                    toggleClass(menuLink, AppResourceBundle.INSTANCE.appCss().active());
+                    event.preventDefault();
                 }
             }
         });
@@ -58,25 +56,15 @@ public class MainLayout extends Composite {
     }
 
     private void toggleClass(Element element, String className) {
-        StringBuilder classesOut = new StringBuilder();
-        String[] classesIn = element.getClassName().split("/\\s+/");
-        int length = classesIn.length;
-        boolean classNameFound = false;
-
-        for (int i=0; i < length; i++) {
-            if (classesIn[i].equals(className)) {
-                classNameFound = true;
-                break;
-            }
-            classesOut.append(classesIn[i]);
-            classesOut.append(" ");
+        String elementClasses = element.getClassName();
+        if (elementClasses == null) {
+            element.setClassName(className);
         }
-
-        // The className is not found
-        if (!classNameFound) {
-            classesOut.append(className);
+        else if (elementClasses.contains(className)) {
+            element.setClassName(elementClasses.replace(className, ""));
         }
-
-        element.setClassName(classesOut.toString());
+        else {
+            element.setClassName(elementClasses + " " + className);
+        }
     }
 }

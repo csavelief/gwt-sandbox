@@ -12,8 +12,7 @@ public interface AppResourceBundle extends ClientBundle {
     @Source("styles/pure/0.5.0/pure.gss")
     PureCss pureCss();
 
-    @Source({"styles/app.gss", "styles/pure/0.5.0/pure.gss"})
-    AppCss appCss();
+    @Source({"styles/sideMenuLayout.gss", "styles/pure/0.5.0/pure.gss"}) SideMenuLayoutCss appCss();
 
     @Source("images/1x1-pixel.png")
     ImageResource pixel();
