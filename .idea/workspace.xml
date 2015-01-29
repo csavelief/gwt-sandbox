@@ -9,6 +9,7 @@
     <list default="true" id="d831d7c3-94f9-47f5-8c29-74837df0577a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/sideMenuLayout.gss" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/sideMenuLayout.gss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/pure/0.5.0/pure.gss" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/pure/0.5.0/pure.gss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gwt-sandbox.iws" />
@@ -32,36 +33,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sandbox.gwt.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sandbox.gwt.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.38059703" vertical-offset="0" max-vertical-offset="804">
+              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pure.gss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pure.gss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/pure/0.5.0/pure.gss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33289126" vertical-offset="28683" max-vertical-offset="37315">
-              <caret line="1702" column="4" selection-start-line="1702" selection-start-column="0" selection-end-line="1702" selection-end-column="4" />
+            <state vertical-scroll-proportion="-5.02" vertical-offset="412" max-vertical-offset="38012">
+              <caret line="39" column="8" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="8" />
               <folding />
             </state>
           </provider>
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sideMenuLayout.gss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/sideMenuLayout.gss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3690" max-vertical-offset="4811">
-              <caret line="238" column="0" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -116,7 +107,6 @@
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppResourceBundle.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppMessages.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppMessages.properties" />
-        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" />
         <option value="$USER_HOME$/Downloads/purecss-example/css/pure/0.5.0/pure-min.css" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants.properties" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppConstants_en.properties" />
@@ -129,6 +119,7 @@
         <option value="$USER_HOME$/Downloads/purecss-example/css/layouts/side-menu-old-ie.css" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/sideMenuLayout.gss" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/pure/0.5.0/pure.gss" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" />
       </list>
     </option>
   </component>
@@ -412,7 +403,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="939" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -422,7 +413,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -460,36 +451,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/purecss-example/js/ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44402984" vertical-offset="0" max-vertical-offset="804">
-          <caret line="21" column="0" selection-start-line="25" selection-start-column="3" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/purecss-example/css/pure/0.5.0/pure-min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19057">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/purecss-example/css/layouts/side-menu-old-ie.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/sideMenuLayout.gss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3690" max-vertical-offset="4811">
@@ -500,13 +461,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/pure/0.5.0/pure.gss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33289126" vertical-offset="28683" max-vertical-offset="37315">
-          <caret line="1702" column="4" selection-start-line="1702" selection-start-column="0" selection-end-line="1702" selection-end-column="4" />
+        <state vertical-scroll-proportion="-5.02" vertical-offset="412" max-vertical-offset="38012">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="8" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38059703" vertical-offset="0" max-vertical-offset="804">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
