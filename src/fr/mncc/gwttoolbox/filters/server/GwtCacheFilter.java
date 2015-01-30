@@ -3,7 +3,10 @@ package fr.mncc.gwttoolbox.filters.server;
 import com.samaxes.filter.CacheFilter;
 import com.samaxes.filter.util.HTTPCacheHeader;
 
-import javax.servlet.*;
+import javax.servlet.FilterChain;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -18,13 +21,22 @@ import java.util.Date;
  *
  * <pre>
  * &lt;filter&gt;
- *     &lt;filter-name&gt;GwtCache&lt;/filter-name&gt;
+ *     &lt;filter-name&gt;GwtCacheFilter&lt;/filter-name&gt;
  *     &lt;filter-class&gt;fr.mncc.gwttoolbox.filters.server.GwtCacheFilter&lt;/filter-class&gt;
  *     &lt;init-param&gt;
  *         &lt;param-name&gt;expiration&lt;/param-name&gt;
  *         &lt;param-value&gt;2592000&lt;/param-value&gt;
  *     &lt;/init-param&gt;
  * &lt;/filter&gt;
+ * </pre>
+ *
+ * <p>Map the filter to serve your static resources:</p>
+ *
+ * <pre>
+ * &lt;filter-mapping&gt;
+ *     &lt;filter-name&gt;GwtCacheFilter&lt;/filter-name&gt;
+ *     &lt;url-pattern&gt;/&lt;/url-pattern&gt;
+ * &lt;/filter-mapping&gt;
  * </pre>
  */
 public class GwtCacheFilter extends CacheFilter {
