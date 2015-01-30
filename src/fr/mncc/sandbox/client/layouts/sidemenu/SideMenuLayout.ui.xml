@@ -1,7 +1,4 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
-             ui:generateFormat='com.google.gwt.i18n.rebind.format.PropertiesFormat'
-             ui:generateKeys="com.google.gwt.i18n.server.keygen.MD5KeyGenerator"
-             ui:generateLocales="en"
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
 
     <!-- Access to texts, images and styles -->
@@ -10,21 +7,21 @@
     <!-- Access to constants -->
     <ui:with field='cons' type="fr.mncc.sandbox.client.assets.SandboxConstants" />
 
-    <g:HTMLPanel ui:field="layout" addStyleNames="{res.SideMenuLayoutCss.app_layout}">
+    <g:HTMLPanel ui:field="layout" addStyleNames="{res.sideMenuLayoutCss.app_layout}">
 
         <!-- Menu toggle -->
-        <a href="#menu" ui:field="menuLink" class="{res.SideMenuLayoutCss.menu_link}">
+        <a href="#menu" ui:field="menuLink" class="{res.sideMenuLayoutCss.menu_link}">
             <!-- Hamburger icon -->
             <span></span>
         </a>
 
-        <div ui:field="menu" class="{res.SideMenuLayoutCss.app_menu}">
-            <div class="{res.SideMenuLayoutCss.pure_menu} {res.SideMenuLayoutCss.pure_menu_open}">
-                <a class="{res.SideMenuLayoutCss.pure_menu_heading}" href="#"><ui:text from="{cons.menuCompany}"/></a>
+        <div ui:field="menu" class="{res.sideMenuLayoutCss.app_menu}">
+            <div class="{res.sideMenuLayoutCss.pure_menu} {res.sideMenuLayoutCss.pure_menu_open}">
+                <a class="{res.sideMenuLayoutCss.pure_menu_heading}" href="#"><ui:text from="{cons.menuCompany}"/></a>
                 <ul>
                     <li><a href="#"><ui:text from="{cons.menuHome}"/></a></li>
                     <li><a href="#"><ui:text from="{cons.menuAbout}"/></a></li>
-                    <li class="{res.SideMenuLayoutCss.menu_item_divided} {res.SideMenuLayoutCss.pure_menu_selected}">
+                    <li class="{res.sideMenuLayoutCss.menu_item_divided} {res.sideMenuLayoutCss.pure_menu_selected}">
                         <a href="#"><ui:text from="{cons.menuServices}"/></a>
                     </li>
                     <li><a href="#"><ui:text from="{cons.menuContact}"/></a></li>
@@ -33,38 +30,38 @@
         </div>
 
         <div ui:field="main">
-            <div class="{res.SideMenuLayoutCss.header}">
+            <div class="{res.sideMenuLayoutCss.header}">
                 <h1><ui:text from="{cons.pageTitle}"/></h1>
                 <h2><ui:text from="{cons.pageSubtitle}"/></h2>
             </div>
 
-            <div class="{res.SideMenuLayoutCss.content}">
-                <h2 class="{res.SideMenuLayoutCss.content_subhead}"><ui:text from="{cons.howToUseThisLayout}"/></h2>
+            <div class="{res.sideMenuLayoutCss.content}">
+                <h2 class="{res.sideMenuLayoutCss.content_subhead}"><ui:text from="{cons.howToUseThisLayout}"/></h2>
                 <p>
-                    To use this layout, you can just copy paste the HTML, along with the CSS in <a href="http://purecss.io/css/layouts/side-menu.css">side-menu.css</a>, and the JavaScript in <a href="http://purecss.io/js/ui.js">ui.js</a>. The JS file uses vanilla JavaScript to simply toggle an <code>active</code> class that makes the menu responsive.
+                    <ui:text from="{cons.instructions}"/>
                 </p>
 
-                <h2 class="{res.SideMenuLayoutCss.content_subhead}"><ui:text from="{cons.nowLetsSpeakSomeLatin}"/></h2>
+                <h2 class="{res.sideMenuLayoutCss.content_subhead}"><ui:text from="{cons.nowLetsSpeakSomeLatin}"/></h2>
                 <p>
                     <ui:text from="{cons.loremIpsum}"/>
                 </p>
 
-                <div class="{res.SideMenuLayoutCss.pure_g}">
-                    <div class="{res.SideMenuLayoutCss.pure_u_1_4}">
-                        <img class="{res.SideMenuLayoutCss.pure_img_responsive}" src="{res.img1.getSafeUri}" alt="Peyto Lake" />
+                <div class="{res.sideMenuLayoutCss.pure_g}">
+                    <div class="{res.sideMenuLayoutCss.pure_u_1_4}">
+                        <img class="{res.sideMenuLayoutCss.pure_img_responsive}" src="{res.img1.getSafeUri}" alt="Peyto Lake" />
                     </div>
-                    <div class="{res.SideMenuLayoutCss.pure_u_1_4}">
-                        <img class="{res.SideMenuLayoutCss.pure_img_responsive}" src="{res.img2.getSafeUri}" alt="Train" />
+                    <div class="{res.sideMenuLayoutCss.pure_u_1_4}">
+                        <img class="{res.sideMenuLayoutCss.pure_img_responsive}" src="{res.img2.getSafeUri}" alt="Train" />
                     </div>
-                    <div class="{res.SideMenuLayoutCss.pure_u_1_4}">
-                        <img class="{res.SideMenuLayoutCss.pure_img_responsive}" src="{res.img4.getSafeUri}" alt="T-Shirt Store" />
+                    <div class="{res.sideMenuLayoutCss.pure_u_1_4}">
+                        <img class="{res.sideMenuLayoutCss.pure_img_responsive}" src="{res.img4.getSafeUri}" alt="T-Shirt Store" />
                     </div>
-                    <div class="{res.SideMenuLayoutCss.pure_u_1_4}">
-                        <img class="{res.SideMenuLayoutCss.pure_img_responsive}" src="{res.img3.getSafeUri}" alt="Mountain" />
+                    <div class="{res.sideMenuLayoutCss.pure_u_1_4}">
+                        <img class="{res.sideMenuLayoutCss.pure_img_responsive}" src="{res.img3.getSafeUri}" alt="Mountain" />
                     </div>
                 </div>
 
-                <h2 class="{res.SideMenuLayoutCss.content_subhead}">Try Resizing your Browser</h2>
+                <h2 class="{res.sideMenuLayoutCss.content_subhead}"><ui:text from="{cons.tryResizingYourBrowser}"/></h2>
                 <p>
                     <ui:text from="{cons.loremIpsum}"/>
                 </p>
