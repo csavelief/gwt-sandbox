@@ -14,7 +14,7 @@
     </filter>
     <filter-mapping>
         <filter-name>GwtCacheFilter</filter-name>
-        <url-pattern>*</url-pattern>
+        <url-pattern>/sandbox/*</url-pattern>
     </filter-mapping>
     <filter-mapping>
         <filter-name>GwtCacheFilter</filter-name>
