@@ -35,7 +35,7 @@ import java.util.Date;
  * <pre>
  * &lt;filter-mapping&gt;
  *     &lt;filter-name&gt;GwtCacheFilter&lt;/filter-name&gt;
- *     &lt;url-pattern&gt;*&lt;/url-pattern&gt;
+ *     &lt;url-pattern&gt;/*&lt;/url-pattern&gt;
  * &lt;/filter-mapping&gt;
  * </pre>
  */
