@@ -1,6 +1,0 @@
-/* Use @external <class name> if class name should not be obfuscated */
-/* Use @url <constant name> <DataResource method name> if resource should be loaded from bundle */
-
-.empty {
-
-}
