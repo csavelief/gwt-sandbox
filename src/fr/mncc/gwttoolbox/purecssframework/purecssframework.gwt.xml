@@ -1,6 +1,6 @@
 <!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.0//EN"
         "http://google-web-toolkit.googlecode.com/svn/releases/2.0/distro-source/core/src/gwt-module.dtd">
-<module rename-to="gwttoolbox">
+<module rename-to="purecssframework">
 
     <!-- Inherit the core Web Toolkit stuff. -->
     <inherits name='com.google.gwt.user.User'/>
@@ -12,4 +12,6 @@
     <set-configuration-property name="CssResource.legacy" value="true" />
     <set-configuration-property name="CssResource.conversionMode" value="strict" />
 
+    <!-- Specify the paths for translatable code -->
+    <source path='client'/>
 </module>

@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2011 MNCC
+ * Copyright (c) 2013 MNCC
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
  * associated documentation files (the "Software"), to deal in the Software without restriction,
@@ -18,7 +18,7 @@
  *
  * @author http://www.mncc.fr
  */
-package fr.mncc.gwttoolbox.client.assets;
+package fr.mncc.gwttoolbox.purecssframework.client;
 
 import com.google.gwt.resources.client.CssResource;
 

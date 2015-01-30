@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2014 MNCC
+ * Copyright (c) 2015 MNCC
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
  * associated documentation files (the "Software"), to deal in the Software without restriction,
@@ -21,16 +21,19 @@
 package fr.mncc.sandbox.client.assets;
 
 import com.google.gwt.core.client.GWT;
+import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.ImageResource;
 import com.google.gwt.resources.client.TextResource;
-import fr.mncc.gwttoolbox.client.assets.GwtToolboxResourceBundle;
+import fr.mncc.gwttoolbox.purecssframework.client.PureCssFrameworkResourceBundle;
 
-public interface SandboxResourceBundle extends GwtToolboxResourceBundle {
+import java.util.ResourceBundle;
+
+public interface SandboxResourceBundle extends ClientBundle {
 
     public static final SandboxResourceBundle INSTANCE = GWT.create(SandboxResourceBundle.class);
 
     @Source({"styles/SideMenuLayout.gss",
-        "../../../gwttoolbox/client/assets/styles/pure/0.5.0/pure.gss"}) SideMenuLayoutCss sideMenuLayoutCss();
+        "../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/pure.gss"}) SideMenuLayoutCss sideMenuLayoutCss();
 
     @Source("images/9069037713_1752f5daeb.jpg") ImageResource img1();
 

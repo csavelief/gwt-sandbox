@@ -20,7 +20,7 @@
  */
 package fr.mncc.sandbox.client.assets;
 
-import fr.mncc.gwttoolbox.client.assets.PureCssFramework;
+import fr.mncc.gwttoolbox.purecssframework.client.PureCssFramework;
 
 /**
  * Annotate methods with @ClassName to rename a class at compile time.
