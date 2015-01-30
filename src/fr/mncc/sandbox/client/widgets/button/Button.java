@@ -6,11 +6,9 @@ import com.google.gwt.uibinder.client.*;
 import com.google.gwt.user.client.DOM;
 import com.google.gwt.user.client.Event;
 import com.google.gwt.user.client.EventListener;
-import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Widget;
-import fr.mncc.sandbox.client.assets.AppConstants;
 
 public class Button extends Composite {
 

@@ -34,9 +34,9 @@ import com.google.gwt.i18n.client.Messages;
  *      as the count).
  */
 @LocalizableResource.DefaultLocale("en")
-public interface AppMessages extends Messages {
+public interface SandboxMessages extends Messages {
 
-    public static final AppMessages INSTANCE = GWT.create(AppMessages.class);
+    public static final SandboxMessages INSTANCE = GWT.create(SandboxMessages.class);
 
     @DefaultMessage("Bonjour {0}!")
     public String helloWorld(String name);

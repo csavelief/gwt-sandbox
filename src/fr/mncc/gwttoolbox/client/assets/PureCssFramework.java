@@ -1,11 +1,11 @@
-package fr.mncc.sandbox.client.assets;
+package fr.mncc.gwttoolbox.client.assets;
 
 import com.google.gwt.resources.client.CssResource;
 
 /**
  * Annotate methods with @ClassName to rename a class at compile time.
  */
-public interface PureCss extends CssResource {
+public interface PureCssFramework extends CssResource {
 
     @ClassName("pure-u-3-8") String pure_u_3_8();
 

@@ -5,10 +5,10 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
 
     <!-- Access to texts, images and styles -->
-    <ui:with field='res' type="fr.mncc.sandbox.client.assets.AppResourceBundle" />
+    <ui:with field='res' type="fr.mncc.sandbox.client.assets.SandboxResourceBundle" />
 
     <!-- Access to constants -->
-    <ui:with field='cons' type="fr.mncc.sandbox.client.assets.AppConstants" />
+    <ui:with field='cons' type="fr.mncc.sandbox.client.assets.SandboxConstants" />
 
     <!-- Custom styles -->
     <ui:style field='css' type="fr.mncc.sandbox.client.widgets.button.ButtonStyles">

@@ -2,7 +2,8 @@ package fr.mncc.sandbox.client;
 
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.user.client.ui.RootPanel;
-import fr.mncc.sandbox.client.assets.AppResourceBundle;
+import fr.mncc.sandbox.client.assets.SandboxResourceBundle;
+import fr.mncc.sandbox.client.layouts.sidemenu.SideMenuLayout;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>
@@ -15,10 +16,7 @@ public class sandbox implements EntryPoint {
     @Override
     public void onModuleLoad() {
 
-        // Load application-wide css
-        AppResourceBundle.INSTANCE.pureCss().ensureInjected();
-
-        // Add widget to document's body for display
+        // Layout document's body
         RootPanel.get().add(new SideMenuLayout());
     }
 }

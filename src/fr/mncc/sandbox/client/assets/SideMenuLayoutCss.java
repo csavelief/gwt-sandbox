@@ -1,11 +1,11 @@
 package fr.mncc.sandbox.client.assets;
 
-import com.google.gwt.resources.client.CssResource;
+import fr.mncc.gwttoolbox.client.assets.PureCssFramework;
 
 /**
  * Annotate methods with @ClassName to rename a class at compile time.
  */
-public interface SideMenuLayoutCss extends PureCss {
+public interface SideMenuLayoutCss extends PureCssFramework {
 
     @ClassName("app-layout") String app_layout();
 

@@ -29,9 +29,9 @@ import com.google.gwt.i18n.client.LocalizableResource;
  *      Sets the default value for a method which returns a String.
  */
 @LocalizableResource.DefaultLocale("en")
-public interface AppConstants extends Constants {
+public interface SandboxConstants extends Constants {
 
-    public static final AppConstants INSTANCE = GWT.create(AppConstants.class);
+    public static final SandboxConstants INSTANCE = GWT.create(SandboxConstants.class);
 
     public String menuCompany();
 

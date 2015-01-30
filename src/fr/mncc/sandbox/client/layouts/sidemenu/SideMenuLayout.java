@@ -1,4 +1,4 @@
-package fr.mncc.sandbox.client;
+package fr.mncc.sandbox.client.layouts.sidemenu;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.AnchorElement;
@@ -13,7 +13,7 @@ import com.google.gwt.user.client.EventListener;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.Widget;
-import fr.mncc.sandbox.client.assets.AppResourceBundle;
+import fr.mncc.sandbox.client.assets.SandboxResourceBundle;
 
 public class SideMenuLayout extends Composite {
 
@@ -33,15 +33,17 @@ public class SideMenuLayout extends Composite {
     protected void onLoad() {
         super.onLoad();
 
-        AppResourceBundle.INSTANCE.appCss().ensureInjected();
+        // Inject layout stylesheet
+        SandboxResourceBundle.INSTANCE.SideMenuLayoutCss().ensureInjected();
 
+        // Bind click event to menu button
         DOM.setEventListener(menuLink, new EventListener() {
 
             @Override public void onBrowserEvent(Event event) {
                 if (event.getTypeInt() == Event.ONCLICK) {
-                    toggleClass(layout.getElement(), AppResourceBundle.INSTANCE.appCss().active());
-                    toggleClass(menu, AppResourceBundle.INSTANCE.appCss().active());
-                    toggleClass(menuLink, AppResourceBundle.INSTANCE.appCss().active());
+                    toggleClass(layout.getElement(), SandboxResourceBundle.INSTANCE.SideMenuLayoutCss().active());
+                    toggleClass(menu, SandboxResourceBundle.INSTANCE.SideMenuLayoutCss().active());
+                    toggleClass(menuLink, SandboxResourceBundle.INSTANCE.SideMenuLayoutCss().active());
                     event.preventDefault();
                 }
             }
@@ -51,6 +53,8 @@ public class SideMenuLayout extends Composite {
 
     @Override
     protected void onUnload() {
+
+        // Remove click event handler in order to avoid memory leaks
         DOM.setEventListener(menuLink, null);
         super.onUnload();
     }
