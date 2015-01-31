@@ -53,6 +53,14 @@ public interface SandboxConstants extends Constants {
 
     public static final SandboxConstants INSTANCE = GWT.create(SandboxConstants.class);
 
+    public String landingPageTitle();
+
+    public String landingPageDescription ();
+
+    public String sideMenuTitle();
+
+    public String sideMenuDescription();
+
     public String menuCompany();
 
     public String menuHome();
@@ -76,4 +84,6 @@ public interface SandboxConstants extends Constants {
     public String instructions();
 
     public String loremIpsum();
+
+    public String phaellusEgetEnim();
 }

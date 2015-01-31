@@ -22,7 +22,7 @@ package fr.mncc.gwttoolbox.purecssframework.client;
 
 import com.google.gwt.resources.client.CssResource;
 
-public interface GridsResponsive extends CssResource {
+public interface PureCssResponsiveFramework extends PureCssFramework {
 
     @ClassName("pure-u-md-18-24") String pure_u_md_18_24();
 

@@ -1,0 +1,137 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <!-- Access to texts, images and styles -->
+    <ui:with field='res' type="fr.mncc.sandbox.client.assets.SandboxResourceBundle" />
+
+    <!-- Access to constants -->
+    <ui:with field='cons' type="fr.mncc.sandbox.client.assets.SandboxConstants" />
+
+    <g:HTMLPanel>
+        <div>
+            <div class="{res.landingPageLayoutCssResource.home_menu} {res.landingPageLayoutCssResource.pure_menu} {res.landingPageLayoutCssResource.pure_menu_open} {res.landingPageLayoutCssResource.pure_menu_horizontal} {res.landingPageLayoutCssResource.pure_menu_fixed}">
+                <a class="{res.landingPageLayoutCssResource.pure_menu_heading}" href="">Your Site</a>
+
+                <ul>
+                    <li class="{res.landingPageLayoutCssResource.pure_menu_selected}"><a href="#!/sidemenu">Home</a></li>
+                    <li><a href="#!/sidemenu">Tour</a></li>
+                    <li><a href="#!/sidemenu">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="{res.landingPageLayoutCssResource.splash_container}">
+            <div class="{res.landingPageLayoutCssResource.splash}">
+                <h1 class="{res.landingPageLayoutCssResource.splash_head}">Big Bold Text</h1>
+                <p class="{res.landingPageLayoutCssResource.splash_subhead}">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+                <p>
+                    <a href="http://purecss.io" class="{res.landingPageLayoutCssResource.pure_button} {res.landingPageLayoutCssResource.pure_button_primary}">Get Started</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="{res.landingPageLayoutCssResource.content_wrapper}">
+            <div class="{res.landingPageLayoutCssResource.content}">
+                <h2 class="{res.landingPageLayoutCssResource.content_head} {res.landingPageLayoutCssResource.is_center}">Excepteur sint occaecat cupidatat.</h2>
+
+                <div class="{res.landingPageLayoutCssResource.pure_g}">
+                    <div class="{res.landingPageLayoutCssResource.l_box} {res.landingPageLayoutCssResource.pure_u_1} {res.landingPageLayoutCssResource.pure_u_md_1_2} {res.landingPageLayoutCssResource.pure_u_lg_1_4}">
+
+                        <h3 class="{res.landingPageLayoutCssResource.content_subhead}">
+                            <i class="fa fa-rocket"></i>
+                            Get Started Quickly
+                        </h3>
+                        <p>
+                            <ui:text from="{cons.phaellusEgetEnim}"/>
+                        </p>
+                    </div>
+                    <div class="{res.landingPageLayoutCssResource.l_box} {res.landingPageLayoutCssResource.pure_u_1} {res.landingPageLayoutCssResource.pure_u_md_1_2} {res.landingPageLayoutCssResource.pure_u_lg_1_4}">
+                        <h3 class="{res.landingPageLayoutCssResource.content_subhead}">
+                            <i class="fa fa-mobile"></i>
+                            Responsive Layouts
+                        </h3>
+                        <p>
+                            <ui:text from="{cons.phaellusEgetEnim}"/>
+                        </p>
+                    </div>
+                    <div class="{res.landingPageLayoutCssResource.l_box} {res.landingPageLayoutCssResource.pure_u_1} {res.landingPageLayoutCssResource.pure_u_md_1_2} {res.landingPageLayoutCssResource.pure_u_lg_1_4}">
+                        <h3 class="{res.landingPageLayoutCssResource.content_subhead}">
+                            <i class="fa fa-th-large"></i>
+                            Modular
+                        </h3>
+                        <p>
+                            <ui:text from="{cons.phaellusEgetEnim}"/>
+                        </p>
+                    </div>
+                    <div class="{res.landingPageLayoutCssResource.l_box} {res.landingPageLayoutCssResource.pure_u_1} {res.landingPageLayoutCssResource.pure_u_md_1_2} {res.landingPageLayoutCssResource.pure_u_lg_1_4}">
+                        <h3 class="{res.landingPageLayoutCssResource.content_subhead}">
+                            <i class="fa fa-check-square-o"></i>
+                            Plays Nice
+                        </h3>
+                        <p>
+                            <ui:text from="{cons.phaellusEgetEnim}"/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="{res.landingPageLayoutCssResource.ribbon} {res.landingPageLayoutCssResource.l_box_lrg} {res.landingPageLayoutCssResource.pure_g}">
+                <div class="{res.landingPageLayoutCssResource.l_box_lrg} {res.landingPageLayoutCssResource.is_center} {res.landingPageLayoutCssResource.pure_u_1} {res.landingPageLayoutCssResource.pure_u_md_1_2} {res.landingPageLayoutCssResource.pure_u_lg_2_5}">
+                    <img class="{res.landingPageLayoutCssResource.pure_img_responsive}" alt="File Icons" width="300" src="{res.fileIcons.getSafeUri}" />
+                </div>
+                <div class="{res.landingPageLayoutCssResource.pure_u_1} {res.landingPageLayoutCssResource.pure_u_md_1_2} {res.landingPageLayoutCssResource.pure_u_lg_3_5}">
+
+                    <h2 class="{res.landingPageLayoutCssResource.content_head} {res.landingPageLayoutCssResource.content_head_ribbon}">Laboris nisi ut aliquip.</h2>
+
+                    <p>
+                        <ui:text from="{cons.loremIpsum}"/>
+                    </p>
+                </div>
+            </div>
+
+            <div class="{res.landingPageLayoutCssResource.content}">
+                <h2 class="{res.landingPageLayoutCssResource.content_head} {res.landingPageLayoutCssResource.is_center}">Dolore magna aliqua. Uis aute irure.</h2>
+
+                <div class="{res.landingPageLayoutCssResource.pure_g}">
+                    <div class="{res.landingPageLayoutCssResource.l_box_lrg} {res.landingPageLayoutCssResource.pure_u_1} {res.landingPageLayoutCssResource.pure_u_md_2_5}">
+                        <form class="{res.landingPageLayoutCssResource.pure_form} {res.landingPageLayoutCssResource.pure_form_stacked}">
+                            <fieldset>
+
+                                <label for="name">Your Name</label>
+                                <input id="name" type="text" placeholder="Your Name"/>
+
+
+                                <label for="email">Your Email</label>
+                                <input id="email" type="email" placeholder="Your Email"/>
+
+                                <label for="password">Your Password</label>
+                                <input id="password" type="password" placeholder="Your Password"/>
+
+                                <button type="submit" class="{res.landingPageLayoutCssResource.pure_button}">Sign Up</button>
+                            </fieldset>
+                        </form>
+                    </div>
+
+                    <div class="{res.landingPageLayoutCssResource.l_box_lrg} {res.landingPageLayoutCssResource.pure_u_1} {res.landingPageLayoutCssResource.pure_u_md_3_5}">
+                        <h4>Contact Us</h4>
+                        <p>
+                            <ui:text from="{cons.loremIpsum}"/>
+                        </p>
+
+                        <h4>More Information</h4>
+                        <p>
+                            <ui:text from="{cons.loremIpsum}"/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="{res.landingPageLayoutCssResource.footer} {res.landingPageLayoutCssResource.l_box} {res.landingPageLayoutCssResource.is_center}">
+                View the source of this layout to learn more. Made with love by the YUI Team.
+            </div>
+        </div>
+
+    </g:HTMLPanel>
+</ui:UiBinder>

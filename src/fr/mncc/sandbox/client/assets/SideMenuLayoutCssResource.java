@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2013 MNCC
+ * Copyright (c) 2014 MNCC
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
  * associated documentation files (the "Software"), to deal in the Software without restriction,
@@ -18,14 +18,37 @@
  *
  * @author http://www.mncc.fr
  */
-package fr.mncc.gwttoolbox.purecssframework.client;
+package fr.mncc.sandbox.client.assets;
 
-import com.google.gwt.resources.client.ClientBundle;
+import com.google.gwt.resources.client.CssResource;
+import fr.mncc.gwttoolbox.purecssframework.client.PureCssFramework;
 
-public interface PureCssFrameworkResourceBundle extends ClientBundle {
+/**
+ * Annotate methods with @ClassName to rename a class at compile time.
+ */
+public interface SideMenuLayoutCssResource extends PureCssFramework {
 
-    @Source("assets/styles/pure/0.5.0/pure.gss") PureCssFramework pureCssFramework();
+    @ClassName("app-layout") String app_layout();
 
-    @Source({"assets/styles/pure/0.5.0/pure.gss", "assets/styles/pure/0.5.0/grids-responsive.gss"})
-    PureCssResponsiveFramework pureCssResponsiveFramework();
+    @ClassName("app-menu") String app_menu();
+
+    String content();
+
+    @ClassName("pure-menu-heading") String pure_menu_heading();
+
+    @ClassName("content-subhead") String content_subhead();
+
+    @ClassName("pure-img-responsive") String pure_img_responsive();
+
+    @ClassName("menu-link") String menu_link();
+
+    String active();
+
+    @ClassName("menu-item-divided") String menu_item_divided();
+
+    @ClassName("pure-menu") String pure_menu();
+
+    String header();
+
+    @ClassName("pure-menu-selected") String pure_menu_selected();
 }

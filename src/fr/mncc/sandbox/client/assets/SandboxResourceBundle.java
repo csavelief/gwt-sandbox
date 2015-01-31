@@ -22,18 +22,21 @@ package fr.mncc.sandbox.client.assets;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ClientBundle;
+import com.google.gwt.resources.client.ExternalTextResource;
 import com.google.gwt.resources.client.ImageResource;
 import com.google.gwt.resources.client.TextResource;
 import fr.mncc.gwttoolbox.purecssframework.client.PureCssFrameworkResourceBundle;
-
-import java.util.ResourceBundle;
 
 public interface SandboxResourceBundle extends ClientBundle {
 
     public static final SandboxResourceBundle INSTANCE = GWT.create(SandboxResourceBundle.class);
 
-    @Source({"styles/SideMenuLayout.gss",
-        "../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/pure.gss"}) SideMenuLayoutCss sideMenuLayoutCss();
+    @Source({"../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/pure.gss",
+        "styles/SideMenuLayout.gss"}) SideMenuLayoutCssResource sideMenuLayoutCssResource();
+
+    @Source({"../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/pure.gss",
+        "../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/grids-responsive.gss",
+        "styles/LandingPage.gss"}) LandingPageLayoutCssResource landingPageLayoutCssResource();
 
     @Source("images/9069037713_1752f5daeb.jpg") ImageResource img1();
 
@@ -43,7 +46,13 @@ public interface SandboxResourceBundle extends ClientBundle {
 
     @Source("images/9121446012_c1640e42d0.jpg") ImageResource img4();
 
-    @Source("files/LICENSE.md") TextResource license();
+    @Source("images/file-icons.png") ImageResource fileIcons();
 
-    @Source("files/README.md") TextResource readme();
+    @Source("files/LICENSE.md") ExternalTextResource license();
+
+    @Source("files/README.md") ExternalTextResource readme();
+
+    @Source("styles/LandingPageExtra.css") TextResource landingPageLayoutExtraCss();
+
+    @Source("styles/SideMenuExtra.css") TextResource sideMenuLayoutExtraCss();
 }

@@ -21,9 +21,12 @@
 package fr.mncc.sandbox.client;
 
 import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.RootPanel;
 import fr.mncc.gwttoolbox.router.client.Route;
 import fr.mncc.gwttoolbox.router.client.Router;
+import fr.mncc.sandbox.client.assets.SandboxResourceBundle;
+import fr.mncc.sandbox.client.layouts.landingpage.LandingPageLayout;
 import fr.mncc.sandbox.client.layouts.sidemenu.SideMenuLayout;
 
 /**
@@ -31,7 +34,30 @@ import fr.mncc.sandbox.client.layouts.sidemenu.SideMenuLayout;
  */
 public class sandbox implements EntryPoint {
 
+    public static final String ROUTE_LANDING_PAGE = "landingpage";
     public static final String ROUTE_SIDE_MENU = "sidemenu";
+
+    private class CustomRoute extends Route  {
+
+        private Composite layout_ = null;
+
+        public CustomRoute(String name, Composite layout) {
+            super(name);
+            layout_ = layout;
+        }
+
+        @Override
+        public void enter(String arguments) {
+            if (layout_ != null) {
+                RootPanel.get().add(layout_);
+            }
+        }
+
+        @Override
+        public void leave() {
+            RootPanel.get().clear();
+        }
+    }
 
     /**
      * This is the entry point method.
@@ -39,33 +65,25 @@ public class sandbox implements EntryPoint {
     @Override
     public void onModuleLoad() {
 
-        // Declare a new route
-        Route routeHome = new Route(ROUTE_SIDE_MENU) {
-
-            @Override
-            public void enter(String arguments) {
-                RootPanel.get().add(new SideMenuLayout());
-            }
-
-            @Override
-            public void leave() {
-                RootPanel.get().clear();
-            }
-        };
-
+        // Launch router
         Router router = new Router();
 
+        // Declare new routes
+        Route routeLandingPage = new CustomRoute(ROUTE_LANDING_PAGE, new LandingPageLayout());
+        Route routeSideMenu = new CustomRoute(ROUTE_SIDE_MENU, new SideMenuLayout());
+
         // On routing failure redirect user to #!/home
-        router.setFallback(routeHome);
+        router.setFallback(routeLandingPage);
 
         // Register a few routes
-        router.add(routeHome);
+        router.add(routeLandingPage);
+        router.add(routeSideMenu);
 
         // Listen to History change events
         router.listen();
 
         // Try to redirect user to the current url address
-        // On failure, redirect user to #!/sidemenu
-        router.loadFromBookmark(ROUTE_SIDE_MENU);
+        // On failure, redirect user to #!/landingpage
+        router.loadFromBookmark("!/" + ROUTE_LANDING_PAGE);
     }
 }

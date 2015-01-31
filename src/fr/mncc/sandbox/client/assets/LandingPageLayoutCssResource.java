@@ -20,34 +20,58 @@
  */
 package fr.mncc.sandbox.client.assets;
 
-import fr.mncc.gwttoolbox.purecssframework.client.PureCssFramework;
+import fr.mncc.gwttoolbox.purecssframework.client.PureCssResponsiveFramework;
 
 /**
  * Annotate methods with @ClassName to rename a class at compile time.
  */
-public interface SideMenuLayoutCss extends PureCssFramework {
+public interface LandingPageLayoutCssResource extends PureCssResponsiveFramework {
 
-    @ClassName("app-layout") String app_layout();
-
-    @ClassName("app-menu") String app_menu();
-
-    String content();
-
-    @ClassName("pure-menu-heading") String pure_menu_heading();
+    @ClassName("content-head-ribbon") String content_head_ribbon();
 
     @ClassName("content-subhead") String content_subhead();
 
+    @ClassName("l-box") String l_box();
+
+    String splash();
+
+    @ClassName("content-wrapper") String content_wrapper();
+
+    @ClassName("is-center") String is_center();
+
+    @ClassName("splash-container") String splash_container();
+
+    String content();
+
+    String footer();
+
     @ClassName("pure-img-responsive") String pure_img_responsive();
 
-    @ClassName("menu-link") String menu_link();
+    @ClassName("splash-head") String splash_head();
 
-    String active();
+    @ClassName("splash-subhead") String splash_subhead();
 
-    @ClassName("menu-item-divided") String menu_item_divided();
+    String ribbon();
+
+    @ClassName("home-menu") String home_menu();
+
+    @ClassName("content-head") String content_head();
+
+    @ClassName("l-box-lrg") String l_box_lrg();
+
+    @ClassName("pure-form") String pure_form();
+
+    @ClassName("pure-button") String pure_button();
+
+    @ClassName("pure-button-primary") String pure_button_primary();
 
     @ClassName("pure-menu") String pure_menu();
 
-    String header();
+    @ClassName("pure-menu-open") String pure_menu_open();
+
+    @ClassName("pure-menu-fixed") String pure_menu_fixed();
+
+    @ClassName("pure-menu-heading") String pure_menu_heading();
 
     @ClassName("pure-menu-selected") String pure_menu_selected();
 }

@@ -18,37 +18,29 @@
  *
  * @author http://www.mncc.fr
  */
-package fr.mncc.sandbox.client.layouts.sidemenu;
+package fr.mncc.sandbox.client.layouts.landingpage;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.*;
 import com.google.gwt.uibinder.client.UiBinder;
-import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiTemplate;
 import com.google.gwt.user.client.DOM;
-import com.google.gwt.user.client.Event;
-import com.google.gwt.user.client.EventListener;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.Widget;
 import fr.mncc.sandbox.client.assets.SandboxConstants;
 import fr.mncc.sandbox.client.assets.SandboxResourceBundle;
 
-public class SideMenuLayout extends Composite {
+public class LandingPageLayout extends Composite {
 
-    @UiTemplate("SideMenuLayout.ui.xml")
-    interface MyUiBinder extends UiBinder<Widget, SideMenuLayout> {}
+    @UiTemplate("LandingPageLayout.ui.xml")
+    interface MyUiBinder extends UiBinder<Widget, LandingPageLayout> {}
     private static MyUiBinder uiBinder = GWT.create(MyUiBinder.class);
 
-    @UiField HTMLPanel layout;
-    @UiField DivElement menu;
-    @UiField AnchorElement menuLink;
-
-    private StyleElement scriptElementSideMenuCss_;
+    private StyleElement scriptElementLandingPageCss_;
     private MetaElement metaElement_;
 
-    public SideMenuLayout() {
+    public LandingPageLayout() {
         initWidget(uiBinder.createAndBindUi(this));
     }
 
@@ -57,62 +49,32 @@ public class SideMenuLayout extends Composite {
         super.onLoad();
 
         // Set page title & description
-        Window.setTitle(SandboxConstants.INSTANCE.sideMenuTitle());
+        Window.setTitle(SandboxConstants.INSTANCE.landingPageTitle());
 
         metaElement_ = DOM.createElement("meta").cast();
         if (metaElement_ != null) {
             metaElement_.setName("description");
-            metaElement_.setContent(SandboxConstants.INSTANCE.sideMenuDescription());
+            metaElement_.setContent(SandboxConstants.INSTANCE.landingPageDescription());
             Document.get().getHead().appendChild(metaElement_);
         }
 
         // Inject layout stylesheet
-        scriptElementSideMenuCss_ = StyleInjector.injectStylesheet(
-            SandboxResourceBundle.INSTANCE.sideMenuLayoutExtraCss().getText());
-        SandboxResourceBundle.INSTANCE.sideMenuLayoutCssResource().ensureInjected();
-
-        // Bind click event to menu button
-        DOM.setEventListener(menuLink, new EventListener() {
-
-            @Override public void onBrowserEvent(Event event) {
-                if (event.getTypeInt() == Event.ONCLICK) {
-                    toggleClass(layout.getElement(), SandboxResourceBundle.INSTANCE.sideMenuLayoutCssResource().active());
-                    toggleClass(menu, SandboxResourceBundle.INSTANCE.sideMenuLayoutCssResource().active());
-                    toggleClass(menuLink, SandboxResourceBundle.INSTANCE.sideMenuLayoutCssResource().active());
-                    event.preventDefault();
-                }
-            }
-        });
-        DOM.sinkEvents(menuLink, Event.ONCLICK);
+        scriptElementLandingPageCss_ = StyleInjector.injectStylesheet(
+            SandboxResourceBundle.INSTANCE.landingPageLayoutExtraCss().getText());
+        SandboxResourceBundle.INSTANCE.landingPageLayoutCssResource().ensureInjected();
     }
 
     @Override
     protected void onUnload() {
 
-        // Remove click event handler in order to avoid memory leaks
-        DOM.setEventListener(menuLink, null);
-
         // Remove elements added to file header
         if (metaElement_ != null) {
             metaElement_.removeFromParent();
         }
-        if (scriptElementSideMenuCss_ != null) {
-            scriptElementSideMenuCss_.removeFromParent();
+        if (scriptElementLandingPageCss_ != null) {
+            scriptElementLandingPageCss_.removeFromParent();
         }
 
         super.onUnload();
-    }
-
-    private void toggleClass(Element element, String className) {
-        String elementClasses = element.getClassName();
-        if (elementClasses == null) {
-            element.setClassName(className);
-        }
-        else if (elementClasses.contains(className)) {
-            element.setClassName(elementClasses.replace(className, ""));
-        }
-        else {
-            element.setClassName(elementClasses + " " + className);
-        }
     }
 }
