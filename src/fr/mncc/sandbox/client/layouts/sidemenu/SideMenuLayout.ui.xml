@@ -10,7 +10,7 @@
     <g:HTMLPanel ui:field="layout" addStyleNames="{res.sideMenuLayoutCssResource.app_layout}">
 
         <!-- Menu toggle -->
-        <a href="" ui:field="menuLink" class="{res.sideMenuLayoutCssResource.menu_link}">
+        <a href="#" ui:field="menuLink" class="{res.sideMenuLayoutCssResource.menu_link}">
             <!-- Hamburger icon -->
             <span></span>
         </a>
@@ -19,12 +19,12 @@
             <div class="{res.sideMenuLayoutCssResource.pure_menu} {res.sideMenuLayoutCssResource.pure_menu_open}">
                 <a class="{res.sideMenuLayoutCssResource.pure_menu_heading}" href="#"><ui:text from="{cons.company}"/></a>
                 <ul>
-                    <li><a href="#!/landingpage"><ui:text from="{cons.home}"/></a></li>
-                    <li><a href="#!/landingpage"><ui:text from="{cons.about}"/></a></li>
+                    <li><a href="#!/{cons.landingPageToken}"><ui:text from="{cons.home}"/></a></li>
+                    <li><a href="#!/{cons.landingPageToken}"><ui:text from="{cons.about}"/></a></li>
                     <li class="{res.sideMenuLayoutCssResource.menu_item_divided} {res.sideMenuLayoutCssResource.pure_menu_selected}">
-                        <a href="#!/landingpage"><ui:text from="{cons.services}"/></a>
+                        <a href="#!/{cons.landingPageToken}"><ui:text from="{cons.services}"/></a>
                     </li>
-                    <li><a href="#!/landingpage"><ui:text from="{cons.contact}"/></a></li>
+                    <li><a href="#!/{cons.landingPageToken}"><ui:text from="{cons.contact}"/></a></li>
                 </ul>
             </div>
         </div>

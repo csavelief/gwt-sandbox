@@ -12,9 +12,9 @@
             <div class="{res.landingPageLayoutCssResource.home_menu} {res.landingPageLayoutCssResource.pure_menu} {res.landingPageLayoutCssResource.pure_menu_open} {res.landingPageLayoutCssResource.pure_menu_horizontal} {res.landingPageLayoutCssResource.pure_menu_fixed}">
                 <a class="{res.landingPageLayoutCssResource.pure_menu_heading}" href=""><ui:text from="{cons.yourSite}"/></a>
                 <ul>
-                    <li class="{res.landingPageLayoutCssResource.pure_menu_selected}"><a href="#!/landingpage"><ui:text from="{cons.home}"/></a></li>
-                    <li><a href="#!/sidemenu"><ui:text from="{cons.sideMenu}"/></a></li>
-                    <li><a href="#!/blog"><ui:text from="{cons.blog}"/></a></li>
+                    <li class="{res.landingPageLayoutCssResource.pure_menu_selected}"><a href="#!/{cons.landingPageToken}"><ui:text from="{cons.home}"/></a></li>
+                    <li><a href="#!/{cons.sideMenuToken}"><ui:text from="{cons.sideMenu}"/></a></li>
+                    <li><a href="#!/{cons.blogToken}"><ui:text from="{cons.blog}"/></a></li>
                 </ul>
             </div>
         </div>

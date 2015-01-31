@@ -25,6 +25,7 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.RootPanel;
 import fr.mncc.gwttoolbox.router.client.Route;
 import fr.mncc.gwttoolbox.router.client.Router;
+import fr.mncc.sandbox.client.assets.SandboxConstants;
 import fr.mncc.sandbox.client.assets.SandboxResourceBundle;
 import fr.mncc.sandbox.client.layouts.blog.BlogLayout;
 import fr.mncc.sandbox.client.layouts.landingpage.LandingPageLayout;
@@ -34,10 +35,6 @@ import fr.mncc.sandbox.client.layouts.sidemenu.SideMenuLayout;
  * Entry point classes define <code>onModuleLoad()</code>
  */
 public class sandbox implements EntryPoint {
-
-    public static final String ROUTE_LANDING_PAGE = "landingpage";
-    public static final String ROUTE_SIDE_MENU = "sidemenu";
-    public static final String BLOG_MENU = "blog";
 
     private class CustomRoute extends Route  {
 
@@ -71,9 +68,9 @@ public class sandbox implements EntryPoint {
         Router router = new Router();
 
         // Declare new routes
-        Route routeLandingPage = new CustomRoute(ROUTE_LANDING_PAGE, new LandingPageLayout());
-        Route routeSideMenu = new CustomRoute(ROUTE_SIDE_MENU, new SideMenuLayout());
-        Route blogMenu = new CustomRoute(BLOG_MENU, new BlogLayout());
+        Route routeLandingPage = new CustomRoute(SandboxConstants.INSTANCE.landingPageToken(), new LandingPageLayout());
+        Route routeSideMenu = new CustomRoute(SandboxConstants.INSTANCE.sideMenuToken(), new SideMenuLayout());
+        Route blogMenu = new CustomRoute(SandboxConstants.INSTANCE.blogToken(), new BlogLayout());
 
         // On routing failure redirect user to #!/home
         router.setFallback(routeLandingPage);
@@ -88,6 +85,6 @@ public class sandbox implements EntryPoint {
 
         // Try to redirect user to the current url address
         // On failure, redirect user to #!/landingpage
-        router.loadFromBookmark("!/" + ROUTE_LANDING_PAGE);
+        router.loadFromBookmark("!/" + SandboxConstants.INSTANCE.landingPageToken());
     }
 }
