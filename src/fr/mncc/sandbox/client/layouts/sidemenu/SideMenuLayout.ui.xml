@@ -17,14 +17,14 @@
 
         <div ui:field="menu" class="{res.sideMenuLayoutCssResource.app_menu}">
             <div class="{res.sideMenuLayoutCssResource.pure_menu} {res.sideMenuLayoutCssResource.pure_menu_open}">
-                <a class="{res.sideMenuLayoutCssResource.pure_menu_heading}" href="#"><ui:text from="{cons.menuCompany}"/></a>
+                <a class="{res.sideMenuLayoutCssResource.pure_menu_heading}" href="#"><ui:text from="{cons.company}"/></a>
                 <ul>
-                    <li><a href="#!/landingpage"><ui:text from="{cons.menuHome}"/></a></li>
-                    <li><a href="#!/landingpage"><ui:text from="{cons.menuAbout}"/></a></li>
+                    <li><a href="#!/landingpage"><ui:text from="{cons.home}"/></a></li>
+                    <li><a href="#!/landingpage"><ui:text from="{cons.about}"/></a></li>
                     <li class="{res.sideMenuLayoutCssResource.menu_item_divided} {res.sideMenuLayoutCssResource.pure_menu_selected}">
-                        <a href="#!/landingpage"><ui:text from="{cons.menuServices}"/></a>
+                        <a href="#!/landingpage"><ui:text from="{cons.services}"/></a>
                     </li>
-                    <li><a href="#!/landingpage"><ui:text from="{cons.menuContact}"/></a></li>
+                    <li><a href="#!/landingpage"><ui:text from="{cons.contact}"/></a></li>
                 </ul>
             </div>
         </div>
@@ -43,7 +43,7 @@
 
                 <h2 class="{res.sideMenuLayoutCssResource.content_subhead}"><ui:text from="{cons.nowLetsSpeakSomeLatin}"/></h2>
                 <p>
-                    <ui:text from="{cons.loremIpsum}"/>
+                    <ui:text from="{cons.loremIpsumLong}"/>
                 </p>
 
                 <div class="{res.sideMenuLayoutCssResource.pure_g}">
@@ -63,7 +63,7 @@
 
                 <h2 class="{res.sideMenuLayoutCssResource.content_subhead}"><ui:text from="{cons.tryResizingYourBrowser}"/></h2>
                 <p>
-                    <ui:text from="{cons.loremIpsum}"/>
+                    <ui:text from="{cons.loremIpsumLong}"/>
                 </p>
             </div>
         </div>

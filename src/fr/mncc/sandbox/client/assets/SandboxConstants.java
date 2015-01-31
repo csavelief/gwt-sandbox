@@ -53,6 +53,14 @@ public interface SandboxConstants extends Constants {
 
     public static final SandboxConstants INSTANCE = GWT.create(SandboxConstants.class);
 
+    public String yourSite();
+
+    public String sideMenu();
+
+    public String blog();
+
+    public String bigBoldText();
+
     public String blogTitle();
 
     public String blogDescription ();
@@ -65,15 +73,15 @@ public interface SandboxConstants extends Constants {
 
     public String sideMenuDescription();
 
-    public String menuCompany();
+    public String company();
 
-    public String menuHome();
+    public String home();
 
-    public String menuAbout();
+    public String about();
 
-    public String menuServices();
+    public String services();
 
-    public String menuContact();
+    public String contact();
 
     public String pageTitle();
 
@@ -87,7 +95,39 @@ public interface SandboxConstants extends Constants {
 
     public String instructions();
 
-    public String loremIpsum();
+    public String loremIpsumLong();
+
+    public String loremIpsumShort();
 
     public String phaellusEgetEnim();
+
+    public String excepteurSintOccaecat();
+
+    public String laborisNisiUt();
+
+    public String doloreMagnaAliqua();
+
+    public String getStarted();
+
+    public String getStartedQuickly();
+
+    public String responsiveLayouts();
+
+    public String modular();
+
+    public String playsNice();
+
+    public String yourName();
+
+    public String yourEmail();
+
+    public String yourPassword();
+
+    public String signUp();
+
+    public String contactUs();
+
+    public String moreInformation();
+
+    public String viewTheSource();
 }
