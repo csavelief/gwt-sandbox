@@ -24,6 +24,7 @@ import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.Document;
 import com.google.gwt.dom.client.MetaElement;
 import com.google.gwt.uibinder.client.UiBinder;
+import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiTemplate;
 import com.google.gwt.user.client.DOM;
 import com.google.gwt.user.client.Window;
@@ -37,6 +38,9 @@ public class BlogLayout extends Composite {
     @UiTemplate("BlogLayout.ui.xml")
     interface MyUiBinder extends UiBinder<Widget, BlogLayout> {}
     private static MyUiBinder uiBinder = GWT.create(MyUiBinder.class);
+
+    @UiField SandboxResourceBundle res;
+    @UiField SandboxConstants cons;
 
     private MetaElement metaElement_;
 
@@ -54,12 +58,12 @@ public class BlogLayout extends Composite {
         metaElement_ = DOM.createElement("meta").cast();
         if (metaElement_ != null) {
             metaElement_.setName("description");
-            metaElement_.setContent(SandboxConstants.INSTANCE.blogDescription());
+            metaElement_.setContent(cons.blogDescription());
             Document.get().getHead().appendChild(metaElement_);
         }
 
         // Inject layout stylesheet
-        SandboxResourceBundle.INSTANCE.blogLayoutCssResource().ensureInjected();
+        res.blogLayoutCssResource().ensureInjected();
     }
 
     @Override

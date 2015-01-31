@@ -22,6 +22,7 @@ package fr.mncc.sandbox.client.layouts.sidemenu;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.*;
+import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiTemplate;
@@ -41,6 +42,8 @@ public class SideMenuLayout extends Composite {
     interface MyUiBinder extends UiBinder<Widget, SideMenuLayout> {}
     private static MyUiBinder uiBinder = GWT.create(MyUiBinder.class);
 
+    @UiField SandboxResourceBundle res;
+    @UiField SandboxConstants cons;
     @UiField HTMLPanel layout;
     @UiField DivElement menu;
     @UiField AnchorElement menuLink;
@@ -56,12 +59,12 @@ public class SideMenuLayout extends Composite {
         super.onLoad();
 
         // Set page title & description
-        Window.setTitle(SandboxConstants.INSTANCE.sideMenuTitle());
+        Window.setTitle(cons.sideMenuTitle());
 
         metaElement_ = DOM.createElement("meta").cast();
         if (metaElement_ != null) {
             metaElement_.setName("description");
-            metaElement_.setContent(SandboxConstants.INSTANCE.sideMenuDescription());
+            metaElement_.setContent(cons.sideMenuDescription());
             Document.get().getHead().appendChild(metaElement_);
         }
 
@@ -73,9 +76,9 @@ public class SideMenuLayout extends Composite {
 
             @Override public void onBrowserEvent(Event event) {
                 if (event.getTypeInt() == Event.ONCLICK) {
-                    toggleClass(layout.getElement(), SandboxResourceBundle.INSTANCE.sideMenuLayoutCssResource().active());
-                    toggleClass(menu, SandboxResourceBundle.INSTANCE.sideMenuLayoutCssResource().active());
-                    toggleClass(menuLink, SandboxResourceBundle.INSTANCE.sideMenuLayoutCssResource().active());
+                    toggleClass(layout.getElement(), res.sideMenuLayoutCssResource().active());
+                    toggleClass(menu, res.sideMenuLayoutCssResource().active());
+                    toggleClass(menuLink, res.sideMenuLayoutCssResource().active());
                     event.preventDefault();
                 }
             }

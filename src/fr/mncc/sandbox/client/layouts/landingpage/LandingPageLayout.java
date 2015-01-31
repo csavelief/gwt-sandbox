@@ -23,6 +23,7 @@ package fr.mncc.sandbox.client.layouts.landingpage;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.*;
 import com.google.gwt.uibinder.client.UiBinder;
+import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiTemplate;
 import com.google.gwt.user.client.DOM;
 import com.google.gwt.user.client.Window;
@@ -37,6 +38,9 @@ public class LandingPageLayout extends Composite {
     interface MyUiBinder extends UiBinder<Widget, LandingPageLayout> {}
     private static MyUiBinder uiBinder = GWT.create(MyUiBinder.class);
 
+    @UiField SandboxResourceBundle res;
+    @UiField SandboxConstants cons;
+
     private MetaElement metaElement_;
 
     public LandingPageLayout() {
@@ -48,17 +52,17 @@ public class LandingPageLayout extends Composite {
         super.onLoad();
 
         // Set page title & description
-        Window.setTitle(SandboxConstants.INSTANCE.landingPageTitle());
+        Window.setTitle(cons.landingPageTitle());
 
         metaElement_ = DOM.createElement("meta").cast();
         if (metaElement_ != null) {
             metaElement_.setName("description");
-            metaElement_.setContent(SandboxConstants.INSTANCE.landingPageDescription());
+            metaElement_.setContent(cons.landingPageDescription());
             Document.get().getHead().appendChild(metaElement_);
         }
 
         // Inject layout stylesheet
-        SandboxResourceBundle.INSTANCE.landingPageLayoutCssResource().ensureInjected();
+        res.landingPageLayoutCssResource().ensureInjected();
     }
 
     @Override
