@@ -26,7 +26,6 @@ import com.google.gwt.user.client.ui.RootPanel;
 import fr.mncc.gwttoolbox.router.client.Route;
 import fr.mncc.gwttoolbox.router.client.Router;
 import fr.mncc.sandbox.client.assets.SandboxConstants;
-import fr.mncc.sandbox.client.assets.SandboxResourceBundle;
 import fr.mncc.sandbox.client.layouts.blog.BlogLayout;
 import fr.mncc.sandbox.client.layouts.landingpage.LandingPageLayout;
 import fr.mncc.sandbox.client.layouts.sidemenu.SideMenuLayout;
@@ -36,7 +35,7 @@ import fr.mncc.sandbox.client.layouts.sidemenu.SideMenuLayout;
  */
 public class sandbox implements EntryPoint {
 
-    private class CustomRoute extends Route  {
+    private class CustomRoute extends Route {
 
         private Composite layout_ = null;
 
@@ -68,8 +67,10 @@ public class sandbox implements EntryPoint {
         Router router = new Router();
 
         // Declare new routes
-        Route routeLandingPage = new CustomRoute(SandboxConstants.INSTANCE.landingPageToken(), new LandingPageLayout());
-        Route routeSideMenu = new CustomRoute(SandboxConstants.INSTANCE.sideMenuToken(), new SideMenuLayout());
+        Route routeLandingPage =
+            new CustomRoute(SandboxConstants.INSTANCE.landingPageToken(), new LandingPageLayout());
+        Route routeSideMenu =
+            new CustomRoute(SandboxConstants.INSTANCE.sideMenuToken(), new SideMenuLayout());
         Route blogMenu = new CustomRoute(SandboxConstants.INSTANCE.blogToken(), new BlogLayout());
 
         // On routing failure redirect user to #!/home

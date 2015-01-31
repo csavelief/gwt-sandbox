@@ -69,11 +69,11 @@ public interface SandboxConstants extends Constants {
 
     public String blogTitle();
 
-    public String blogDescription ();
+    public String blogDescription();
 
     public String landingPageTitle();
 
-    public String landingPageDescription ();
+    public String landingPageDescription();
 
     public String sideMenuTitle();
 

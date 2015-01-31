@@ -4,12 +4,12 @@
 
     <!-- Inherit the core Web Toolkit stuff. -->
     <inherits name='com.google.gwt.user.User'/>
-    <inherits name="com.google.gwt.resources.Resources" />
+    <inherits name="com.google.gwt.resources.Resources"/>
 
     <!-- Enable Gss with CssResource -->
-    <set-configuration-property name="CssResource.enableGss" value="true" />
-    <set-configuration-property name="CssResource.legacy" value="true" />
-    <set-configuration-property name="CssResource.conversionMode" value="strict" />
+    <set-configuration-property name="CssResource.enableGss" value="true"/>
+    <set-configuration-property name="CssResource.legacy" value="true"/>
+    <set-configuration-property name="CssResource.conversionMode" value="strict"/>
 
     <!-- Specify the paths for translatable code -->
     <source path='client'/>

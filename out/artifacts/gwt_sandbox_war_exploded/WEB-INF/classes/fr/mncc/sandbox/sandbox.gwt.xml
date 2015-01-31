@@ -5,16 +5,16 @@
     <!-- Inherit the core Web Toolkit stuff. -->
     <inherits name='com.google.gwt.user.User'/>
     <inherits name="com.google.gwt.i18n.I18N"/>
-    <inherits name="com.google.gwt.resources.Resources" />
+    <inherits name="com.google.gwt.resources.Resources"/>
 
     <!-- Inherit the core MNCC toolkit stuff. -->
     <inherits name="fr.mncc.gwttoolbox.purecssframework.purecssframework"/>
     <inherits name="fr.mncc.gwttoolbox.router.router"/>
 
     <!-- Enable Gss with CssResource -->
-    <set-configuration-property name="CssResource.enableGss" value="true" />
-    <set-configuration-property name="CssResource.legacy" value="true" />
-    <set-configuration-property name="CssResource.conversionMode" value="strict" />
+    <set-configuration-property name="CssResource.enableGss" value="true"/>
+    <set-configuration-property name="CssResource.legacy" value="true"/>
+    <set-configuration-property name="CssResource.conversionMode" value="strict"/>
 
     <!-- Languages -->
     <extend-property name="locale" values="en,fr"/>

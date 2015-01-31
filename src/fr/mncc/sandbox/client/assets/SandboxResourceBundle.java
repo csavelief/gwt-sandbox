@@ -34,7 +34,8 @@ public interface SandboxResourceBundle extends ClientBundle {
 
     @Source({"../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/pure.gss",
         "../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/grids-responsive.gss",
-        "styles/LandingPageLayout.gss"}) LandingPageLayoutCssResource landingPageLayoutCssResource();
+        "styles/LandingPageLayout.gss"})
+    LandingPageLayoutCssResource landingPageLayoutCssResource();
 
     @Source({"../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/pure.gss",
         "../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/grids-responsive.gss",

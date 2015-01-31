@@ -7,13 +7,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d831d7c3-94f9-47f5-8c29-74837df0577a" name="Default" comment="Add pure css responsive grids.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/widgets/Layout.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/blog/BlogLayout.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/blog/BlogLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/blog/BlogLayout.ui.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/blog/BlogLayout.ui.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/samaxes/filter/CacheFilter.java" afterPath="$PROJECT_DIR$/src/com/samaxes/filter/CacheFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/filters/server/GwtCacheFilter.java" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/filters/server/GwtCacheFilter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/WEB-INF/classes/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml" afterPath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/WEB-INF/classes/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gwt-sandbox/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml" afterPath="$PROJECT_DIR$/out/production/gwt-sandbox/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/samaxes/filter/NoCacheFilter.java" afterPath="$PROJECT_DIR$/src/com/samaxes/filter/NoCacheFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/samaxes/filter/NoETagFilter.java" afterPath="$PROJECT_DIR$/src/com/samaxes/filter/NoETagFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/PureCssResponsiveFramework.java" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/PureCssResponsiveFramework.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/router/client/Route.java" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/router/client/Route.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/router/client/RouteTest.java" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/router/client/RouteTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/router/client/Router.java" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/router/client/Router.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/router/client/RouterTest.java" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/router/client/RouterTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxMessages.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxMessages.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxResourceBundle.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxResourceBundle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/WEB-INF/classes/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml" afterPath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/WEB-INF/classes/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gwt-sandbox/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml" afterPath="$PROJECT_DIR$/out/production/gwt-sandbox/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SideMenuLayoutCssResource.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SideMenuLayoutCssResource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/WEB-INF/classes/fr/mncc/gwttoolbox/filters/filters.gwt.xml" afterPath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/WEB-INF/classes/fr/mncc/gwttoolbox/filters/filters.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gwt-sandbox/fr/mncc/gwttoolbox/filters/filters.gwt.xml" afterPath="$PROJECT_DIR$/out/production/gwt-sandbox/fr/mncc/gwttoolbox/filters/filters.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/filters/filters.gwt.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/filters/filters.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/pure-normalize.css" afterPath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/pure-normalize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pure-normalize.css" afterPath="$PROJECT_DIR$/web/pure-normalize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/WEB-INF/classes/fr/mncc/gwttoolbox/purecssframework/purecssframework.gwt.xml" afterPath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/WEB-INF/classes/fr/mncc/gwttoolbox/purecssframework/purecssframework.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gwt-sandbox/fr/mncc/gwttoolbox/purecssframework/purecssframework.gwt.xml" afterPath="$PROJECT_DIR$/out/production/gwt-sandbox/fr/mncc/gwttoolbox/purecssframework/purecssframework.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/purecssframework.gwt.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/purecssframework.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/WEB-INF/classes/fr/mncc/gwttoolbox/router/router.gwt.xml" afterPath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/WEB-INF/classes/fr/mncc/gwttoolbox/router/router.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gwt-sandbox/fr/mncc/gwttoolbox/router/router.gwt.xml" afterPath="$PROJECT_DIR$/out/production/gwt-sandbox/fr/mncc/gwttoolbox/router/router.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/router/router.gwt.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/router/router.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/WEB-INF/classes/fr/mncc/sandbox/sandbox.gwt.xml" afterPath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/WEB-INF/classes/fr/mncc/sandbox/sandbox.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/gwt-sandbox/fr/mncc/sandbox/sandbox.gwt.xml" afterPath="$PROJECT_DIR$/out/production/gwt-sandbox/fr/mncc/sandbox/sandbox.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/sandbox.html" afterPath="$PROJECT_DIR$/out/artifacts/gwt_sandbox_war_exploded/sandbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sandbox.html" afterPath="$PROJECT_DIR$/web/sandbox.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gwt-sandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,31 +79,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BlogLayout.ui.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/blog/BlogLayout.ui.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="323">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SideMenuLayout.ui.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1309">
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1819">
               <caret line="4" column="82" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="82" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SideMenuLayout.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SideMenuLayout.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1411">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.10572139" vertical-offset="0" max-vertical-offset="1207">
+              <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -72,19 +102,43 @@
       <file leaf-file-name="LandingPageLayout.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogLayout.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BlogLayout.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/blog/BlogLayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6977612" vertical-offset="0" max-vertical-offset="901">
-              <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SandboxConstants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1304" max-vertical-offset="2108">
+              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Layout.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/widgets/Layout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1769#1770#0" expanded="true" />
+                <element signature="e#1807#1808#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +146,8 @@
       <file leaf-file-name="SandboxResourceBundle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxResourceBundle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1003">
-              <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1020">
+              <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,7 +158,7 @@
       <file leaf-file-name="BlogLayoutCssResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/BlogLayoutCssResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="289">
               <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
               <folding />
             </state>
@@ -114,8 +168,8 @@
       <file leaf-file-name="PureCssResponsiveFramework.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/PureCssResponsiveFramework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6477">
-              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="6443">
+              <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -124,21 +178,9 @@
       <file leaf-file-name="PureCssFramework.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/PureCssFramework.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3468">
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="3468">
               <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sandbox.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="369" max-vertical-offset="1275">
-              <caret line="87" column="83" selection-start-line="87" selection-start-column="83" selection-end-line="87" selection-end-column="83" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -161,7 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/AppResourceBundle.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/client/assets/AppResourceBundle.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/client/assets/ToolboxResourceBundle.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/client/assets/PureCssFramework.java" />
@@ -209,8 +250,9 @@
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml" />
-        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/widgets/Layout.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.java" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/blog/BlogLayout.java" />
       </list>
     </option>
@@ -250,6 +292,17 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -299,6 +352,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gwt-sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fr.mncc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,49 +485,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fr.mncc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="gwttoolbox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -489,6 +531,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="859" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -523,9 +566,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -540,6 +580,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -569,6 +612,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <module name="" />
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -587,19 +643,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
-      <module name="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
       <method />
     </configuration>
     <configuration default="false" name="sandbox" type="GWT.ConfigurationType" factoryName="GWT Configuration">
@@ -692,33 +735,33 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="939" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -754,14 +797,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="2108">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants_en.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
@@ -946,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.5" vertical-offset="23685" max-vertical-offset="26384">
           <caret line="1420" column="8" selection-start-line="1420" selection-start-column="8" selection-end-line="1420" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -981,7 +1015,7 @@
         <state vertical-scroll-proportion="0.19029851" vertical-offset="0" max-vertical-offset="804">
           <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="67" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1082,14 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2295">
@@ -1108,18 +1134,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="369" max-vertical-offset="1275">
-          <caret line="87" column="83" selection-start-line="87" selection-start-column="83" selection-end-line="87" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="386" max-vertical-offset="1292">
+          <caret line="88" column="83" selection-start-line="88" selection-start-column="83" selection-end-line="88" selection-end-column="83" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxResourceBundle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1003">
-          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1020">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1136,8 +1160,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/PureCssResponsiveFramework.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6477">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="6443">
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -1158,26 +1182,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1411">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="45" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1304" max-vertical-offset="2108">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/widgets/Layout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1769#1770#0" expanded="true" />
+            <element signature="e#1807#1808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/blog/BlogLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/blog/BlogLayout.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6977612" vertical-offset="0" max-vertical-offset="901">
-          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.10572139" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
           <folding />
         </state>
       </provider>

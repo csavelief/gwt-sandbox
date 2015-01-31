@@ -18,18 +18,12 @@
  */
 package com.samaxes.filter;
 
-import java.io.IOException;
+import com.samaxes.filter.util.HTTPCacheHeader;
 
-import javax.servlet.Filter;
-import javax.servlet.FilterChain;
-import javax.servlet.FilterConfig;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
+import javax.servlet.*;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpServletResponseWrapper;
-
-import com.samaxes.filter.util.HTTPCacheHeader;
+import java.io.IOException;
 
 /**
  * <p>
@@ -43,7 +37,7 @@ import com.samaxes.filter.util.HTTPCacheHeader;
  * <p>
  * Declare the filter in your web descriptor file {@code web.xml}:
  * </p>
- *
+ * <p/>
  * <pre>
  * &lt;filter&gt;
  *     &lt;filter-name&gt;noEtag&lt;/filter-name&gt;
@@ -53,7 +47,7 @@ import com.samaxes.filter.util.HTTPCacheHeader;
  * <p>
  * Map the filter to Tomcat&#x27;s <strong>DefaultServlet</strong>:
  * </p>
- *
+ * <p/>
  * <pre>
  * &lt;filter-mapping&gt;
  *     &lt;filter-name&gt;noEtag&lt;/filter-name&gt;
@@ -81,16 +75,18 @@ public class NoETagFilter implements Filter {
      * {@inheritDoc}
      */
     @Override
-    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain)
-            throws IOException, ServletException {
-        filterChain.doFilter(servletRequest, new HttpServletResponseWrapper((HttpServletResponse) servletResponse) {
-            @Override
-            public void setHeader(String name, String value) {
-                if (!HTTPCacheHeader.ETAG.getName().equalsIgnoreCase(name)) {
-                    super.setHeader(name, value);
+    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse,
+        FilterChain filterChain)
+        throws IOException, ServletException {
+        filterChain.doFilter(servletRequest,
+            new HttpServletResponseWrapper((HttpServletResponse) servletResponse) {
+                @Override
+                public void setHeader(String name, String value) {
+                    if (!HTTPCacheHeader.ETAG.getName().equalsIgnoreCase(name)) {
+                        super.setHeader(name, value);
+                    }
                 }
-            }
-        });
+            });
     }
 
     /**

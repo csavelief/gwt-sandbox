@@ -20,7 +20,6 @@
  */
 package fr.mncc.sandbox.client.assets;
 
-import com.google.gwt.resources.client.CssResource;
 import fr.mncc.gwttoolbox.purecssframework.client.PureCssFramework;
 
 /**

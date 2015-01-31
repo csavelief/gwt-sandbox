@@ -2,10 +2,10 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
 
     <!-- Access to texts, images and styles -->
-    <ui:with field='res' type="fr.mncc.sandbox.client.assets.SandboxResourceBundle" />
+    <ui:with field='res' type="fr.mncc.sandbox.client.assets.SandboxResourceBundle"/>
 
     <!-- Access to constants -->
-    <ui:with field='cons' type="fr.mncc.sandbox.client.assets.SandboxConstants" />
+    <ui:with field='cons' type="fr.mncc.sandbox.client.assets.SandboxConstants"/>
 
     <g:HTMLPanel ui:field="layout" addStyleNames="{res.sideMenuLayoutCssResource.app_layout}">
 
@@ -17,51 +17,81 @@
 
         <div ui:field="menu" class="{res.sideMenuLayoutCssResource.app_menu}">
             <div class="{res.sideMenuLayoutCssResource.pure_menu} {res.sideMenuLayoutCssResource.pure_menu_open}">
-                <a class="{res.sideMenuLayoutCssResource.pure_menu_heading}" href="#"><ui:text from="{cons.company}"/></a>
+                <a class="{res.sideMenuLayoutCssResource.pure_menu_heading}" href="#">
+                    <ui:text from="{cons.company}"/>
+                </a>
                 <ul>
-                    <li><a href="#!/{cons.landingPageToken}"><ui:text from="{cons.home}"/></a></li>
-                    <li><a href="#!/{cons.landingPageToken}"><ui:text from="{cons.about}"/></a></li>
-                    <li class="{res.sideMenuLayoutCssResource.menu_item_divided} {res.sideMenuLayoutCssResource.pure_menu_selected}">
-                        <a href="#!/{cons.landingPageToken}"><ui:text from="{cons.services}"/></a>
+                    <li>
+                        <a href="#!/{cons.landingPageToken}">
+                            <ui:text from="{cons.home}"/>
+                        </a>
                     </li>
-                    <li><a href="#!/{cons.landingPageToken}"><ui:text from="{cons.contact}"/></a></li>
+                    <li>
+                        <a href="#!/{cons.landingPageToken}">
+                            <ui:text from="{cons.about}"/>
+                        </a>
+                    </li>
+                    <li class="{res.sideMenuLayoutCssResource.menu_item_divided} {res.sideMenuLayoutCssResource.pure_menu_selected}">
+                        <a href="#!/{cons.landingPageToken}">
+                            <ui:text from="{cons.services}"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!/{cons.landingPageToken}">
+                            <ui:text from="{cons.contact}"/>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
 
         <div ui:field="main">
             <div class="{res.sideMenuLayoutCssResource.header}">
-                <h1><ui:text from="{cons.pageTitle}"/></h1>
-                <h2><ui:text from="{cons.pageSubtitle}"/></h2>
+                <h1>
+                    <ui:text from="{cons.pageTitle}"/>
+                </h1>
+                <h2>
+                    <ui:text from="{cons.pageSubtitle}"/>
+                </h2>
             </div>
 
             <div class="{res.sideMenuLayoutCssResource.content}">
-                <h2 class="{res.sideMenuLayoutCssResource.content_subhead}"><ui:text from="{cons.howToUseThisLayout}"/></h2>
+                <h2 class="{res.sideMenuLayoutCssResource.content_subhead}">
+                    <ui:text from="{cons.howToUseThisLayout}"/>
+                </h2>
                 <p>
                     <ui:text from="{cons.instructions}"/>
                 </p>
 
-                <h2 class="{res.sideMenuLayoutCssResource.content_subhead}"><ui:text from="{cons.nowLetsSpeakSomeLatin}"/></h2>
+                <h2 class="{res.sideMenuLayoutCssResource.content_subhead}">
+                    <ui:text from="{cons.nowLetsSpeakSomeLatin}"/>
+                </h2>
                 <p>
                     <ui:text from="{cons.loremIpsumLong}"/>
                 </p>
 
                 <div class="{res.sideMenuLayoutCssResource.pure_g}">
                     <div class="{res.sideMenuLayoutCssResource.pure_u_1_4}">
-                        <img class="{res.sideMenuLayoutCssResource.pure_img_responsive}" src="{res.img1.getSafeUri}" alt="Peyto Lake" />
+                        <img class="{res.sideMenuLayoutCssResource.pure_img_responsive}"
+                             src="{res.img1.getSafeUri}" alt="Peyto Lake"/>
                     </div>
                     <div class="{res.sideMenuLayoutCssResource.pure_u_1_4}">
-                        <img class="{res.sideMenuLayoutCssResource.pure_img_responsive}" src="{res.img2.getSafeUri}" alt="Train" />
+                        <img class="{res.sideMenuLayoutCssResource.pure_img_responsive}"
+                             src="{res.img2.getSafeUri}" alt="Train"/>
                     </div>
                     <div class="{res.sideMenuLayoutCssResource.pure_u_1_4}">
-                        <img class="{res.sideMenuLayoutCssResource.pure_img_responsive}" src="{res.img4.getSafeUri}" alt="T-Shirt Store" />
+                        <img class="{res.sideMenuLayoutCssResource.pure_img_responsive}"
+                             src="{res.img4.getSafeUri}" alt="T-Shirt Store"/>
                     </div>
                     <div class="{res.sideMenuLayoutCssResource.pure_u_1_4}">
-                        <img class="{res.sideMenuLayoutCssResource.pure_img_responsive}" src="{res.img3.getSafeUri}" alt="Mountain" />
+                        <img class="{res.sideMenuLayoutCssResource.pure_img_responsive}"
+                             src="{res.img3.getSafeUri}" alt="Mountain"/>
                     </div>
                 </div>
 
-                <h2 class="{res.sideMenuLayoutCssResource.content_subhead}"><ui:text from="{cons.tryResizingYourBrowser}"/></h2>
+                <h2 class="{res.sideMenuLayoutCssResource.content_subhead}">
+                    <ui:text from="{cons.tryResizingYourBrowser}"/>
+                </h2>
                 <p>
                     <ui:text from="{cons.loremIpsumLong}"/>
                 </p>

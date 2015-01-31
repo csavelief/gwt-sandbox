@@ -18,17 +18,11 @@
  */
 package com.samaxes.filter;
 
-import java.io.IOException;
-
-import javax.servlet.Filter;
-import javax.servlet.FilterChain;
-import javax.servlet.FilterConfig;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
-import javax.servlet.http.HttpServletResponse;
-
 import com.samaxes.filter.util.HTTPCacheHeader;
+
+import javax.servlet.*;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
 /**
  * <p>
@@ -38,7 +32,7 @@ import com.samaxes.filter.util.HTTPCacheHeader;
  * <p>
  * Declare the filter in your web descriptor file {@code web.xml}:
  * </p>
- *
+ * <p/>
  * <pre>
  * &lt;filter&gt;
  *     &lt;filter-name&gt;noCache&lt;/filter-name&gt;
@@ -48,7 +42,7 @@ import com.samaxes.filter.util.HTTPCacheHeader;
  * <p>
  * Map the filter to serve your dynamic resources:
  * </p>
- *
+ * <p/>
  * <pre>
  * &lt;!-- Using Servlet mapping --&gt;
  * &lt;filter-mapping&gt;
@@ -85,12 +79,14 @@ public class NoCacheFilter implements Filter {
      * {@inheritDoc}
      */
     @Override
-    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain)
-            throws IOException, ServletException {
+    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse,
+        FilterChain filterChain)
+        throws IOException, ServletException {
         HttpServletResponse httpServletResponse = (HttpServletResponse) servletResponse;
 
         // set cache directives
-        httpServletResponse.setHeader(HTTPCacheHeader.CACHE_CONTROL.getName(), "no-cache, no-store");
+        httpServletResponse
+            .setHeader(HTTPCacheHeader.CACHE_CONTROL.getName(), "no-cache, no-store");
         httpServletResponse.setDateHeader(HTTPCacheHeader.EXPIRES.getName(), 0L);
 
         filterChain.doFilter(servletRequest, servletResponse);

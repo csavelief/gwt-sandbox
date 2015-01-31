@@ -30,51 +30,51 @@ dependencies {
     compile group: 'com.google.gwt', name: 'gwt-user', version: '2.7.0'
     compile group: 'com.google.gwt', name: 'gwt-dev', version: '2.7.0'
     compile group: 'com.google.gwt', name: 'gwt-elemental', version: '2.7.0'
-	compile group: 'com.google.gwt', name: 'gwt-servlet', version: '2.7.0'
-	
-	// Runtime GWT libraries, should be included in WAR
-	compile fileTree(dir: webDir + '/WEB-INF/libs', include: '*.jar')
+    compile group: 'com.google.gwt', name: 'gwt-servlet', version: '2.7.0'
+
+    // Runtime GWT libraries, should be included in WAR
+    compile fileTree(dir: webDir + '/WEB-INF/libs', include: '*.jar')
 }
 
-task executeGwtCompiler (dependsOn: 'classes', type: JavaExec) {
+task executeGwtCompiler(dependsOn: 'classes', type: JavaExec) {
 
-	inputs.source sourceSets.main.java.srcDirs
-	inputs.dir sourceSets.main.output.resourcesDir
-	outputs.dir warDir
-	
-	main = 'com.google.gwt.dev.Compiler'
-	
-	classpath {
-		[
-			webDir + '/WEB-INF/libs',				// Misc. libraries
-			sourceSets.main.java.srcDirs,           // Java sources
-            sourceSets.main.output.resourcesDir,    // Generated resources
-            sourceSets.main.output.classesDir,      // Generated classes
-            sourceSets.main.compileClasspath,       // Misc. dependencies
-		]
-	}
-	args	gwtModuleName,
-			'-war', warDir,
+    inputs.source sourceSets.main.java.srcDirs
+    inputs.dir sourceSets.main.output.resourcesDir
+    outputs.dir warDir
+
+    main = 'com.google.gwt.dev.Compiler'
+
+    classpath {
+        [
+                webDir + '/WEB-INF/libs',                // Misc. libraries
+                sourceSets.main.java.srcDirs,           // Java sources
+                sourceSets.main.output.resourcesDir,    // Generated resources
+                sourceSets.main.output.classesDir,      // Generated classes
+                sourceSets.main.compileClasspath,       // Misc. dependencies
+        ]
+    }
+    args gwtModuleName,
+            '-war', warDir,
             '-extra', extraDir,
-			'-localWorkers', '2',
-			'-style', 'OBFUSCATED',
-			'-strict',
-			'-XdisableCastChecking',
-			'-XdisableClassMetadata',
-			'-XenableClosureCompiler'
+            '-localWorkers', '2',
+            '-style', 'OBFUSCATED',
+            '-strict',
+            '-XdisableCastChecking',
+            '-XdisableClassMetadata',
+            '-XenableClosureCompiler'
 }
 
-task packageAll (dependsOn: ['executeGwtCompiler']) {
-	copy {
+task packageAll(dependsOn: ['executeGwtCompiler']) {
+    copy {
         from webDir
         into warDir
     }
-	copy {
-		from sourceSets.main.output.classesDir
-		into (warDir + '/WEB-INF/libs')
-	}
-	copy {
-		from configurations.runtime
-		into (warDir + '/WEB-INF/libs')
-	}
+    copy {
+        from sourceSets.main.output.classesDir
+        into(warDir + '/WEB-INF/libs')
+    }
+    copy {
+        from configurations.runtime
+        into(warDir + '/WEB-INF/libs')
+    }
 }

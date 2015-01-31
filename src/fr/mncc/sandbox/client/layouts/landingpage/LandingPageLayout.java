@@ -21,27 +21,25 @@
 package fr.mncc.sandbox.client.layouts.landingpage;
 
 import com.google.gwt.core.client.GWT;
-import com.google.gwt.dom.client.*;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiTemplate;
-import com.google.gwt.user.client.DOM;
-import com.google.gwt.user.client.Window;
-import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Widget;
 import fr.mncc.sandbox.client.assets.SandboxConstants;
 import fr.mncc.sandbox.client.assets.SandboxResourceBundle;
+import fr.mncc.sandbox.client.widgets.Layout;
 
-public class LandingPageLayout extends Composite {
+public class LandingPageLayout extends Layout {
 
-    @UiTemplate("LandingPageLayout.ui.xml")
-    interface MyUiBinder extends UiBinder<Widget, LandingPageLayout> {}
+    @UiTemplate("LandingPageLayout.ui.xml") interface MyUiBinder
+        extends UiBinder<Widget, LandingPageLayout> {
+    }
+
+
     private static MyUiBinder uiBinder = GWT.create(MyUiBinder.class);
 
     @UiField SandboxResourceBundle res;
     @UiField SandboxConstants cons;
-
-    private MetaElement metaElement_;
 
     public LandingPageLayout() {
         initWidget(uiBinder.createAndBindUi(this));
@@ -52,27 +50,10 @@ public class LandingPageLayout extends Composite {
         super.onLoad();
 
         // Set page title & description
-        Window.setTitle(cons.landingPageTitle());
-
-        metaElement_ = DOM.createElement("meta").cast();
-        if (metaElement_ != null) {
-            metaElement_.setName("description");
-            metaElement_.setContent(cons.landingPageDescription());
-            Document.get().getHead().appendChild(metaElement_);
-        }
+        setLayoutTitle(cons.landingPageTitle());
+        setLayoutDescription(cons.landingPageDescription());
 
         // Inject layout stylesheet
         res.landingPageLayoutCssResource().ensureInjected();
-    }
-
-    @Override
-    protected void onUnload() {
-
-        // Remove elements added to file header
-        if (metaElement_ != null) {
-            metaElement_.removeFromParent();
-        }
-
-        super.onUnload();
     }
 }

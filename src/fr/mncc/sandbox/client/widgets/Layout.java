@@ -18,41 +18,43 @@
  *
  * @author http://www.mncc.fr
  */
-package fr.mncc.sandbox.client.layouts.blog;
+package fr.mncc.sandbox.client.widgets;
 
-import com.google.gwt.core.client.GWT;
-import com.google.gwt.uibinder.client.UiBinder;
-import com.google.gwt.uibinder.client.UiField;
-import com.google.gwt.uibinder.client.UiTemplate;
-import com.google.gwt.user.client.ui.Widget;
-import fr.mncc.sandbox.client.assets.SandboxConstants;
-import fr.mncc.sandbox.client.assets.SandboxResourceBundle;
-import fr.mncc.sandbox.client.widgets.Layout;
+import com.google.gwt.dom.client.Document;
+import com.google.gwt.dom.client.MetaElement;
+import com.google.gwt.user.client.DOM;
+import com.google.gwt.user.client.Window;
+import com.google.gwt.user.client.ui.Composite;
 
-public class BlogLayout extends Layout {
+public class Layout extends Composite {
 
-    @UiTemplate("BlogLayout.ui.xml") interface MyUiBinder extends UiBinder<Widget, BlogLayout> {
-    }
+    private MetaElement metaElement_;
 
+    public Layout() {
 
-    private static MyUiBinder uiBinder = GWT.create(MyUiBinder.class);
-
-    @UiField SandboxResourceBundle res;
-    @UiField SandboxConstants cons;
-
-    public BlogLayout() {
-        initWidget(uiBinder.createAndBindUi(this));
     }
 
     @Override
-    protected void onLoad() {
-        super.onLoad();
+    protected void onUnload() {
 
-        // Set page title & description
-        setLayoutTitle(cons.blogTitle());
-        setLayoutDescription(cons.blogDescription());
+        // Remove elements added to file header
+        if (metaElement_ != null) {
+            metaElement_.removeFromParent();
+        }
 
-        // Inject layout stylesheet
-        res.blogLayoutCssResource().ensureInjected();
+        super.onUnload();
+    }
+
+    public void setLayoutTitle(String title) {
+        Window.setTitle(title);
+    }
+
+    public void setLayoutDescription(String description) {
+        metaElement_ = DOM.createElement("meta").cast();
+        if (metaElement_ != null) {
+            metaElement_.setName("description");
+            metaElement_.setContent(description);
+            Document.get().getHead().appendChild(metaElement_);
+        }
     }
 }

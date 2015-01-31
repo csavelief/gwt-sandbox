@@ -14,11 +14,11 @@ import java.util.Date;
 
 /**
  * <p>Ensure that resources that contain .cache. in their file name ARE cached.</p>
- *
+ * <p/>
  * <p>Ensure that resources that contain .nocache. in their file name ARE NOT cached.</p>
- *
+ * <p/>
  * <p>Declare the filter in your web descriptor file {@code web.xml}:</p>
- *
+ * <p/>
  * <pre>
  * &lt;filter&gt;
  *     &lt;filter-name&gt;GwtCacheFilter&lt;/filter-name&gt;
@@ -29,9 +29,9 @@ import java.util.Date;
  *     &lt;/init-param&gt;
  * &lt;/filter&gt;
  * </pre>
- *
+ * <p/>
  * <p>Map the filter to serve your static resources:</p>
- *
+ * <p/>
  * <pre>
  * &lt;filter-mapping&gt;
  *     &lt;filter-name&gt;GwtCacheFilter&lt;/filter-name&gt;
@@ -45,7 +45,8 @@ public class GwtCacheFilter extends CacheFilter {
      * {@inheritDoc}
      */
     @Override
-    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain)
+    public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse,
+        FilterChain filterChain)
         throws IOException, ServletException {
 
         final HttpServletRequest httpServletRequest = (HttpServletRequest) servletRequest;
@@ -54,8 +55,7 @@ public class GwtCacheFilter extends CacheFilter {
 
         if (requestedURI.contains(".cache.")) {
             super.doFilter(servletRequest, servletResponse, filterChain);
-        }
-        else if (requestedURI.contains(".nocache.")) {
+        } else if (requestedURI.contains(".nocache.")) {
 
             final Date now = new Date();
 
@@ -63,7 +63,8 @@ public class GwtCacheFilter extends CacheFilter {
             httpServletResponse.setDateHeader(HTTPCacheHeader.DATE.getName(), now.getTime());
 
             // Set modify date to current timestamp
-            httpServletResponse.setDateHeader(HTTPCacheHeader.LAST_MODIFIED.getName(), now.getTime());
+            httpServletResponse
+                .setDateHeader(HTTPCacheHeader.LAST_MODIFIED.getName(), now.getTime());
 
             // Set expiry to back in the past (makes us a bad candidate for caching)
             httpServletResponse.setDateHeader(HTTPCacheHeader.EXPIRES.getName(), 0);
@@ -74,11 +75,11 @@ public class GwtCacheFilter extends CacheFilter {
             // HTTP 1.1 (disable caching of any kind)
             // HTTP 1.1 'pre-check=0, post-check=0' => (Internet Explorer should always check)
             // Note: no-store is not included here as it will disable offline application storage on Firefox
-            httpServletResponse.setHeader(HTTPCacheHeader.CACHE_CONTROL.getName(), "no-cache, must-revalidate, pre-check=0, post-check=0");
+            httpServletResponse.setHeader(HTTPCacheHeader.CACHE_CONTROL.getName(),
+                "no-cache, must-revalidate, pre-check=0, post-check=0");
 
             filterChain.doFilter(servletRequest, httpServletResponse);
-        }
-        else {
+        } else {
             filterChain.doFilter(servletRequest, httpServletResponse);
         }
     }

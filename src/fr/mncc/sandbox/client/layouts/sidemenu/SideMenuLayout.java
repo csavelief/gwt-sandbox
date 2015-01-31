@@ -21,25 +21,28 @@
 package fr.mncc.sandbox.client.layouts.sidemenu;
 
 import com.google.gwt.core.client.GWT;
-import com.google.gwt.dom.client.*;
-import com.google.gwt.resources.client.ClientBundle;
+import com.google.gwt.dom.client.AnchorElement;
+import com.google.gwt.dom.client.DivElement;
+import com.google.gwt.dom.client.Element;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiTemplate;
 import com.google.gwt.user.client.DOM;
 import com.google.gwt.user.client.Event;
 import com.google.gwt.user.client.EventListener;
-import com.google.gwt.user.client.Window;
-import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.HTMLPanel;
 import com.google.gwt.user.client.ui.Widget;
 import fr.mncc.sandbox.client.assets.SandboxConstants;
 import fr.mncc.sandbox.client.assets.SandboxResourceBundle;
+import fr.mncc.sandbox.client.widgets.Layout;
 
-public class SideMenuLayout extends Composite {
+public class SideMenuLayout extends Layout {
 
-    @UiTemplate("SideMenuLayout.ui.xml")
-    interface MyUiBinder extends UiBinder<Widget, SideMenuLayout> {}
+    @UiTemplate("SideMenuLayout.ui.xml") interface MyUiBinder
+        extends UiBinder<Widget, SideMenuLayout> {
+    }
+
+
     private static MyUiBinder uiBinder = GWT.create(MyUiBinder.class);
 
     @UiField SandboxResourceBundle res;
@@ -47,8 +50,6 @@ public class SideMenuLayout extends Composite {
     @UiField HTMLPanel layout;
     @UiField DivElement menu;
     @UiField AnchorElement menuLink;
-
-    private MetaElement metaElement_;
 
     public SideMenuLayout() {
         initWidget(uiBinder.createAndBindUi(this));
@@ -59,14 +60,8 @@ public class SideMenuLayout extends Composite {
         super.onLoad();
 
         // Set page title & description
-        Window.setTitle(cons.sideMenuTitle());
-
-        metaElement_ = DOM.createElement("meta").cast();
-        if (metaElement_ != null) {
-            metaElement_.setName("description");
-            metaElement_.setContent(cons.sideMenuDescription());
-            Document.get().getHead().appendChild(metaElement_);
-        }
+        setLayoutTitle(cons.sideMenuTitle());
+        setLayoutDescription(cons.sideMenuDescription());
 
         // Inject layout stylesheet
         SandboxResourceBundle.INSTANCE.sideMenuLayoutCssResource().ensureInjected();
@@ -92,11 +87,6 @@ public class SideMenuLayout extends Composite {
         // Remove click event handler in order to avoid memory leaks
         DOM.setEventListener(menuLink, null);
 
-        // Remove elements added to file header
-        if (metaElement_ != null) {
-            metaElement_.removeFromParent();
-        }
-
         super.onUnload();
     }
 
@@ -104,11 +94,9 @@ public class SideMenuLayout extends Composite {
         String elementClasses = element.getClassName();
         if (elementClasses == null) {
             element.setClassName(className);
-        }
-        else if (elementClasses.contains(className)) {
+        } else if (elementClasses.contains(className)) {
             element.setClassName(elementClasses.replace(className, ""));
-        }
-        else {
+        } else {
             element.setClassName(elementClasses + " " + className);
         }
     }

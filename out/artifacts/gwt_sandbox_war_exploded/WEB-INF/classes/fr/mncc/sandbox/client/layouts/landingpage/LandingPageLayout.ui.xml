@@ -2,20 +2,27 @@
              xmlns:g='urn:import:com.google.gwt.user.client.ui'>
 
     <!-- Access to texts, images and styles -->
-    <ui:with field='res' type="fr.mncc.sandbox.client.assets.SandboxResourceBundle" />
+    <ui:with field='res' type="fr.mncc.sandbox.client.assets.SandboxResourceBundle"/>
 
     <!-- Access to constants -->
-    <ui:with field='cons' type="fr.mncc.sandbox.client.assets.SandboxConstants" />
+    <ui:with field='cons' type="fr.mncc.sandbox.client.assets.SandboxConstants"/>
 
     <g:HTMLPanel>
         <div>
             <div class="{res.landingPageLayoutCssResource.home_menu} {res.landingPageLayoutCssResource.pure_menu} {res.landingPageLayoutCssResource.pure_menu_open} {res.landingPageLayoutCssResource.pure_menu_horizontal} {res.landingPageLayoutCssResource.pure_menu_fixed}">
-                <a class="{res.landingPageLayoutCssResource.pure_menu_heading}" href="">Your Site</a>
+                <a class="{res.landingPageLayoutCssResource.pure_menu_heading}" href="">Your Site
+                </a>
 
                 <ul>
-                    <li class="{res.landingPageLayoutCssResource.pure_menu_selected}"><a href="#!/sidemenu">Home</a></li>
-                    <li><a href="#!/sidemenu">Tour</a></li>
-                    <li><a href="#!/sidemenu">Sign Up</a></li>
+                    <li class="{res.landingPageLayoutCssResource.pure_menu_selected}">
+                        <a href="#!/sidemenu">Home</a>
+                    </li>
+                    <li>
+                        <a href="#!/sidemenu">Tour</a>
+                    </li>
+                    <li>
+                        <a href="#!/sidemenu">Sign Up</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -27,14 +34,19 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
                 <p>
-                    <a href="http://purecss.io" class="{res.landingPageLayoutCssResource.pure_button} {res.landingPageLayoutCssResource.pure_button_primary}">Get Started</a>
+                    <a href="http://purecss.io"
+                       class="{res.landingPageLayoutCssResource.pure_button} {res.landingPageLayoutCssResource.pure_button_primary}">
+                        Get Started
+                    </a>
                 </p>
             </div>
         </div>
 
         <div class="{res.landingPageLayoutCssResource.content_wrapper}">
             <div class="{res.landingPageLayoutCssResource.content}">
-                <h2 class="{res.landingPageLayoutCssResource.content_head} {res.landingPageLayoutCssResource.is_center}">Excepteur sint occaecat cupidatat.</h2>
+                <h2 class="{res.landingPageLayoutCssResource.content_head} {res.landingPageLayoutCssResource.is_center}">
+                    Excepteur sint occaecat cupidatat.
+                </h2>
 
                 <div class="{res.landingPageLayoutCssResource.pure_g}">
                     <div class="{res.landingPageLayoutCssResource.l_box} {res.landingPageLayoutCssResource.pure_u_1} {res.landingPageLayoutCssResource.pure_u_md_1_2} {res.landingPageLayoutCssResource.pure_u_lg_1_4}">
@@ -79,11 +91,14 @@
 
             <div class="{res.landingPageLayoutCssResource.ribbon} {res.landingPageLayoutCssResource.l_box_lrg} {res.landingPageLayoutCssResource.pure_g}">
                 <div class="{res.landingPageLayoutCssResource.l_box_lrg} {res.landingPageLayoutCssResource.is_center} {res.landingPageLayoutCssResource.pure_u_1} {res.landingPageLayoutCssResource.pure_u_md_1_2} {res.landingPageLayoutCssResource.pure_u_lg_2_5}">
-                    <img class="{res.landingPageLayoutCssResource.pure_img_responsive}" alt="File Icons" width="300" src="{res.fileIcons.getSafeUri}" />
+                    <img class="{res.landingPageLayoutCssResource.pure_img_responsive}"
+                         alt="File Icons" width="300" src="{res.fileIcons.getSafeUri}"/>
                 </div>
                 <div class="{res.landingPageLayoutCssResource.pure_u_1} {res.landingPageLayoutCssResource.pure_u_md_1_2} {res.landingPageLayoutCssResource.pure_u_lg_3_5}">
 
-                    <h2 class="{res.landingPageLayoutCssResource.content_head} {res.landingPageLayoutCssResource.content_head_ribbon}">Laboris nisi ut aliquip.</h2>
+                    <h2 class="{res.landingPageLayoutCssResource.content_head} {res.landingPageLayoutCssResource.content_head_ribbon}">
+                        Laboris nisi ut aliquip.
+                    </h2>
 
                     <p>
                         <ui:text from="{cons.loremIpsum}"/>
@@ -92,7 +107,9 @@
             </div>
 
             <div class="{res.landingPageLayoutCssResource.content}">
-                <h2 class="{res.landingPageLayoutCssResource.content_head} {res.landingPageLayoutCssResource.is_center}">Dolore magna aliqua. Uis aute irure.</h2>
+                <h2 class="{res.landingPageLayoutCssResource.content_head} {res.landingPageLayoutCssResource.is_center}">
+                    Dolore magna aliqua. Uis aute irure.
+                </h2>
 
                 <div class="{res.landingPageLayoutCssResource.pure_g}">
                     <div class="{res.landingPageLayoutCssResource.l_box_lrg} {res.landingPageLayoutCssResource.pure_u_1} {res.landingPageLayoutCssResource.pure_u_md_2_5}">
@@ -109,7 +126,10 @@
                                 <label for="password">Your Password</label>
                                 <input id="password" type="password" placeholder="Your Password"/>
 
-                                <button type="submit" class="{res.landingPageLayoutCssResource.pure_button}">Sign Up</button>
+                                <button type="submit"
+                                        class="{res.landingPageLayoutCssResource.pure_button}">Sign
+                                    Up
+                                </button>
                             </fieldset>
                         </form>
                     </div>
