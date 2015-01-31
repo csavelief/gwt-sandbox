@@ -7,27 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d831d7c3-94f9-47f5-8c29-74837df0577a" name="Default" comment="Add pure css responsive grids.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/LandingPage.gss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/LandingPageLayoutCssResource.java" />
-      <change type="DELETED" beforePath="C:\git\gwt-sandbox\web\sandbox.css" afterPath="" />
-      <change type="MOVED" beforePath="C:\git\gwt-sandbox\src\fr\mncc\gwttoolbox\purecssframework\client\GridsResponsive.java" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/PureCssResponsiveFramework.java" />
-      <change type="MOVED" beforePath="C:\git\gwt-sandbox\src\fr\mncc\sandbox\client\assets\SideMenuLayoutCss.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SideMenuLayoutCssResource.java" />
+      <change type="DELETED" beforePath="C:\git\gwt-sandbox\src\fr\mncc\sandbox\client\assets\files\LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\gwt-sandbox\src\fr\mncc\sandbox\client\assets\files\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\gwt-sandbox\src\fr\mncc\sandbox\client\assets\styles\LandingPageExtra.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\git\gwt-sandbox\src\fr\mncc\sandbox\client\assets\styles\SideMenuExtra.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/PureCssFrameworkResourceBundle.java" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/PureCssFrameworkResourceBundle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.properties" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants_en.properties" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants_en.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/LandingPage.gss" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/LandingPage.gss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxResourceBundle.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxResourceBundle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/SideMenuLayout.gss" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/SideMenuLayout.gss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/sandbox.html" afterPath="$PROJECT_DIR$/web/sandbox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gwt-sandbox.iws" />
@@ -64,21 +57,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SandboxResourceBundle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxResourceBundle.java">
+      <file leaf-file-name="SideMenuLayout.ui.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10572139" vertical-offset="0" max-vertical-offset="804">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1309">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LandingPageLayout.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.java">
+      <file leaf-file-name="SideMenuLayout.gss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/SideMenuLayout.gss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.781491" vertical-offset="3064" max-vertical-offset="4879">
+              <caret line="216" column="9" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -126,12 +119,10 @@
         <option value="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/filters/server/GwtCacheFilter.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/SideMenuLayout.java" />
-        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml" />
         <option value="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/grids-responsive.css" />
         <option value="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/grids-responsive.gss" />
         <option value="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/pure.gss" />
         <option value="$PROJECT_DIR$/web/sandbox.html" />
-        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.properties" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants_en.properties" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.java" />
@@ -139,14 +130,18 @@
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SideMenuLayoutCss.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/LandingPageLayoutCss.java" />
-        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/LandingPage.gss" />
-        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxResourceBundle.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/GridsResponsive.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/PureCssResponsiveFramework.java" />
-        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/LandingPageLayoutCssResource.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/PureCssFrameworkResourceBundle.java" />
         <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/LandingPageExtra.css" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/LandingPage.gss" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxResourceBundle.java" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.java" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml" />
+        <option value="$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/SideMenuLayout.gss" />
       </list>
     </option>
   </component>
@@ -698,7 +693,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="939" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -715,7 +710,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -971,14 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40547264" vertical-offset="116" max-vertical-offset="1309">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/gwttoolbox/router/client/Route.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19029851" vertical-offset="0" max-vertical-offset="4097">
@@ -1085,14 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40920398" vertical-offset="300" max-vertical-offset="1479">
-          <caret line="72" column="48" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42910448" vertical-offset="437" max-vertical-offset="1258">
@@ -1121,30 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/LandingPageExtra.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="804">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/SideMenuExtra.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="804">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/SideMenuLayout.gss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0982587" vertical-offset="1616" max-vertical-offset="4811">
-          <caret line="147" column="27" selection-start-line="147" selection-start-column="22" selection-end-line="147" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/PureCssResponsiveFramework.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10572139" vertical-offset="0" max-vertical-offset="6477">
@@ -1157,14 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16915423" vertical-offset="0" max-vertical-offset="3468">
           <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1190,8 +1137,24 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17480719" vertical-offset="0" max-vertical-offset="5746">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6205">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxResourceBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="56" column="83" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1204,10 +1167,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxResourceBundle.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10572139" vertical-offset="0" max-vertical-offset="804">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.07835821" vertical-offset="260" max-vertical-offset="1377">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1309">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/SideMenuLayout.gss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.781491" vertical-offset="3064" max-vertical-offset="4879">
+          <caret line="216" column="9" selection-start-line="216" selection-start-column="9" selection-end-line="216" selection-end-column="9" />
           <folding />
         </state>
       </provider>

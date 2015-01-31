@@ -1,6 +1,10 @@
 /* Use @external <class name> if class name should not be obfuscated */
 /* Use @url <constant name> <DataResource method name> if resource should be loaded from bundle */
 
+body {
+    color: #777;
+}
+
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
@@ -190,27 +194,27 @@ small screens.
         background: #000;
     }
 
-    .menu-link span {
+    a.menu-link span {
         position: relative;
         display: block;
     }
 
-    .menu-link span,
-    .menu-link span:before,
-    .menu-link span:after {
+    a.menu-link span,
+    a.menu-link span:before,
+    a.menu-link span:after {
         background-color: #fff;
         width: 100%;
         height: 0.2em;
     }
 
-        .menu-link span:before,
-        .menu-link span:after {
+        a.menu-link span:before,
+        a.menu-link span:after {
             position: absolute;
             margin-top: -0.6em;
             content: " ";
         }
 
-        .menu-link span:after {
+        a.menu-link span:after {
             margin-top: 0.6em;
         }
 

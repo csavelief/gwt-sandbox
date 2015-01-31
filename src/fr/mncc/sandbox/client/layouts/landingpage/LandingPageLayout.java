@@ -37,7 +37,6 @@ public class LandingPageLayout extends Composite {
     interface MyUiBinder extends UiBinder<Widget, LandingPageLayout> {}
     private static MyUiBinder uiBinder = GWT.create(MyUiBinder.class);
 
-    private StyleElement scriptElementLandingPageCss_;
     private MetaElement metaElement_;
 
     public LandingPageLayout() {
@@ -59,8 +58,6 @@ public class LandingPageLayout extends Composite {
         }
 
         // Inject layout stylesheet
-        scriptElementLandingPageCss_ = StyleInjector.injectStylesheet(
-            SandboxResourceBundle.INSTANCE.landingPageLayoutExtraCss().getText());
         SandboxResourceBundle.INSTANCE.landingPageLayoutCssResource().ensureInjected();
     }
 
@@ -70,9 +67,6 @@ public class LandingPageLayout extends Composite {
         // Remove elements added to file header
         if (metaElement_ != null) {
             metaElement_.removeFromParent();
-        }
-        if (scriptElementLandingPageCss_ != null) {
-            scriptElementLandingPageCss_.removeFromParent();
         }
 
         super.onUnload();

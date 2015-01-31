@@ -48,11 +48,11 @@ public interface SandboxResourceBundle extends ClientBundle {
 
     @Source("images/file-icons.png") ImageResource fileIcons();
 
-    @Source("files/LICENSE.md") ExternalTextResource license();
+    @Source("files/SIDEMENULICENSE.md") ExternalTextResource sideMenuLicense();
 
-    @Source("files/README.md") ExternalTextResource readme();
+    @Source("files/SIDEMENUREADME.md") ExternalTextResource sideMenuReadme();
 
-    @Source("styles/LandingPageExtra.css") TextResource landingPageLayoutExtraCss();
+    @Source("files/LANDINGPAGELICENSE.md") ExternalTextResource landingPageLicense();
 
-    @Source("styles/SideMenuExtra.css") TextResource sideMenuLayoutExtraCss();
+    @Source("files/LANDINGPAGEREADME.md") ExternalTextResource landingPageReadme();
 }

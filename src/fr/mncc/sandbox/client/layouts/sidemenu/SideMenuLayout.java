@@ -45,7 +45,6 @@ public class SideMenuLayout extends Composite {
     @UiField DivElement menu;
     @UiField AnchorElement menuLink;
 
-    private StyleElement scriptElementSideMenuCss_;
     private MetaElement metaElement_;
 
     public SideMenuLayout() {
@@ -67,8 +66,6 @@ public class SideMenuLayout extends Composite {
         }
 
         // Inject layout stylesheet
-        scriptElementSideMenuCss_ = StyleInjector.injectStylesheet(
-            SandboxResourceBundle.INSTANCE.sideMenuLayoutExtraCss().getText());
         SandboxResourceBundle.INSTANCE.sideMenuLayoutCssResource().ensureInjected();
 
         // Bind click event to menu button
@@ -95,9 +92,6 @@ public class SideMenuLayout extends Composite {
         // Remove elements added to file header
         if (metaElement_ != null) {
             metaElement_.removeFromParent();
-        }
-        if (scriptElementSideMenuCss_ != null) {
-            scriptElementSideMenuCss_.removeFromParent();
         }
 
         super.onUnload();

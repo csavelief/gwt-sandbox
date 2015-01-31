@@ -1,6 +1,33 @@
 /* Use @external <class name> if class name should not be obfuscated */
 /* Use @url <constant name> <DataResource method name> if resource should be loaded from bundle */
 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*
+ * -- BASE STYLES --
+ * Most of these are inherited from Base, but I want to change a few.
+ */
+
+body {
+    line-height: 1.7em;
+    color: #7f8c8d;
+    font-size: 13px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #34495e;
+}
+
 .pure-img-responsive {
     max-width: 100%;
     height: auto;

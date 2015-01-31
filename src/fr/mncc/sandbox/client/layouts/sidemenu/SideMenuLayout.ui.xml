@@ -10,7 +10,7 @@
     <g:HTMLPanel ui:field="layout" addStyleNames="{res.sideMenuLayoutCssResource.app_layout}">
 
         <!-- Menu toggle -->
-        <a href="#menu" ui:field="menuLink" class="{res.sideMenuLayoutCssResource.menu_link}">
+        <a href="" ui:field="menuLink" class="{res.sideMenuLayoutCssResource.menu_link}">
             <!-- Hamburger icon -->
             <span></span>
         </a>
