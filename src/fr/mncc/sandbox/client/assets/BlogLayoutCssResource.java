@@ -27,4 +27,49 @@ import fr.mncc.gwttoolbox.purecssframework.client.PureCssResponsiveFramework;
  */
 public interface BlogLayoutCssResource extends PureCssResponsiveFramework {
 
+    @ClassName("post-category") String post_category();
+
+    @ClassName("post-category-pure") String post_category_pure();
+
+    @ClassName("content-subhead") String content_subhead();
+
+    @ClassName("post-title") String post_title();
+
+    @ClassName("nav-list") String nav_list();
+
+    String post();
+
+    @ClassName("post-image-meta") String post_image_meta();
+
+    @ClassName("post-category-design") String post_category_design();
+
+    @ClassName("post-meta") String post_meta();
+
+    String sidebar();
+
+    @ClassName("nav-item") String nav_item();
+
+    @ClassName("post-description") String post_description();
+
+    @ClassName("brand-tagline") String brand_tagline();
+
+    String header();
+
+    String content();
+
+    @ClassName("post-category-js") String post_category_js();
+
+    String footer();
+
+    @ClassName("post-category-yui") String post_category_yui();
+
+    @ClassName("pure-img-responsive") String pure_img_responsive();
+
+    String layout();
+
+    @ClassName("post-avatar") String post_avatar();
+
+    @ClassName("post-images") String post_images();
+
+    @ClassName("brand-title") String brand_title();
 }

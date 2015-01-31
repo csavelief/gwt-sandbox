@@ -136,4 +136,8 @@ public interface SandboxConstants extends Constants {
     public String moreInformation();
 
     public String viewTheSource();
+
+    public String github();
+    
+    public String twitter();
 }

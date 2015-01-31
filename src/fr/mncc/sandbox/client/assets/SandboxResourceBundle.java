@@ -57,6 +57,10 @@ public interface SandboxResourceBundle extends ClientBundle {
 
     @Source("images/9121446012_c1640e42d0.jpg") ImageResource img4();
 
+    @Source("images/8907351301_bd7460cffb.jpg") ImageResource img5();
+
+    @Source("images/8915936174_8d54ec76c6.jpg") ImageResource img6();
+
     @Source("images/file-icons.png") ImageResource fileIcons();
 
     @Source("files/SIDEMENULICENSE.md") ExternalTextResource sideMenuLicense();
