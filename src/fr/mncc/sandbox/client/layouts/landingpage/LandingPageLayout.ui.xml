@@ -10,7 +10,7 @@
     <g:HTMLPanel>
         <div>
             <div class="{res.landingPageLayoutCssResource.home_menu} {res.landingPageLayoutCssResource.pure_menu} {res.landingPageLayoutCssResource.pure_menu_open} {res.landingPageLayoutCssResource.pure_menu_horizontal} {res.landingPageLayoutCssResource.pure_menu_fixed}">
-                <a class="{res.landingPageLayoutCssResource.pure_menu_heading}" href="">
+                <a class="{res.landingPageLayoutCssResource.pure_menu_heading}" href="#">
                     <ui:text from="{cons.yourSite}"/>
                 </a>
                 <ul>

@@ -121,9 +121,9 @@
                 <div class="{res.blogLayoutCssResource.footer}">
                     <div class="{res.blogLayoutCssResource.pure_menu} {res.blogLayoutCssResource.pure_menu_horizontal} {res.blogLayoutCssResource.pure_menu_open}">
                         <ul>
-                            <li><a href="http://purecss.io/"><ui:text from="{cons.about}"/></a></li>
-                            <li><a href="http://twitter.com/yuilibrary/"><ui:text from="{cons.twitter}"/></a></li>
-                            <li><a href="http://github.com/yahoo/pure/"><ui:text from="{cons.github}"/></a></li>
+                            <li><a href="http://purecss.io/"><ui:text from="cons.about"/></a></li>
+                            <li><a href="http://twitter.com/yuilibrary/"><ui:text from="cons.twitter"/></a></li>
+                            <li><a href="http://github.com/yahoo/pure/"><ui:text from="cons.github"/></a></li>
                         </ul>
                     </div>
                 </div>
