@@ -24,8 +24,6 @@ import com.google.gwt.core.client.GWT;
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.ExternalTextResource;
 import com.google.gwt.resources.client.ImageResource;
-import com.google.gwt.resources.client.TextResource;
-import fr.mncc.gwttoolbox.purecssframework.client.PureCssFrameworkResourceBundle;
 
 public interface SandboxResourceBundle extends ClientBundle {
 
@@ -36,7 +34,19 @@ public interface SandboxResourceBundle extends ClientBundle {
 
     @Source({"../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/pure.gss",
         "../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/grids-responsive.gss",
-        "styles/LandingPage.gss"}) LandingPageLayoutCssResource landingPageLayoutCssResource();
+        "styles/LandingPageLayout.gss"}) LandingPageLayoutCssResource landingPageLayoutCssResource();
+
+    @Source({"../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/pure.gss",
+        "../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/grids-responsive.gss",
+        "styles/BlogLayout.gss"}) BlogLayoutCssResource blogLayoutCssResource();
+
+    @Source("images/andrew-avatar.png") ImageResource andrewAvatar();
+
+    @Source("images/ericf-avatar.png") ImageResource ericfAvatar();
+
+    @Source("images/reid-avatar.png") ImageResource reidAvatar();
+
+    @Source("images/tilo-avatar.png") ImageResource tiloAvatar();
 
     @Source("images/9069037713_1752f5daeb.jpg") ImageResource img1();
 
@@ -55,4 +65,8 @@ public interface SandboxResourceBundle extends ClientBundle {
     @Source("files/LANDINGPAGELICENSE.md") ExternalTextResource landingPageLicense();
 
     @Source("files/LANDINGPAGEREADME.md") ExternalTextResource landingPageReadme();
+
+    @Source("files/BLOGLICENSE.md") ExternalTextResource blogLicense();
+
+    @Source("files/BLOGREADME.md") ExternalTextResource blogReadme();
 }

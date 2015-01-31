@@ -13,9 +13,9 @@
                 <a class="{res.landingPageLayoutCssResource.pure_menu_heading}" href="">Your Site</a>
 
                 <ul>
-                    <li class="{res.landingPageLayoutCssResource.pure_menu_selected}"><a href="#!/sidemenu">Home</a></li>
-                    <li><a href="#!/sidemenu">Tour</a></li>
-                    <li><a href="#!/sidemenu">Sign Up</a></li>
+                    <li class="{res.landingPageLayoutCssResource.pure_menu_selected}"><a href="#!/landingpage">Home</a></li>
+                    <li><a href="#!/sidemenu">Side Menu</a></li>
+                    <li><a href="#!/blog">Blog</a></li>
                 </ul>
             </div>
         </div>
