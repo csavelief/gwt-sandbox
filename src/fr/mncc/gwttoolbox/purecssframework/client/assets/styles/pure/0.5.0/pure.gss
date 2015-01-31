@@ -19,8 +19,6 @@ https://github.com/yui/pure/blob/master/LICENSE.md
 
 @if (is("ie6") || is("ie7")) {
     .pure-g {
-        letter-spacing: -0.31em; /* Webkit: collapse white-space between units */
-        /* @alternate */
         letter-spacing: normal; /* reset IE < 8 */
         word-spacing: -0.43em; /* IE < 8: collapse white-space between units */
         text-rendering: optimizespeed; /* Webkit: fixes text-rendering: optimizeLegibility */
@@ -108,8 +106,6 @@ https://github.com/yui/pure/blob/master/LICENSE.md
 
 @if (is("ie6") || is("ie7")) {
     .pure-u {
-        display: inline-block;
-        /* @alternate */
         display: inline; /* IE < 8: fake inline-block */
         zoom: 1;
         letter-spacing: normal;
@@ -184,8 +180,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
     .pure-u-22-24,
     .pure-u-23-24,
     .pure-u-24-24 {
-        display: inline-block;
-        /* @alternate */
         display: inline;
         zoom: 1;
         letter-spacing: normal;
@@ -252,8 +246,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 
 @if (is("ie6") || is("ie7")) {
     .pure-u-1-24 {
-        width: 4.1667%;
-        /* @alternate */
         width: 4.1357%;
     }
 }
@@ -266,8 +258,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-1-12,
     .pure-u-2-24 {
-        width: 8.3333%;
-        /* @alternate */
         width: 8.3023%;
     }
 }
@@ -281,8 +271,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-1-8,
     .pure-u-3-24 {
-        width: 12.5000%;
-        /* @alternate */
         width: 12.4690%;
     }
 }
@@ -296,8 +284,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-1-6,
     .pure-u-4-24 {
-        width: 16.6667%;
-        /* @alternate */
         width: 16.6357%;
     }
 }
@@ -310,8 +296,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 
 @if (is("ie6") || is("ie7")) {
     .pure-u-1-5 {
-        width: 20%;
-        /* @alternate */
         width: 19.9690%;
     }
 }
@@ -323,8 +307,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 
 @if (is("ie6") || is("ie7")) {
     .pure-u-5-24 {
-        width: 20.8333%;
-        /* @alternate */
         width: 20.8023%;
     }
 }
@@ -337,8 +319,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-1-4,
     .pure-u-6-24 {
-        width: 25%;
-        /* @alternate */
         width: 24.9690%;
     }
 }
@@ -351,8 +331,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 
 @if (is("ie6") || is("ie7")) {
     .pure-u-7-24 {
-        width: 29.1667%;
-        /* @alternate */
         width: 29.1357%;
     }
 }
@@ -365,8 +343,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-1-3,
     .pure-u-8-24 {
-        width: 33.3333%;
-        /* @alternate */
         width: 33.3023%;
     }
 }
@@ -380,8 +356,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-3-8,
     .pure-u-9-24 {
-        width: 37.5000%;
-        /* @alternate */
         width: 37.4690%;
     }
 }
@@ -394,8 +368,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 
 @if (is("ie6") || is("ie7")) {
     .pure-u-2-5 {
-        width: 40%;
-        /* @alternate */
         width: 39.9690%;
     }
 }
@@ -408,8 +380,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-5-12,
     .pure-u-10-24 {
-        width: 41.6667%;
-        /* @alternate */
         width: 41.6357%;
     }
 }
@@ -422,8 +392,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 
 @if (is("ie6") || is("ie7")) {
     .pure-u-11-24 {
-        width: 45.8333%;
-        /* @alternate */
         width: 45.8023%;
     }
 }
@@ -436,8 +404,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-1-2,
     .pure-u-12-24 {
-        width: 50%;
-        /* @alternate */
         width: 49.9690%;
     }
 }
@@ -450,8 +416,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 
 @if (is("ie6") || is("ie7")) {
     .pure-u-13-24 {
-        width: 54.1667%;
-        /* @alternate */
         width: 54.1357%;
     }
 }
@@ -464,8 +428,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-7-12,
     .pure-u-14-24 {
-        width: 58.3333%;
-        /* @alternate */
         width: 58.3023%;
     }
 }
@@ -478,8 +440,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 
 @if (is("ie6") || is("ie7")) {
     .pure-u-3-5 {
-        width: 60%;
-        /* @alternate */
         width: 59.9690%;
     }
 }
@@ -492,8 +452,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-5-8,
     .pure-u-15-24 {
-        width: 62.5000%;
-        /* @alternate */
         width: 62.4690%;
     }
 }
@@ -507,8 +465,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-2-3,
     .pure-u-16-24 {
-        width: 66.6667%;
-        /* @alternate */
         width: 66.6357%;
     }
 }
@@ -521,8 +477,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 
 @if (is("ie6") || is("ie7")) {
     .pure-u-17-24 {
-        width: 70.8333%;
-        /* @alternate */
         width: 70.8023%;
     }
 }
@@ -535,8 +489,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-3-4,
     .pure-u-18-24 {
-        width: 75%;
-        /* @alternate */
         width: 74.9690%;
     }
 }
@@ -549,8 +501,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 
 @if (is("ie6") || is("ie7")) {
     .pure-u-19-24 {
-        width: 79.1667%;
-        /* @alternate */
         width: 79.1357%;
     }
 }
@@ -562,8 +512,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 
 @if (is("ie6") || is("ie7")) {
     .pure-u-4-5 {
-        width: 80%;
-        /* @alternate */
         width: 79.9690%;
     }
 }
@@ -576,8 +524,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-5-6,
     .pure-u-20-24 {
-        width: 83.3333%;
-        /* @alternate */
         width: 83.3023%;
     }
 }
@@ -591,8 +537,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-7-8,
     .pure-u-21-24 {
-        width: 87.5000%;
-        /* @alternate */
         width: 87.4690%;
     }
 }
@@ -606,8 +550,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-u-11-12,
     .pure-u-22-24 {
-        width: 91.6667%;
-        /* @alternate */
         width: 91.6357%;
     }
 }
@@ -620,8 +562,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 
 @if (is("ie6") || is("ie7")) {
     .pure-u-23-24 {
-        width: 95.8333%;
-        /* @alternate */
         width: 95.8023%;
     }
 }
@@ -640,8 +580,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
     }
     .pure-button {
         /* Structure */
-        display: inline-block;
-        /* @alternate */
         display: inline; /*IE 6/7*/
         zoom: 1;
         line-height: normal;
@@ -692,8 +630,6 @@ this the same font stack that Normalize.appCss sets for the `body`.
 @if (is("ie6") || is("ie7")) {
     .pure-button {
         font-family: inherit;
-        font-size: 100%;
-        /* @alternate */
         font-size: 90%; /*IE 6/7 - To reduce IE's oversized button text*/
         overflow: visible; /*IE 6/7 - Because of IE's overly large left/right padding on buttons */
         padding: 0.5em 1em;
@@ -850,8 +786,6 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     .pure-form input[type="color"]:focus,
     .pure-form select:focus,
     .pure-form textarea:focus {
-        outline: 0;
-        /* @alternate */
         outline: thin dotted; /* outline: thin dotted \9; IE6-9 */
         border-color: #129FEA;
     }
@@ -884,8 +818,6 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 */
 @if (is("ie6") || is("ie7") || is("ie8") || is("ie9")) {
     .pure-form input:not([type]):focus {
-        outline: 0;
-        /* @alternate */
         outline: thin dotted; /* outline: thin dotted \9; IE6-9 */
         border-color: #129FEA;
     }
@@ -1025,8 +957,6 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     /* NOTE: pure-help-inline is deprecated. Use .pure-form-message-inline instead. */
     .pure-form-aligned .pure-help-inline,
     .pure-form-message-inline {
-        display: inline-block;
-        /* @alternate */
         display: inline;
         zoom: 1;
         vertical-align: middle;
@@ -1247,8 +1177,6 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 
 @if (is("ie6") || is("ie7")) {
     .pure-menu.pure-menu-horizontal > .pure-menu-heading {
-        display: inline-block;
-        /* @alternate */
         display: inline;
         zoom: 1;
         margin: 0;
@@ -1266,8 +1194,6 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 
 @if (is("ie6") || is("ie7")) {
     .pure-menu.pure-menu-horizontal > ul {
-        display: inline-block;
-        /* @alternate */
         display: inline;
         zoom: 1;
         vertical-align: middle;
@@ -1323,8 +1249,6 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 @if (is("ie6") || is("ie7")) {
     /* Initial menus should be inline-block so that they are horizontal */
     .pure-menu-horizontal li {
-        display: inline-block;
-        /* @alternate */
         display: inline;
         zoom: 1;
         vertical-align: middle;
@@ -1462,8 +1386,6 @@ since IE8 won't execute CSS that contains a CSS3 selector.
     .pure-paginator {
 
         /* `pure-g` Grid styles */
-        letter-spacing: -0.31em; /* Webkit: collapse white-space between units */
-        /* @alternate */
         letter-spacing: normal; /* reset IE < 8 */
         word-spacing: -0.43em; /* IE < 8: collapse white-space between units */
         text-rendering: optimizespeed; /* Webkit: fixes text-rendering: optimizeLegibility */
@@ -1496,8 +1418,6 @@ since IE8 won't execute CSS that contains a CSS3 selector.
 /* `pure-u` Grid styles */
 @if (is("ie6") || is("ie7")) {
     .pure-paginator li {
-        display: inline-block;
-        /* @alternate */
         display: inline; /* IE < 8: fake inline-block */
         zoom: 1;
         letter-spacing: normal;

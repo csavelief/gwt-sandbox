@@ -25,4 +25,6 @@ import com.google.gwt.resources.client.ClientBundle;
 public interface PureCssFrameworkResourceBundle extends ClientBundle {
 
     @Source("assets/styles/pure/0.5.0/pure.gss") PureCssFramework pureCss();
+
+    @Source("assets/styles/pure/0.5.0/grids-responsive.gss") GridsResponsive gridsResponsive();
 }
