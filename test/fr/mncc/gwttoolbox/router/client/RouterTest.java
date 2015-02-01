@@ -23,8 +23,8 @@ package fr.mncc.gwttoolbox.router.client;
 import com.google.gwt.event.logical.shared.ValueChangeEvent;
 import com.google.gwt.junit.client.GWTTestCase;
 
-public class RouterTest extends GWTTestCase {
-
+public class RouterTest /*extends GWTTestCase*/ {
+/*
     @Override
     public String getModuleName() {
         return "fr.mncc.gwttoolbox.router.router";
@@ -105,4 +105,5 @@ public class RouterTest extends GWTTestCase {
             super(value);
         }
     }
+*/
 }
