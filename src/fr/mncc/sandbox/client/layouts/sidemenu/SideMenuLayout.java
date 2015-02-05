@@ -38,21 +38,14 @@ import fr.mncc.sandbox.client.widgets.Layout;
 
 public class SideMenuLayout extends Layout {
 
-    @UiTemplate("SideMenuLayout.ui.xml") interface MyUiBinder
-        extends UiBinder<Widget, SideMenuLayout> {
-    }
-
-
-    private static MyUiBinder uiBinder = GWT.create(MyUiBinder.class);
-
+    private static MyUiBinder uiBinder_ = GWT.create(MyUiBinder.class);
     @UiField SandboxResourceBundle res;
     @UiField SandboxConstants cons;
     @UiField HTMLPanel layout;
     @UiField DivElement menu;
     @UiField AnchorElement menuLink;
-
     public SideMenuLayout() {
-        initWidget(uiBinder.createAndBindUi(this));
+        initWidget(uiBinder_.createAndBindUi(this));
     }
 
     @Override
@@ -99,5 +92,9 @@ public class SideMenuLayout extends Layout {
         } else {
             element.setClassName(elementClasses + " " + className);
         }
+    }
+
+    @UiTemplate("SideMenuLayout.ui.xml") interface MyUiBinder
+        extends UiBinder<Widget, SideMenuLayout> {
     }
 }

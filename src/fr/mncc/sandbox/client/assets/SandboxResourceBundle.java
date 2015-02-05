@@ -41,6 +41,10 @@ public interface SandboxResourceBundle extends ClientBundle {
         "../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/grids-responsive.gss",
         "styles/BlogLayout.gss"}) BlogLayoutCssResource blogLayoutCssResource();
 
+    @Source({"../../../gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/pure.gss",
+        "styles/PhotoGalleryGridLayout.gss", "styles/PhotoGalleryLayout.gss"})
+    PhotoGalleryLayoutCssResource photoGalleryLayoutCssResource();
+
     @Source("images/andrew-avatar.png") ImageResource andrewAvatar();
 
     @Source("images/ericf-avatar.png") ImageResource ericfAvatar();

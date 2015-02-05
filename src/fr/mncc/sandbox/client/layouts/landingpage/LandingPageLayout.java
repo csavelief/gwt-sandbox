@@ -31,18 +31,11 @@ import fr.mncc.sandbox.client.widgets.Layout;
 
 public class LandingPageLayout extends Layout {
 
-    @UiTemplate("LandingPageLayout.ui.xml") interface MyUiBinder
-        extends UiBinder<Widget, LandingPageLayout> {
-    }
-
-
-    private static MyUiBinder uiBinder = GWT.create(MyUiBinder.class);
-
+    private static MyUiBinder uiBinder_ = GWT.create(MyUiBinder.class);
     @UiField SandboxResourceBundle res;
     @UiField SandboxConstants cons;
-
     public LandingPageLayout() {
-        initWidget(uiBinder.createAndBindUi(this));
+        initWidget(uiBinder_.createAndBindUi(this));
     }
 
     @Override
@@ -55,5 +48,9 @@ public class LandingPageLayout extends Layout {
 
         // Inject layout stylesheet
         res.landingPageLayoutCssResource().ensureInjected();
+    }
+
+    @UiTemplate("LandingPageLayout.ui.xml") interface MyUiBinder
+        extends UiBinder<Widget, LandingPageLayout> {
     }
 }

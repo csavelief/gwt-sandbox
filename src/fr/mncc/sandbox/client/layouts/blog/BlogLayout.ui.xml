@@ -11,15 +11,21 @@
         <div class="{res.blogLayoutCssResource.sidebar} {res.blogLayoutCssResource.pure_u_1} {res.blogLayoutCssResource.pure_u_md_1_4}">
             <div class="{res.blogLayoutCssResource.header}">
                 <h1 class="{res.blogLayoutCssResource.brand_title}">A Sample Blog</h1>
-                <h2 class="{res.blogLayoutCssResource.brand_tagline}">Creating a blog layout using Pure</h2>
+                <h2 class="{res.blogLayoutCssResource.brand_tagline}">Creating a blog layout using
+                    Pure
+                </h2>
 
                 <nav class="nav">
                     <ul class="{res.blogLayoutCssResource.nav_list}">
                         <li class="{res.blogLayoutCssResource.nav_item}">
-                            <a class="{res.blogLayoutCssResource.pure_button}" href="http://purecss.io">Pure</a>
+                            <a class="{res.blogLayoutCssResource.pure_button}"
+                               href="http://purecss.io">Pure
+                            </a>
                         </li>
                         <li class="{res.blogLayoutCssResource.nav_item}">
-                            <a class="{res.blogLayoutCssResource.pure_button}" href="http://yuilibrary.com">YUI Library</a>
+                            <a class="{res.blogLayoutCssResource.pure_button}"
+                               href="http://yuilibrary.com">YUI Library
+                            </a>
                         </li>
                     </ul>
                 </nav>
@@ -35,15 +41,30 @@
                     <!-- A single blog post -->
                     <section class="{res.blogLayoutCssResource.post}">
                         <header class="post-header">
-                            <img class="{res.blogLayoutCssResource.post_avatar}" alt="Tilo Mitra&#x27;s avatar" height="48" width="48" src="{res.tiloAvatar.getSafeUri}"/>
+                            <img class="{res.blogLayoutCssResource.post_avatar}"
+                                 alt="Tilo Mitra&#x27;s avatar" height="48" width="48"
+                                 src="{res.tiloAvatar.getSafeUri}"/>
                             <h2 class="{res.blogLayoutCssResource.post_title}">Introducing Pure</h2>
                             <p class="{res.blogLayoutCssResource.post_meta}">
-                                By <a href="#" class="post-author">Tilo Mitra</a> under <a class="{res.blogLayoutCssResource.post_category} {res.blogLayoutCssResource.post_category_design}" href="#">CSS</a> <a class="{res.blogLayoutCssResource.post_category} {res.blogLayoutCssResource.post_category_pure}" href="#">Pure</a>
+                                By
+                                <a href="#" class="post-author">Tilo Mitra</a>
+                                under
+                                <a class="{res.blogLayoutCssResource.post_category} {res.blogLayoutCssResource.post_category_design}"
+                                   href="#">CSS
+                                </a>
+                                <a class="{res.blogLayoutCssResource.post_category} {res.blogLayoutCssResource.post_category_pure}"
+                                   href="#">Pure
+                                </a>
                             </p>
                         </header>
                         <div class="{res.blogLayoutCssResource.post_description}">
                             <p>
-                                Yesterday at CSSConf, we launched Pure – a new CSS library. Phew! Here are the <a href="https://speakerdeck.com/tilomitra/pure-bliss">slides from the presentation</a>. Although it looks pretty minimalist, we’ve been working on Pure for several months. After many iterations, we have released Pure as a set of small, responsive, CSS modules that you can use in every web project.
+                                Yesterday at CSSConf, we launched Pure – a new CSS library. Phew!
+                                Here are the<a href="https://speakerdeck.com/tilomitra/pure-bliss">
+                                slides from the presentation</a>. Although it looks pretty
+                                minimalist, we’ve been working on Pure for several months. After
+                                many iterations, we have released Pure as a set of small,
+                                responsive, CSS modules that you can use in every web project.
                             </p>
                         </div>
                     </section>
@@ -53,10 +74,19 @@
                     <h1 class="{res.blogLayoutCssResource.content_subhead}">Recent Posts</h1>
                     <section class="{res.blogLayoutCssResource.post}">
                         <header class="post-header">
-                            <img class="{res.blogLayoutCssResource.post_avatar}" alt="Eric Ferraiuolo&#x27;s avatar" height="48" width="48" src="{res.ericfAvatar.getSafeUri}"/>
-                            <h2 class="{res.blogLayoutCssResource.post_title}">Everything You Need to Know About Grunt</h2>
+                            <img class="{res.blogLayoutCssResource.post_avatar}"
+                                 alt="Eric Ferraiuolo&#x27;s avatar" height="48" width="48"
+                                 src="{res.ericfAvatar.getSafeUri}"/>
+                            <h2 class="{res.blogLayoutCssResource.post_title}">Everything You Need
+                                to Know About Grunt
+                            </h2>
                             <p class="{res.blogLayoutCssResource.post_meta}">
-                                By <a class="post-author" href="#">Eric Ferraiuolo</a> under <a class="{res.blogLayoutCssResource.post_category} {res.blogLayoutCssResource.post_category_js}" href="#">JavaScript</a>
+                                By
+                                <a class="post-author" href="#">Eric Ferraiuolo</a>
+                                under
+                                <a class="{res.blogLayoutCssResource.post_category} {res.blogLayoutCssResource.post_category_js}"
+                                   href="#">JavaScript
+                                </a>
                             </p>
                         </header>
                         <div class="{res.blogLayoutCssResource.post_description}">
@@ -68,10 +98,19 @@
 
                     <section class="{res.blogLayoutCssResource.post}">
                         <header class="post-header">
-                            <img class="{res.blogLayoutCssResource.post_avatar}" alt="Reid Burke&#x27;s avatar" height="48" width="48" src="{res.reidAvatar.getSafeUri}"/>
-                            <h2 class="{res.blogLayoutCssResource.post_title}">Photos from CSSConf and JSConf</h2>
+                            <img class="{res.blogLayoutCssResource.post_avatar}"
+                                 alt="Reid Burke&#x27;s avatar" height="48" width="48"
+                                 src="{res.reidAvatar.getSafeUri}"/>
+                            <h2 class="{res.blogLayoutCssResource.post_title}">Photos from CSSConf
+                                and JSConf
+                            </h2>
                             <p class="{res.blogLayoutCssResource.post_meta}">
-                                By <a class="post-author" href="#">Reid Burke</a> under <a class="{res.blogLayoutCssResource.post_category}" href="#">Uncategorized</a>
+                                By
+                                <a class="post-author" href="#">Reid Burke</a>
+                                under
+                                <a class="{res.blogLayoutCssResource.post_category}" href="#">
+                                    Uncategorized
+                                </a>
                             </p>
                         </header>
 
@@ -104,15 +143,26 @@
 
                     <section class="{res.blogLayoutCssResource.post}">
                         <header class="post-header">
-                            <img class="{res.blogLayoutCssResource.post_avatar}" alt="Andrew Wooldridge&#x27;s avatar" height="48" width="48" src="{res.andrewAvatar.getSafeUri}"/>
-                            <h2 class="{res.blogLayoutCssResource.post_title}">YUI 3.10.2 Released</h2>
+                            <img class="{res.blogLayoutCssResource.post_avatar}"
+                                 alt="Andrew Wooldridge&#x27;s avatar" height="48" width="48"
+                                 src="{res.andrewAvatar.getSafeUri}"/>
+                            <h2 class="{res.blogLayoutCssResource.post_title}">YUI 3.10.2 Released
+                            </h2>
                             <p class="{res.blogLayoutCssResource.post_meta}">
-                                By <a class="post-author" href="#">Andrew Wooldridge</a> under <a class="{res.blogLayoutCssResource.post_category} {res.blogLayoutCssResource.post_category_yui}" href="#">YUI</a>
+                                By
+                                <a class="post-author" href="#">Andrew Wooldridge</a>
+                                under
+                                <a class="{res.blogLayoutCssResource.post_category} {res.blogLayoutCssResource.post_category_yui}"
+                                   href="#">YUI
+                                </a>
                             </p>
                         </header>
                         <div class="{res.blogLayoutCssResource.post_description}">
                             <p>
-                                We are happy to announce the release of YUI 3.10.2! You can find it now on the Yahoo! CDN, download it directly, or pull it in via npm. We’ve also updated the YUI Library website with the latest documentation.
+                                We are happy to announce the release of YUI 3.10.2! You can find it
+                                now on the Yahoo! CDN, download it directly, or pull it in via npm.
+                                We’ve also updated the YUI Library website with the latest
+                                documentation.
                             </p>
                         </div>
                     </section>
@@ -121,9 +171,21 @@
                 <div class="{res.blogLayoutCssResource.footer}">
                     <div class="{res.blogLayoutCssResource.pure_menu} {res.blogLayoutCssResource.pure_menu_horizontal} {res.blogLayoutCssResource.pure_menu_open}">
                         <ul>
-                            <li><a href="http://purecss.io/"><ui:text from="{cons.about}"/></a></li>
-                            <li><a href="http://twitter.com/yuilibrary/"><ui:text from="{cons.twitter}"/></a></li>
-                            <li><a href="http://github.com/yahoo/pure/"><ui:text from="{cons.github}"/></a></li>
+                            <li>
+                                <a href="http://purecss.io/">
+                                    <ui:text from="{cons.about}"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://twitter.com/yuilibrary/">
+                                    <ui:text from="{cons.twitter}"/>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://github.com/yahoo/pure/">
+                                    <ui:text from="{cons.github}"/>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>

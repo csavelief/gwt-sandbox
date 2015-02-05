@@ -53,11 +53,15 @@ public interface SandboxConstants extends Constants {
 
     public static final SandboxConstants INSTANCE = GWT.create(SandboxConstants.class);
 
+    public String photoGalleryToken();
+
     public String sideMenuToken();
 
     public String landingPageToken();
 
     public String blogToken();
+
+    public String photoGallery();
 
     public String yourSite();
 
@@ -66,6 +70,10 @@ public interface SandboxConstants extends Constants {
     public String blog();
 
     public String bigBoldText();
+
+    public String photoGalleryTitle();
+
+    public String photoGalleryDescription();
 
     public String blogTitle();
 

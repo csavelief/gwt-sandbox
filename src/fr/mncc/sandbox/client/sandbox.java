@@ -28,12 +28,50 @@ import fr.mncc.gwttoolbox.router.client.Router;
 import fr.mncc.sandbox.client.assets.SandboxConstants;
 import fr.mncc.sandbox.client.layouts.blog.BlogLayout;
 import fr.mncc.sandbox.client.layouts.landingpage.LandingPageLayout;
+import fr.mncc.sandbox.client.layouts.photogallery.PhotoGalleryLayout;
 import fr.mncc.sandbox.client.layouts.sidemenu.SideMenuLayout;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>
  */
 public class sandbox implements EntryPoint {
+
+    /**
+     * This is the entry point method.
+     */
+    @Override
+    public void onModuleLoad() {
+
+        // Launch router
+        Router router = new Router();
+
+        // Declare new routes
+        Route routeLandingPage =
+            new CustomRoute(SandboxConstants.INSTANCE.landingPageToken(), new LandingPageLayout());
+        Route routeSideMenu =
+            new CustomRoute(SandboxConstants.INSTANCE.sideMenuToken(), new SideMenuLayout());
+        Route routeBlog = new CustomRoute(SandboxConstants.INSTANCE.blogToken(), new BlogLayout());
+        Route routePhotoGallery =
+            new CustomRoute(SandboxConstants.INSTANCE.photoGalleryToken(),
+                new PhotoGalleryLayout());
+
+        // On routing failure redirect user to #!/home
+        router.setFallback(routeLandingPage);
+
+        // Register a few routes
+        router.add(routeLandingPage);
+        router.add(routeSideMenu);
+        router.add(routeBlog);
+        router.add(routePhotoGallery);
+
+        // Listen to History change events
+        router.listen();
+
+        // Try to redirect user to the current url address
+        // On failure, redirect user to #!/landingpage
+        router.loadFromBookmark("!/" + SandboxConstants.INSTANCE.landingPageToken());
+    }
+
 
     private class CustomRoute extends Route {
 
@@ -55,37 +93,5 @@ public class sandbox implements EntryPoint {
         public void leave() {
             RootPanel.get().clear();
         }
-    }
-
-    /**
-     * This is the entry point method.
-     */
-    @Override
-    public void onModuleLoad() {
-
-        // Launch router
-        Router router = new Router();
-
-        // Declare new routes
-        Route routeLandingPage =
-            new CustomRoute(SandboxConstants.INSTANCE.landingPageToken(), new LandingPageLayout());
-        Route routeSideMenu =
-            new CustomRoute(SandboxConstants.INSTANCE.sideMenuToken(), new SideMenuLayout());
-        Route blogMenu = new CustomRoute(SandboxConstants.INSTANCE.blogToken(), new BlogLayout());
-
-        // On routing failure redirect user to #!/home
-        router.setFallback(routeLandingPage);
-
-        // Register a few routes
-        router.add(routeLandingPage);
-        router.add(routeSideMenu);
-        router.add(blogMenu);
-
-        // Listen to History change events
-        router.listen();
-
-        // Try to redirect user to the current url address
-        // On failure, redirect user to #!/landingpage
-        router.loadFromBookmark("!/" + SandboxConstants.INSTANCE.landingPageToken());
     }
 }

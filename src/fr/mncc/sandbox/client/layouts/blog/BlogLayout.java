@@ -31,17 +31,11 @@ import fr.mncc.sandbox.client.widgets.Layout;
 
 public class BlogLayout extends Layout {
 
-    @UiTemplate("BlogLayout.ui.xml") interface MyUiBinder extends UiBinder<Widget, BlogLayout> {
-    }
-
-
-    private static MyUiBinder uiBinder = GWT.create(MyUiBinder.class);
-
+    private static MyUiBinder uiBinder_ = GWT.create(MyUiBinder.class);
     @UiField SandboxResourceBundle res;
     @UiField SandboxConstants cons;
-
     public BlogLayout() {
-        initWidget(uiBinder.createAndBindUi(this));
+        initWidget(uiBinder_.createAndBindUi(this));
     }
 
     @Override
@@ -54,5 +48,8 @@ public class BlogLayout extends Layout {
 
         // Inject layout stylesheet
         res.blogLayoutCssResource().ensureInjected();
+    }
+
+    @UiTemplate("BlogLayout.ui.xml") interface MyUiBinder extends UiBinder<Widget, BlogLayout> {
     }
 }

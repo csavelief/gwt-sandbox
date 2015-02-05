@@ -1,0 +1,105 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+    <!-- Access to texts, images and styles -->
+    <ui:with field='res' type="fr.mncc.sandbox.client.assets.SandboxResourceBundle"/>
+
+    <!-- Access to constants -->
+    <ui:with field='cons' type="fr.mncc.sandbox.client.assets.SandboxConstants"/>
+
+    <g:HTMLPanel>
+        <div class="{res.photoGalleryLayoutCssResource.header}">
+            <div class="{res.photoGalleryLayoutCssResource.pure_menu} {res.photoGalleryLayoutCssResource.pure_menu_open} {res.photoGalleryLayoutCssResource.pure_menu_horizontal}">
+                <a class="{res.photoGalleryLayoutCssResource.pure_menu_heading}" href="">
+                    <ui:text from="{cons.photoGallery}"/>
+                </a>
+                <ul>
+                    <li class="{res.photoGalleryLayoutCssResource.pure_menu_selected}">
+                        <a href="#!/{cons.landingPageToken}">
+                            <ui:text from="{cons.home}"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!/{cons.landingPageToken}">
+                            <ui:text from="{cons.blog}"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!/{cons.landingPageToken}">
+                            <ui:text from="{cons.about}"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="{res.photoGalleryLayoutCssResource.pure_g}">
+            <div class="{res.photoGalleryLayoutCssResource.photo_box} {res.photoGalleryLayoutCssResource.u_1} {res.photoGalleryLayoutCssResource.u_med_1_3}">
+                <a href="http://www.dillonmcintosh.tumblr.com/">
+                    <img src="http://24.media.tumblr.com/d6b9403c704c3e5aa1725c106e8a9430/tumblr_mvyxd9PUpZ1st5lhmo1_1280.jpg"
+                         alt="Beach"/>
+                </a>
+                <aside>
+                    <span>by
+                        <a href="http://www.dillonmcintosh.tumblr.com/">Dillon McIntosh</a>
+                    </span>
+                </aside>
+            </div>
+
+            <div class="{res.photoGalleryLayoutCssResource.text_box} {res.photoGalleryLayoutCssResource.u_1} {res.photoGalleryLayoutCssResource.u_med_2_3}">
+                <div class="{res.photoGalleryLayoutCssResource.l_box}">
+                    <h1 class="{res.photoGalleryLayoutCssResource.text_box_head}">Photos from around
+                        the world
+                    </h1>
+                    <p class="{res.photoGalleryLayoutCssResource.text_box_subhead}">A collection of
+                        beautiful photos gathered from Unsplash.com.
+                    </p>
+                </div>
+            </div>
+
+            <div ui:field="wrapper">
+                <!-- Images dynamically added here -->
+            </div>
+
+            <div class="{res.photoGalleryLayoutCssResource.u_1} {res.photoGalleryLayoutCssResource.form_box}">
+                <div class="{res.photoGalleryLayoutCssResource.l_box}">
+                    <h2>Submit a Photo</h2>
+
+                    <form class="{res.photoGalleryLayoutCssResource.pure_form}">
+                        <input type="text" placeholder="Photo URL" required="required"/>
+                        <input type="text" placeholder="Email"/>
+                        <button type="submit"
+                                class="{res.photoGalleryLayoutCssResource.pure_button}">Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="{res.photoGalleryLayoutCssResource.u_1}">
+                <div class="{res.photoGalleryLayoutCssResource.l_box}">
+                    <h2>Creating a Photo Gallery Layout</h2>
+                    <p>
+                        This page shows how to make a photo gallery using<a href="">Pure Grids</a>.
+                        Using Pure, we can create interesting layouts such as this photo gallery.
+                        This layout is fully responsive. We've added a bit of custom media queries
+                        on top of the responsive grid provided by Pure.
+                    </p>
+                    <p>
+                        We've also taken advantage of
+                        <a href="http://purecss.io/forms/">Pure Forms</a>
+                        and<a href="http://purecss.io/menus/">Pure Menus</a>. This example uses a
+                        form with the
+                        <code>pure-form</code>
+                        class name to create an inline form. We use
+                        <a href="http://purecss.io/buttons/">Pure Buttons</a>
+                        for the button styling.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="{res.photoGalleryLayoutCssResource.footer}">
+            View the source of this layout to learn more. Made with love by the YUI Team.
+        </div>
+    </g:HTMLPanel>
+</ui:UiBinder>

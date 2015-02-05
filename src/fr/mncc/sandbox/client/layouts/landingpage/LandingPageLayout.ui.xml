@@ -29,6 +29,11 @@
                             <ui:text from="{cons.blog}"/>
                         </a>
                     </li>
+                    <li>
+                        <a href="#!/{cons.photoGalleryToken}">
+                            <ui:text from="{cons.photoGallery}"/>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
