@@ -15,22 +15,22 @@
                 </a>
                 <ul>
                     <li class="{res.landingPageLayoutCssResource.pure_menu_selected}">
-                        <a href="#!/{cons.landingPageToken}">
+                        <a href="http://www.gwt.fr/themes/demo/assets/showcase/sandbox.html#!/{cons.landingPageToken}">
                             <ui:text from="{cons.home}"/>
                         </a>
                     </li>
                     <li>
-                        <a href="#!/{cons.sideMenuToken}">
+                        <a href="http://www.gwt.fr/themes/demo/assets/showcase/sandbox.html#!/{cons.sideMenuToken}">
                             <ui:text from="{cons.sideMenu}"/>
                         </a>
                     </li>
                     <li>
-                        <a href="#!/{cons.blogToken}">
+                        <a href="http://www.gwt.fr/themes/demo/assets/showcase/sandbox.html#!/{cons.blogToken}">
                             <ui:text from="{cons.blog}"/>
                         </a>
                     </li>
                     <li>
-                        <a href="#!/{cons.photoGalleryToken}">
+                        <a href="http://www.gwt.fr/themes/demo/assets/showcase/sandbox.html#!/{cons.photoGalleryToken}">
                             <ui:text from="{cons.photoGallery}"/>
                         </a>
                     </li>

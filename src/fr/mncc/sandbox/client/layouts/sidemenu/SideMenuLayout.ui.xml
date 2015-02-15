@@ -22,22 +22,22 @@
                 </a>
                 <ul>
                     <li>
-                        <a href="#!/{cons.landingPageToken}">
+                        <a href="#">
                             <ui:text from="{cons.home}"/>
                         </a>
                     </li>
                     <li>
-                        <a href="#!/{cons.landingPageToken}">
+                        <a href="#">
                             <ui:text from="{cons.about}"/>
                         </a>
                     </li>
                     <li class="{res.sideMenuLayoutCssResource.menu_item_divided} {res.sideMenuLayoutCssResource.pure_menu_selected}">
-                        <a href="#!/{cons.landingPageToken}">
+                        <a href="#">
                             <ui:text from="{cons.services}"/>
                         </a>
                     </li>
                     <li>
-                        <a href="#!/{cons.landingPageToken}">
+                        <a href="#">
                             <ui:text from="{cons.contact}"/>
                         </a>
                     </li>

@@ -10,22 +10,22 @@
     <g:HTMLPanel>
         <div class="{res.photoGalleryLayoutCssResource.header}">
             <div class="{res.photoGalleryLayoutCssResource.pure_menu} {res.photoGalleryLayoutCssResource.pure_menu_open} {res.photoGalleryLayoutCssResource.pure_menu_horizontal}">
-                <a class="{res.photoGalleryLayoutCssResource.pure_menu_heading}" href="">
+                <a class="{res.photoGalleryLayoutCssResource.pure_menu_heading}" href="#">
                     <ui:text from="{cons.photoGallery}"/>
                 </a>
                 <ul>
                     <li class="{res.photoGalleryLayoutCssResource.pure_menu_selected}">
-                        <a href="#!/{cons.landingPageToken}">
+                        <a href="#">
                             <ui:text from="{cons.home}"/>
                         </a>
                     </li>
                     <li>
-                        <a href="#!/{cons.landingPageToken}">
+                        <a href="#">
                             <ui:text from="{cons.blog}"/>
                         </a>
                     </li>
                     <li>
-                        <a href="#!/{cons.landingPageToken}">
+                        <a href="#">
                             <ui:text from="{cons.about}"/>
                         </a>
                     </li>
@@ -79,7 +79,7 @@
                 <div class="{res.photoGalleryLayoutCssResource.l_box}">
                     <h2>Creating a Photo Gallery Layout</h2>
                     <p>
-                        This page shows how to make a photo gallery using<a href="">Pure Grids</a>.
+                        This page shows how to make a photo gallery using<a href="http://purecss.io/grids/">Pure Grids</a>.
                         Using Pure, we can create interesting layouts such as this photo gallery.
                         This layout is fully responsive. We've added a bit of custom media queries
                         on top of the responsive grid provided by Pure.
