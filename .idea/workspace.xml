@@ -7,16 +7,144 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d831d7c3-94f9-47f5-8c29-74837df0577a" name="Default" comment="Add pure css responsive grids.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/photogallery/PhotoGalleryLayout.ui.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/photogallery/PhotoGalleryLayout.ui.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" afterPath="$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/authenticate/shared/AccessLevels.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/authenticate/server/AdminServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/columns/BooleanColumn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/columns/ButtonColumn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/Cache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/CacheAsync.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/shared/Clause2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/cells/ClickableImageCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/columns/Column.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/columns/ColumnReadOnly.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/columns/ColumnReadWrite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/Combinators.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/primitives/shared/CombinatorsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/client/Console.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/crypto/shared/algorithms/CubeHash.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/crypto/shared/algorithms/CubeHashTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/DataGridConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/DataGridConstants.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/DataGridConstants_fr.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/DataStore2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/Datastore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/DatastoreAsync.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/client/DateUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/server/DateUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/nextgen/Entities.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/Entity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/EntityForBackwardCompatibility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/EntityImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/primitives/shared/EntityTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/shared/Filter2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/shared/FilterOperator2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/FluentList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/primitives/shared/FluentListTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/Function.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/Future.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/nextgen/interfaces/GaeDatastore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/nextgen/interfaces/GaeDatastoreAsync.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/nextgen/implementations/GaeDatastoreAsyncImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/nextgen/implementations/GaeDatastoreImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/nextgen/interfaces/GaeEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/nextgen/implementations/GaeEntityImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/nextgen/interfaces/GaeMemcache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/nextgen/interfaces/GaeMemcacheAsync.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/nextgen/implementations/GaeMemcacheAsyncImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/nextgen/implementations/GaeMemcacheImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/Grid.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/HasAsJson.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/HasAsKeyValuePairs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/HasAsString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/crypto/shared/interfaces/HasCodeDecode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/HasCopy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/crypto/shared/interfaces/HasHash.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/HasId.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/HasKey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/HasTimestamp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/crypto/shared/containers/HashContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/crypto/shared/containers/HashContainerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/columns/ImageColumn.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/ui/client/Indicator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/ui/client/InputField.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/ui/client/InputField.ui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/ajax/client/Json.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/ajax/client/JsonParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/client/JsonParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/ajax/client/JsonParserTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/ajax/client/Jsonp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/Key.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/primitives/shared/KeyTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/KeyValueMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/primitives/shared/KeyValueMapTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/KeyValuePair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/primitives/shared/KeyValuePairTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/ui/client/LightBox.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/ui/client/LightBox.ui.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/ui/client/ListBox.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/columns/ListColumnReadWrite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/Lists.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/primitives/shared/ListsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/LowLevelDataStore2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/LowLevelDataStore2Async.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/LowLevelMemcache.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/LowLevelMemcacheAsync.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/columns/MapColumnReadOnly.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/columns/MapColumnReadWrite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/Maps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/primitives/shared/MapsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/Memcache2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/Page.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/Preconditions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/primitives/shared/PreconditionsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/Predicate.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/authenticate/server/PrivateServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/shared/Projection2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/authenticate/server/PublicServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/server/QueryConverter2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/ajax/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/authenticate/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/crypto/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/ui/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/crypto/shared/algorithms/RandomString.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/crypto/shared/algorithms/RandomStringTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/crypto/shared/algorithms/Rc4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/crypto/shared/algorithms/Rc4Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/cells/RewritableCell.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/shared/SQuery2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/authenticate/shared/SecureAsyncCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/authenticate/server/SecureCall.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/crypto/shared/algorithms/SecureRandom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/authenticate/shared/SecureService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/authenticate/server/SecureServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/authenticate/client/SecurityController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/authenticate/client/SecurityControllerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/SerializableObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/shared/Sort2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/shared/Strings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/primitives/shared/StringsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/columns/TextColumnReadOnly.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/client/columns/TextColumnReadWrite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/crypto/shared/containers/TokenContainer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/crypto/shared/containers/TokenContainerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/authenticate/shared/Tokens.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/authenticate/shared/UserRoles.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/ajax/ajax.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/ajax/ajax.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/appengine/appengine.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/appengine/appengine.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/authenticate/authenticate.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/authenticate/authenticate.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/crypto/crypto.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/crypto/crypto.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/datagrid/datagrid.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/primitives/primitives.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/primitives/primitives.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/fr/mncc/gwttoolbox/ui/ui.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/fr/mncc/gwttoolbox/ui/ui.gwt.xml" />
     </list>
     <ignored path="gwt-sandbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +175,7 @@
       <file leaf-file-name="SideMenuLayout.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1207">
               <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding />
             </state>
@@ -79,7 +207,7 @@
       <file leaf-file-name="SideMenuLayout.ui.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.961538" vertical-offset="404" max-vertical-offset="1819">
+            <state vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="1819">
               <caret line="39" column="31" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="31" />
               <folding />
             </state>
@@ -99,18 +227,28 @@
       <file leaf-file-name="sandbox.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/sandbox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1241">
               <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LandingPageLayout.ui.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LandingPageLayout.ui.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52418303" vertical-offset="143" max-vertical-offset="3060">
+            <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="3060">
               <caret line="32" column="78" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gwt-sandbox.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gwt-sandbox.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,7 +257,7 @@
       <file leaf-file-name="BlogLayout.ui.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/blog/BlogLayout.ui.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.307692" vertical-offset="2652" max-vertical-offset="3417">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2652" max-vertical-offset="3417">
               <caret line="184" column="39" selection-start-line="184" selection-start-column="35" selection-end-line="184" selection-end-column="39" />
               <folding />
             </state>
@@ -129,18 +267,8 @@
       <file leaf-file-name="sandbox.gwt.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/sandbox.gwt.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+            <state vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="629">
               <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SandboxResourceBundle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxResourceBundle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1105">
-              <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="97" />
               <folding />
             </state>
           </provider>
@@ -550,16 +678,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -585,191 +703,15 @@
               <option name="myItemId" value="fr.mncc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fr.mncc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fr.mncc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sidemenu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fr.mncc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="photogallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fr.mncc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="landingpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fr.mncc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fr.mncc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gwt-sandbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fr.mncc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -845,24 +787,11 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <envs />
-      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
@@ -881,9 +810,6 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -895,14 +821,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
-      <module name="" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -926,6 +844,30 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <module name="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="false" name="sandbox" type="GWT.ConfigurationType" factoryName="GWT Configuration">
@@ -1018,34 +960,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="939" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1129,13 +1071,6 @@
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxMessages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0024875621" vertical-offset="2" max-vertical-offset="816">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gwt-sandbox.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -1228,7 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22410546" vertical-offset="0" max-vertical-offset="531">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1240,13 +1174,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/grids-responsive.gss">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="28.50129" vertical-offset="0" max-vertical-offset="31705">
           <caret line="1301" column="5" selection-start-line="1301" selection-start-column="4" selection-end-line="1301" selection-end-column="5" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/fr/mncc/gwttoolbox/router/client/RouterTest.java">
@@ -1278,13 +1212,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/LandingPageLayout.gss">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25515464" vertical-offset="5463" max-vertical-offset="6341">
           <caret line="333" column="9" selection-start-line="333" selection-start-column="9" selection-end-line="333" selection-end-column="9" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/PhotoGalleryLayoutCssResource.java">
@@ -1295,13 +1229,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/PhotoGalleryGridLayout.gss">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6296296" vertical-offset="5870" max-vertical-offset="6868">
           <caret line="360" column="16" selection-start-line="360" selection-start-column="15" selection-end-line="360" selection-end-column="16" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/styles/PhotoGalleryLayout.gss">
@@ -1312,23 +1246,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants_en.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.022280471" vertical-offset="17" max-vertical-offset="952">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.044560943" vertical-offset="0" max-vertical-offset="952">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/assets/SandboxConstants.java">
@@ -1342,7 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14800996" vertical-offset="0" max-vertical-offset="804">
           <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1350,7 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14800996" vertical-offset="0" max-vertical-offset="804">
           <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1362,21 +1294,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/gwttoolbox/purecssframework/client/assets/styles/pure/0.5.0/pure.gss">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3893" max-vertical-offset="36584">
           <caret line="230" column="1" selection-start-line="230" selection-start-column="1" selection-end-line="230" selection-end-column="1" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/gwttoolbox/filters/server/GwtCacheFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="590" max-vertical-offset="1394">
           <caret line="41" column="47" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,7 +1314,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3468">
           <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1392,7 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="2703">
           <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1440,7 +1368,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/blog/BlogLayout.ui.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.307692" vertical-offset="2652" max-vertical-offset="3417">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2652" max-vertical-offset="3417">
           <caret line="184" column="39" selection-start-line="184" selection-start-column="35" selection-end-line="184" selection-end-column="39" />
           <folding />
         </state>
@@ -1448,7 +1376,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/sidemenu/SideMenuLayout.ui.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.961538" vertical-offset="404" max-vertical-offset="1819">
+        <state vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="1819">
           <caret line="39" column="31" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="31" />
           <folding />
         </state>
@@ -1472,8 +1400,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/mncc/sandbox/client/layouts/landingpage/LandingPageLayout.ui.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52418303" vertical-offset="143" max-vertical-offset="3060">
+        <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="3060">
           <caret line="32" column="78" selection-start-line="32" selection-start-column="78" selection-end-line="32" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gwt-sandbox.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
