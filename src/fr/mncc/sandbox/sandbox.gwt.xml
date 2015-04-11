@@ -8,7 +8,7 @@
     <inherits name="com.google.gwt.resources.Resources"/>
 
     <!-- Inherit the core MNCC toolkit stuff. -->
-    <inherits name="fr.mncc.gwttoolbox.purecssframework.purecssframework"/>
+    <inherits name="fr.mncc.minus.purecss.purecss"/>
     <inherits name="fr.mncc.gwttoolbox.router.router"/>
 
     <!-- Enable Gss with CssResource -->

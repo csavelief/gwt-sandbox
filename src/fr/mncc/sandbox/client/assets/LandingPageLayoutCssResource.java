@@ -20,12 +20,12 @@
  */
 package fr.mncc.sandbox.client.assets;
 
-import fr.mncc.gwttoolbox.purecssframework.client.PureCssResponsiveFramework;
+import fr.mncc.minus.purecss.client.PureCssResponsive;
 
 /**
  * Annotate methods with @ClassName to rename a class at compile time.
  */
-public interface LandingPageLayoutCssResource extends PureCssResponsiveFramework {
+public interface LandingPageLayoutCssResource extends PureCssResponsive {
 
     @ClassName("content-head-ribbon") String content_head_ribbon();
 

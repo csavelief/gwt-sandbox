@@ -20,12 +20,11 @@
  */
 package fr.mncc.sandbox.client.assets;
 
-import fr.mncc.gwttoolbox.purecssframework.client.PureCssFramework;
-
 /**
  * Annotate methods with @ClassName to rename a class at compile time.
  */
-public interface PhotoGalleryLayoutCssResource extends PureCssFramework {
+public interface PhotoGalleryLayoutCssResource extends
+    fr.mncc.minus.purecss.client.PureCss {
 
     @ClassName("text-box") String text_box();
 
