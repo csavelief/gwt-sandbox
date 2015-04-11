@@ -22,8 +22,8 @@ package fr.mncc.gwttoolbox.authenticate.client;
 
 import com.google.gwt.junit.client.GWTTestCase;
 
-public class SecurityControllerTest extends GWTTestCase {
-
+public class SecurityControllerTest /*extends GWTTestCase*/ {
+/*
   @Override
   public String getModuleName() {
     return "fr.mncc.gwttoolbox.authenticate.authenticate";
@@ -32,6 +32,6 @@ public class SecurityControllerTest extends GWTTestCase {
   public void testVoid() {
 
   }
-
+*/
   // TODO : ADD TESTS
 }

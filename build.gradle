@@ -33,12 +33,32 @@ repositories {
 
 dependencies {
 
-    // Compile GWT libs, needed for executeGwtCompiler and the javaCompile
-    compile group: 'com.google.gwt', name: 'gwt-user', version: '2.7.0'
+    // GWT START
+	compile group: 'com.google.gwt', name: 'gwt-user', version: '2.7.0'
     compile group: 'com.google.gwt', name: 'gwt-dev', version: '2.7.0'
     compile group: 'com.google.gwt', name: 'gwt-elemental', version: '2.7.0'
     compile group: 'com.google.gwt', name: 'gwt-servlet', version: '2.7.0'
-
+	// GWT END
+	
+	// APPENGINE START
+	compile group: 'com.google.appengine', name: 'appengine-api-1.0-sdk', version: '1.9.18'	// Compile / Runtime
+	compile group: 'javax.servlet', name: 'servlet-api', version: '2.5'	// Compile / Runtime
+	compile group: 'jstl', name: 'jstl', version: '1.2'	// Compile / Runtime
+    compile group: 'org.mockito', name: 'mockito-all', version: '1.9.0'	// Test
+	compile group: 'com.google.appengine', name: 'appengine-testing', version: '1.9.18'	// Test
+	compile group: 'com.google.appengine', name: 'appengine-api-stubs', version: '1.9.18'	// Test
+	// APPENGINE END
+	
+	// GWT-JSON-RPC START
+	compile group: 'com.google.code.gson', name: 'gson', version: '2.1'
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.4'
+	// GWT-JSON-RPC END
+	
+	// GUAVA START
+	compile group: 'com.google.guava', name: 'guava', version: '18.0'
+    compile group: 'com.google.guava', name: 'guava-gwt', version: '18.0'
+	// GUAVA END
+	
 	// Compile java for tests
     unitTestCompile 'junit:junit:4.11'
 	unitTestCompile files(warDir + '/WEB-INF/classes')

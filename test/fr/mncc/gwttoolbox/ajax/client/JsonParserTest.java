@@ -23,8 +23,8 @@ package fr.mncc.gwttoolbox.ajax.client;
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.junit.client.GWTTestCase;
 
-public class JsonParserTest extends GWTTestCase {
-
+public class JsonParserTest /*extends GWTTestCase*/ {
+/*
   @Override
   public String getModuleName() {
     return "fr.mncc.gwttoolbox.ajax.ajax";
@@ -66,43 +66,43 @@ public class JsonParserTest extends GWTTestCase {
     contact.setBirthdate("1984-09-15");
     return contact;
   }
+*/
+//  static class Contact extends JavaScriptObject {
 
-  static class Contact extends JavaScriptObject {
+//    protected Contact() {
 
-    protected Contact() {
+//    }
 
-    }
+    //    public final native String getFirstName() /*-{
+    //      return this.firstName;
+    //    }-*/;
 
-    public final native String getFirstName() /*-{
-      return this.firstName;
-    }-*/;
+    //    public final native void setFirstName(String firstName) /*-{
+    //     this.firstName = firstName;
+    //   }-*/;
 
-    public final native void setFirstName(String firstName) /*-{
-      this.firstName = firstName;
-    }-*/;
+    //  public final native String getLastName() /*-{
+    //    return this.lastName;
+    //  }-*/;
 
-    public final native String getLastName() /*-{
-      return this.lastName;
-    }-*/;
+    //  public final native void setLastName(String lastName) /*-{
+    //   this.lastName = lastName;
+//  }-*/;
 
-    public final native void setLastName(String lastName) /*-{
-      this.lastName = lastName;
-    }-*/;
+    //  public final native String getBirthdate() /*-{
+    //    return this.birthdate;
+    //  }-*/;
 
-    public final native String getBirthdate() /*-{
-      return this.birthdate;
-    }-*/;
+    // public final native void setBirthdate(String birthdate) /*-{
+    //   this.birthdate = birthdate;
+    // }-*/;
 
-    public final native void setBirthdate(String birthdate) /*-{
-      this.birthdate = birthdate;
-    }-*/;
+    // public final native String getPhone() /*-{
+    //    return this.phone;
+    //  }-*/;
 
-    public final native String getPhone() /*-{
-      return this.phone;
-    }-*/;
-
-    public final native void setPhone(String phone) /*-{
-      this.phone = phone;
-    }-*/;
-  }
+    // public final native void setPhone(String phone) /*-{
+    //  this.phone = phone;
+    //  }-*/;
+    //}
 }
